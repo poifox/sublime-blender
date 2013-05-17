@@ -1,0 +1,2321 @@
+{
+	"scope" : "source.python",
+	"completions" :
+	[
+		// Classes
+		{
+			"trigger": "aud\taud",
+			"contents": "aud"
+		},
+		{
+			"trigger": "aud.Device()\taud sub-class",
+			"contents": "aud.Device(${1:obj})"
+		},
+		{
+			"trigger": "aud.Factory()\taud sub-class",
+			"contents": "aud.Factory(${1:obj})"
+		},
+		{
+			"trigger": "aud.Handle()\taud sub-class",
+			"contents": "aud.Handle(${1:obj})"
+		},
+		{
+			"trigger": "aud.error\taud sub-class",
+			"contents": "aud.error"
+		},
+		{
+			"trigger": "bge\tbge",
+			"contents": "bge"
+		},
+		{
+			"trigger": "bge.constraints\tbge sub-class",
+			"contents": "bge.constraints"
+		},
+		{
+			"trigger": "bge.events\tbge sub-class",
+			"contents": "bge.events"
+		},
+		{
+			"trigger": "bge.logic\tbge sub-class",
+			"contents": "bge.logic"
+		},
+		{
+			"trigger": "bge.render\tbge sub-class",
+			"contents": "bge.render"
+		},
+		{
+			"trigger": "bge.texture\tbge sub-class",
+			"contents": "bge.texture"
+		},
+		{
+			"trigger": "bge.types\tbge sub-class",
+			"contents": "bge.types"
+		},
+		{
+			"trigger": "bgl\tbgl",
+			"contents": "bgl"
+		},
+		{
+			"trigger": "blf\tblf",
+			"contents": "blf"
+		},
+		{
+			"trigger": "bmesh\tbmesh",
+			"contents": "bmesh"
+		},
+		{
+			"trigger": "bmesh.ops\tbmesh sub-class",
+			"contents": "bmesh.ops"
+		},
+		{
+			"trigger": "bmesh.types\tbmesh sub-class",
+			"contents": "bmesh.types"
+		},
+		{
+			"trigger": "bmesh.utils\tbmesh sub-class",
+			"contents": "bmesh.utils"
+		},
+		{
+			"trigger": "bpy\tbpy",
+			"contents": "bpy"
+		},
+		{
+			"trigger": "bpy.app\tbpy.app",
+			"contents": "bpy.app"
+		},
+		{
+			"trigger": "bpy.app.handlers\tbpy.app.handlers",
+			"contents": "bpy.app.handlers"
+		},
+		{
+			"trigger": "bpy.app.translations\tbpy.app.translations",
+			"contents": "bpy.app.translations"
+		},
+		{
+			"trigger": "bpy.context\tbpy.context",
+			"contents": "bpy.context"
+		},
+		{
+			"trigger": "bpy.ops.action\tbpy.ops.action",
+			"contents": "bpy.ops.action"
+		},
+		{
+			"trigger": "bpy.ops.anim\tbpy.ops.anim",
+			"contents": "bpy.ops.anim"
+		},
+		{
+			"trigger": "bpy.ops.armature\tbpy.ops.armature",
+			"contents": "bpy.ops.armature"
+		},
+		{
+			"trigger": "bpy.ops.boid\tbpy.ops.boid",
+			"contents": "bpy.ops.boid"
+		},
+		{
+			"trigger": "bpy.ops.brush\tbpy.ops.brush",
+			"contents": "bpy.ops.brush"
+		},
+		{
+			"trigger": "bpy.ops.buttons\tbpy.ops.buttons",
+			"contents": "bpy.ops.buttons"
+		},
+		{
+			"trigger": "bpy.ops.camera\tbpy.ops.camera",
+			"contents": "bpy.ops.camera"
+		},
+		{
+			"trigger": "bpy.ops.clip\tbpy.ops.clip",
+			"contents": "bpy.ops.clip"
+		},
+		{
+			"trigger": "bpy.ops.cloth\tbpy.ops.cloth",
+			"contents": "bpy.ops.cloth"
+		},
+		{
+			"trigger": "bpy.ops.console\tbpy.ops.console",
+			"contents": "bpy.ops.console"
+		},
+		{
+			"trigger": "bpy.ops.constraint\tbpy.ops.constraint",
+			"contents": "bpy.ops.constraint"
+		},
+		{
+			"trigger": "bpy.ops.curve\tbpy.ops.curve",
+			"contents": "bpy.ops.curve"
+		},
+		{
+			"trigger": "bpy.ops.dpaint\tbpy.ops.dpaint",
+			"contents": "bpy.ops.dpaint"
+		},
+		{
+			"trigger": "bpy.ops.ed\tbpy.ops.ed",
+			"contents": "bpy.ops.ed"
+		},
+		{
+			"trigger": "bpy.ops.export_anim\tbpy.ops.export_anim",
+			"contents": "bpy.ops.export_anim"
+		},
+		{
+			"trigger": "bpy.ops.export_mesh\tbpy.ops.export_mesh",
+			"contents": "bpy.ops.export_mesh"
+		},
+		{
+			"trigger": "bpy.ops.export_scene\tbpy.ops.export_scene",
+			"contents": "bpy.ops.export_scene"
+		},
+		{
+			"trigger": "bpy.ops.file\tbpy.ops.file",
+			"contents": "bpy.ops.file"
+		},
+		{
+			"trigger": "bpy.ops.fluid\tbpy.ops.fluid",
+			"contents": "bpy.ops.fluid"
+		},
+		{
+			"trigger": "bpy.ops.font\tbpy.ops.font",
+			"contents": "bpy.ops.font"
+		},
+		{
+			"trigger": "bpy.ops.gpencil\tbpy.ops.gpencil",
+			"contents": "bpy.ops.gpencil"
+		},
+		{
+			"trigger": "bpy.ops.graph\tbpy.ops.graph",
+			"contents": "bpy.ops.graph"
+		},
+		{
+			"trigger": "bpy.ops.group\tbpy.ops.group",
+			"contents": "bpy.ops.group"
+		},
+		{
+			"trigger": "bpy.ops.image\tbpy.ops.image",
+			"contents": "bpy.ops.image"
+		},
+		{
+			"trigger": "bpy.ops.import_anim\tbpy.ops.import_anim",
+			"contents": "bpy.ops.import_anim"
+		},
+		{
+			"trigger": "bpy.ops.import_curve\tbpy.ops.import_curve",
+			"contents": "bpy.ops.import_curve"
+		},
+		{
+			"trigger": "bpy.ops.import_mesh\tbpy.ops.import_mesh",
+			"contents": "bpy.ops.import_mesh"
+		},
+		{
+			"trigger": "bpy.ops.import_scene\tbpy.ops.import_scene",
+			"contents": "bpy.ops.import_scene"
+		},
+		{
+			"trigger": "bpy.ops.info\tbpy.ops.info",
+			"contents": "bpy.ops.info"
+		},
+		{
+			"trigger": "bpy.ops.lamp\tbpy.ops.lamp",
+			"contents": "bpy.ops.lamp"
+		},
+		{
+			"trigger": "bpy.ops.lattice\tbpy.ops.lattice",
+			"contents": "bpy.ops.lattice"
+		},
+		{
+			"trigger": "bpy.ops.logic\tbpy.ops.logic",
+			"contents": "bpy.ops.logic"
+		},
+		{
+			"trigger": "bpy.ops.marker\tbpy.ops.marker",
+			"contents": "bpy.ops.marker"
+		},
+		{
+			"trigger": "bpy.ops.mask\tbpy.ops.mask",
+			"contents": "bpy.ops.mask"
+		},
+		{
+			"trigger": "bpy.ops.material\tbpy.ops.material",
+			"contents": "bpy.ops.material"
+		},
+		{
+			"trigger": "bpy.ops.mball\tbpy.ops.mball",
+			"contents": "bpy.ops.mball"
+		},
+		{
+			"trigger": "bpy.ops.mesh\tbpy.ops.mesh",
+			"contents": "bpy.ops.mesh"
+		},
+		{
+			"trigger": "bpy.ops.nla\tbpy.ops.nla",
+			"contents": "bpy.ops.nla"
+		},
+		{
+			"trigger": "bpy.ops.node\tbpy.ops.node",
+			"contents": "bpy.ops.node"
+		},
+		{
+			"trigger": "bpy.ops.object\tbpy.ops.object",
+			"contents": "bpy.ops.object"
+		},
+		{
+			"trigger": "bpy.ops.outliner\tbpy.ops.outliner",
+			"contents": "bpy.ops.outliner"
+		},
+		{
+			"trigger": "bpy.ops.paint\tbpy.ops.paint",
+			"contents": "bpy.ops.paint"
+		},
+		{
+			"trigger": "bpy.ops.particle\tbpy.ops.particle",
+			"contents": "bpy.ops.particle"
+		},
+		{
+			"trigger": "bpy.ops.pose\tbpy.ops.pose",
+			"contents": "bpy.ops.pose"
+		},
+		{
+			"trigger": "bpy.ops.poselib\tbpy.ops.poselib",
+			"contents": "bpy.ops.poselib"
+		},
+		{
+			"trigger": "bpy.ops.ptcache\tbpy.ops.ptcache",
+			"contents": "bpy.ops.ptcache"
+		},
+		{
+			"trigger": "bpy.ops.render\tbpy.ops.render",
+			"contents": "bpy.ops.render"
+		},
+		{
+			"trigger": "bpy.ops.rigidbody\tbpy.ops.rigidbody",
+			"contents": "bpy.ops.rigidbody"
+		},
+		{
+			"trigger": "bpy.ops.scene\tbpy.ops.scene",
+			"contents": "bpy.ops.scene"
+		},
+		{
+			"trigger": "bpy.ops.screen\tbpy.ops.screen",
+			"contents": "bpy.ops.screen"
+		},
+		{
+			"trigger": "bpy.ops.script\tbpy.ops.script",
+			"contents": "bpy.ops.script"
+		},
+		{
+			"trigger": "bpy.ops.sculpt\tbpy.ops.sculpt",
+			"contents": "bpy.ops.sculpt"
+		},
+		{
+			"trigger": "bpy.ops.sequencer\tbpy.ops.sequencer",
+			"contents": "bpy.ops.sequencer"
+		},
+		{
+			"trigger": "bpy.ops.sketch\tbpy.ops.sketch",
+			"contents": "bpy.ops.sketch"
+		},
+		{
+			"trigger": "bpy.ops.sound\tbpy.ops.sound",
+			"contents": "bpy.ops.sound"
+		},
+		{
+			"trigger": "bpy.ops.surface\tbpy.ops.surface",
+			"contents": "bpy.ops.surface"
+		},
+		{
+			"trigger": "bpy.ops.text\tbpy.ops.text",
+			"contents": "bpy.ops.text"
+		},
+		{
+			"trigger": "bpy.ops.texture\tbpy.ops.texture",
+			"contents": "bpy.ops.texture"
+		},
+		{
+			"trigger": "bpy.ops.time\tbpy.ops.time",
+			"contents": "bpy.ops.time"
+		},
+		{
+			"trigger": "bpy.ops.transform\tbpy.ops.transform",
+			"contents": "bpy.ops.transform"
+		},
+		{
+			"trigger": "bpy.ops.ui\tbpy.ops.ui",
+			"contents": "bpy.ops.ui"
+		},
+		{
+			"trigger": "bpy.ops.uv\tbpy.ops.uv",
+			"contents": "bpy.ops.uv"
+		},
+		{
+			"trigger": "bpy.ops.view2d\tbpy.ops.view2d",
+			"contents": "bpy.ops.view2d"
+		},
+		{
+			"trigger": "bpy.ops.view3d\tbpy.ops.view3d",
+			"contents": "bpy.ops.view3d"
+		},
+		{
+			"trigger": "bpy.ops.wm\tbpy.ops.wm",
+			"contents": "bpy.ops.wm"
+		},
+		{
+			"trigger": "bpy.ops.world\tbpy.ops.world",
+			"contents": "bpy.ops.world"
+		},
+		{
+			"trigger": "bpy.path\tbpy.path",
+			"contents": "bpy.path"
+		},
+		{
+			"trigger": "bpy.props\tbpy.props",
+			"contents": "bpy.props"
+		},
+		{
+			"trigger": "bpy.types\tbpy.types",
+			"contents": "bpy.types"
+		},
+		{
+			"trigger": "bpy.utils\tbpy.utils",
+			"contents": "bpy.utils"
+		},
+		{
+			"trigger": "bpy_extras\tbpy_extras",
+			"contents": "bpy_extras"
+		},
+		{
+			"trigger": "bpy_extras.anim_utils\tbpy_extras.anim_utils",
+			"contents": "bpy_extras.anim_utils"
+		},
+		{
+			"trigger": "bpy_extras.image_utils\tbpy_extras.image_utils",
+			"contents": "bpy_extras.image_utils"
+		},
+		{
+			"trigger": "bpy_extras.io_utils\tbpy_extras.io_utils",
+			"contents": "bpy_extras.io_utils"
+		},
+		{
+			"trigger": "bpy_extras.keyconfig_utils\tbpy_extras.keyconfig_utils",
+			"contents": "bpy_extras.keyconfig_utils"
+		},
+		{
+			"trigger": "bpy_extras.mesh_utils\tbpy_extras.mesh_utils",
+			"contents": "bpy_extras.mesh_utils"
+		},
+		{
+			"trigger": "bpy_extras.object_utils\tbpy_extras.object_utils",
+			"contents": "bpy_extras.object_utils"
+		},
+		{
+			"trigger": "bpy_extras.view3d_utils\tbpy_extras.view3d_utils",
+			"contents": "bpy_extras.view3d_utils"
+		},
+		{
+			"trigger": "freestyle\tfreestyle",
+			"contents": "freestyle"
+		},
+		{
+			"trigger": "gpu\tgpu",
+			"contents": "gpu"
+		},
+		{
+			"trigger": "mathutils\tmathutils",
+			"contents": "mathutils"
+		},
+		{
+			"trigger": "mathutils.geometry\tmathutils.geometry",
+			"contents": "mathutils.geometry"
+		},
+		{
+			"trigger": "mathutils.noise\tmathutils.noise",
+			"contents": "mathutils.noise"
+		},
+
+
+		// aud
+		{
+			"trigger": "aud.AUD_DEVICE_JACK\taud const",
+			"contents": "aud.AUD_DEVICE_JACK"
+		},
+		{
+			"trigger": "aud.AUD_DEVICE_NULL\taud const",
+			"contents": "aud.AUD_DEVICE_NULL"
+		},
+		{
+			"trigger": "aud.AUD_DEVICE_OPENAL\taud const",
+			"contents": "aud.AUD_DEVICE_OPENAL"
+		},
+		{
+			"trigger": "aud.AUD_DEVICE_SDL\taud const",
+			"contents": "aud.AUD_DEVICE_SDL"
+		},
+		{
+			"trigger": "aud.AUD_DISTANCE_MODEL_EXPONENT\taud const",
+			"contents": "aud.AUD_DISTANCE_MODEL_EXPONENT"
+		},
+		{
+			"trigger": "aud.AUD_DISTANCE_MODEL_EXPONENT_CLAMPED\taud const",
+			"contents": "aud.AUD_DISTANCE_MODEL_EXPONENT_CLAMPED"
+		},
+		{
+			"trigger": "aud.AUD_DISTANCE_MODEL_INVALID\taud const",
+			"contents": "aud.AUD_DISTANCE_MODEL_INVALID"
+		},
+		{
+			"trigger": "aud.AUD_DISTANCE_MODEL_INVERSE\taud const",
+			"contents": "aud.AUD_DISTANCE_MODEL_INVERSE"
+		},
+		{
+			"trigger": "aud.AUD_DISTANCE_MODEL_INVERSE_CLAMPED\taud const",
+			"contents": "aud.AUD_DISTANCE_MODEL_INVERSE_CLAMPED"
+		},
+		{
+			"trigger": "aud.AUD_DISTANCE_MODEL_LINEAR\taud const",
+			"contents": "aud.AUD_DISTANCE_MODEL_LINEAR"
+		},
+		{
+			"trigger": "aud.AUD_DISTANCE_MODEL_LINEAR_CLAMPED\taud const",
+			"contents": "aud.AUD_DISTANCE_MODEL_LINEAR_CLAMPED"
+		},
+		{
+			"trigger": "aud.AUD_FORMAT_FLOAT32\taud const",
+			"contents": "aud.AUD_FORMAT_FLOAT32"
+		},
+		{
+			"trigger": "aud.AUD_FORMAT_FLOAT64\taud const",
+			"contents": "aud.AUD_FORMAT_FLOAT64"
+		},
+		{
+			"trigger": "aud.AUD_FORMAT_INVALID\taud const",
+			"contents": "aud.AUD_FORMAT_INVALID"
+		},
+		{
+			"trigger": "aud.AUD_FORMAT_S16\taud const",
+			"contents": "aud.AUD_FORMAT_S16"
+		},
+		{
+			"trigger": "aud.AUD_FORMAT_S24\taud const",
+			"contents": "aud.AUD_FORMAT_S24"
+		},
+		{
+			"trigger": "aud.AUD_FORMAT_S32\taud const",
+			"contents": "aud.AUD_FORMAT_S32"
+		},
+		{
+			"trigger": "aud.AUD_FORMAT_U8\taud const",
+			"contents": "aud.AUD_FORMAT_U8"
+		},
+		{
+			"trigger": "aud.AUD_STATUS_INVALID\taud const",
+			"contents": "aud.AUD_STATUS_INVALID"
+		},
+		{
+			"trigger": "aud.AUD_STATUS_PAUSED\taud const",
+			"contents": "aud.AUD_STATUS_PAUSED"
+		},
+		{
+			"trigger": "aud.AUD_STATUS_PLAYIN\taud const",
+			"contents": "aud.AUD_STATUS_PLAYING"
+		},
+
+
+		// bgl
+		{
+			"trigger": "bgl.GL_2D\tbgl const",
+			"contents": "bgl.GL_2D"
+		},
+		{
+			"trigger": "bgl.GL_2_BYTES\tbgl const",
+			"contents": "bgl.GL_2_BYTES"
+		},
+		{
+			"trigger": "bgl.GL_3D\tbgl const",
+			"contents": "bgl.GL_3D"
+		},
+		{
+			"trigger": "bgl.GL_3D_COLOR\tbgl const",
+			"contents": "bgl.GL_3D_COLOR"
+		},
+		{
+			"trigger": "bgl.GL_3D_COLOR_TEXTURE\tbgl const",
+			"contents": "bgl.GL_3D_COLOR_TEXTURE"
+		},
+		{
+			"trigger": "bgl.GL_3_BYTES\tbgl const",
+			"contents": "bgl.GL_3_BYTES"
+		},
+		{
+			"trigger": "bgl.GL_4D_COLOR_TEXTURE\tbgl const",
+			"contents": "bgl.GL_4D_COLOR_TEXTURE"
+		},
+		{
+			"trigger": "bgl.GL_4_BYTES\tbgl const",
+			"contents": "bgl.GL_4_BYTES"
+		},
+		{
+			"trigger": "bgl.GL_ACCUM\tbgl const",
+			"contents": "bgl.GL_ACCUM"
+		},
+		{
+			"trigger": "bgl.GL_ACCUM_ALPHA_BITS\tbgl const",
+			"contents": "bgl.GL_ACCUM_ALPHA_BITS"
+		},
+		{
+			"trigger": "bgl.GL_ACCUM_BLUE_BITS\tbgl const",
+			"contents": "bgl.GL_ACCUM_BLUE_BITS"
+		},
+		{
+			"trigger": "bgl.GL_ACCUM_BUFFER_BIT\tbgl const",
+			"contents": "bgl.GL_ACCUM_BUFFER_BIT"
+		},
+		{
+			"trigger": "bgl.GL_ACCUM_CLEAR_VALUE\tbgl const",
+			"contents": "bgl.GL_ACCUM_CLEAR_VALUE"
+		},
+		{
+			"trigger": "bgl.GL_ACCUM_GREEN_BITS\tbgl const",
+			"contents": "bgl.GL_ACCUM_GREEN_BITS"
+		},
+		{
+			"trigger": "bgl.GL_ACCUM_RED_BITS\tbgl const",
+			"contents": "bgl.GL_ACCUM_RED_BITS"
+		},
+		{
+			"trigger": "bgl.GL_ACTIVE_TEXTURE\tbgl const",
+			"contents": "bgl.GL_ACTIVE_TEXTURE"
+		},
+		{
+			"trigger": "bgl.GL_ADD\tbgl const",
+			"contents": "bgl.GL_ADD"
+		},
+		{
+			"trigger": "bgl.GL_ALL_ATTRIB_BITS\tbgl const",
+			"contents": "bgl.GL_ALL_ATTRIB_BITS"
+		},
+		{
+			"trigger": "bgl.GL_ALPHA\tbgl const",
+			"contents": "bgl.GL_ALPHA"
+		},
+		{
+			"trigger": "bgl.GL_ALPHA_BIAS\tbgl const",
+			"contents": "bgl.GL_ALPHA_BIAS"
+		},
+		{
+			"trigger": "bgl.GL_ALPHA_BITS\tbgl const",
+			"contents": "bgl.GL_ALPHA_BITS"
+		},
+		{
+			"trigger": "bgl.GL_ALPHA_SCALE\tbgl const",
+			"contents": "bgl.GL_ALPHA_SCALE"
+		},
+		{
+			"trigger": "bgl.GL_ALPHA_TEST\tbgl const",
+			"contents": "bgl.GL_ALPHA_TEST"
+		},
+		{
+			"trigger": "bgl.GL_ALPHA_TEST_FUNC\tbgl const",
+			"contents": "bgl.GL_ALPHA_TEST_FUNC"
+		},
+		{
+			"trigger": "bgl.GL_ALPHA_TEST_REF\tbgl const",
+			"contents": "bgl.GL_ALPHA_TEST_REF"
+		},
+		{
+			"trigger": "bgl.GL_ALWAYS\tbgl const",
+			"contents": "bgl.GL_ALWAYS"
+		},
+		{
+			"trigger": "bgl.GL_AMBIENT\tbgl const",
+			"contents": "bgl.GL_AMBIENT"
+		},
+		{
+			"trigger": "bgl.GL_AMBIENT_AND_DIFFUSE\tbgl const",
+			"contents": "bgl.GL_AMBIENT_AND_DIFFUSE"
+		},
+		{
+			"trigger": "bgl.GL_AND\tbgl const",
+			"contents": "bgl.GL_AND"
+		},
+		{
+			"trigger": "bgl.GL_AND_INVERTED\tbgl const",
+			"contents": "bgl.GL_AND_INVERTED"
+		},
+		{
+			"trigger": "bgl.GL_AND_REVERSE\tbgl const",
+			"contents": "bgl.GL_AND_REVERSE"
+		},
+		{
+			"trigger": "bgl.GL_ATTRIB_STACK_DEPTH\tbgl const",
+			"contents": "bgl.GL_ATTRIB_STACK_DEPTH"
+		},
+		{
+			"trigger": "bgl.GL_AUTO_NORMAL\tbgl const",
+			"contents": "bgl.GL_AUTO_NORMAL"
+		},
+		{
+			"trigger": "bgl.GL_AUX0\tbgl const",
+			"contents": "bgl.GL_AUX0"
+		},
+		{
+			"trigger": "bgl.GL_AUX1\tbgl const",
+			"contents": "bgl.GL_AUX1"
+		},
+		{
+			"trigger": "bgl.GL_AUX2\tbgl const",
+			"contents": "bgl.GL_AUX2"
+		},
+		{
+			"trigger": "bgl.GL_AUX3\tbgl const",
+			"contents": "bgl.GL_AUX3"
+		},
+		{
+			"trigger": "bgl.GL_AUX_BUFFERS\tbgl const",
+			"contents": "bgl.GL_AUX_BUFFERS"
+		},
+		{
+			"trigger": "bgl.GL_BACK\tbgl const",
+			"contents": "bgl.GL_BACK"
+		},
+		{
+			"trigger": "bgl.GL_BACK_LEFT\tbgl const",
+			"contents": "bgl.GL_BACK_LEFT"
+		},
+		{
+			"trigger": "bgl.GL_BACK_RIGHT\tbgl const",
+			"contents": "bgl.GL_BACK_RIGHT"
+		},
+		{
+			"trigger": "bgl.GL_BITMAP\tbgl const",
+			"contents": "bgl.GL_BITMAP"
+		},
+		{
+			"trigger": "bgl.GL_BITMAP_TOKEN\tbgl const",
+			"contents": "bgl.GL_BITMAP_TOKEN"
+		},
+		{
+			"trigger": "bgl.GL_BLEND\tbgl const",
+			"contents": "bgl.GL_BLEND"
+		},
+		{
+			"trigger": "bgl.GL_BLEND_DST\tbgl const",
+			"contents": "bgl.GL_BLEND_DST"
+		},
+		{
+			"trigger": "bgl.GL_BLEND_SRC\tbgl const",
+			"contents": "bgl.GL_BLEND_SRC"
+		},
+		{
+			"trigger": "bgl.GL_BLUE\tbgl const",
+			"contents": "bgl.GL_BLUE"
+		},
+		{
+			"trigger": "bgl.GL_BLUE_BIAS\tbgl const",
+			"contents": "bgl.GL_BLUE_BIAS"
+		},
+		{
+			"trigger": "bgl.GL_BLUE_BITS\tbgl const",
+			"contents": "bgl.GL_BLUE_BITS"
+		},
+		{
+			"trigger": "bgl.GL_BLUE_SCALE\tbgl const",
+			"contents": "bgl.GL_BLUE_SCALE"
+		},
+		{
+			"trigger": "bgl.GL_BYTE\tbgl const",
+			"contents": "bgl.GL_BYTE"
+		},
+		{
+			"trigger": "bgl.GL_CCW\tbgl const",
+			"contents": "bgl.GL_CCW"
+		},
+		{
+			"trigger": "bgl.GL_CLAMP\tbgl const",
+			"contents": "bgl.GL_CLAMP"
+		},
+		{
+			"trigger": "bgl.GL_CLEAR\tbgl const",
+			"contents": "bgl.GL_CLEAR"
+		},
+		{
+			"trigger": "bgl.GL_CLIENT_ALL_ATTRIB_BITS\tbgl const",
+			"contents": "bgl.GL_CLIENT_ALL_ATTRIB_BITS"
+		},
+		{
+			"trigger": "bgl.GL_CLIP_PLANE0\tbgl const",
+			"contents": "bgl.GL_CLIP_PLANE0"
+		},
+		{
+			"trigger": "bgl.GL_CLIP_PLANE1\tbgl const",
+			"contents": "bgl.GL_CLIP_PLANE1"
+		},
+		{
+			"trigger": "bgl.GL_CLIP_PLANE2\tbgl const",
+			"contents": "bgl.GL_CLIP_PLANE2"
+		},
+		{
+			"trigger": "bgl.GL_CLIP_PLANE3\tbgl const",
+			"contents": "bgl.GL_CLIP_PLANE3"
+		},
+		{
+			"trigger": "bgl.GL_CLIP_PLANE4\tbgl const",
+			"contents": "bgl.GL_CLIP_PLANE4"
+		},
+		{
+			"trigger": "bgl.GL_CLIP_PLANE5\tbgl const",
+			"contents": "bgl.GL_CLIP_PLANE5"
+		},
+		{
+			"trigger": "bgl.GL_COEFF\tbgl const",
+			"contents": "bgl.GL_COEFF"
+		},
+		{
+			"trigger": "bgl.GL_COLOR\tbgl const",
+			"contents": "bgl.GL_COLOR"
+		},
+		{
+			"trigger": "bgl.GL_COLOR_BUFFER_BIT\tbgl const",
+			"contents": "bgl.GL_COLOR_BUFFER_BIT"
+		},
+		{
+			"trigger": "bgl.GL_COLOR_CLEAR_VALUE\tbgl const",
+			"contents": "bgl.GL_COLOR_CLEAR_VALUE"
+		},
+		{
+			"trigger": "bgl.GL_COLOR_INDEX\tbgl const",
+			"contents": "bgl.GL_COLOR_INDEX"
+		},
+		{
+			"trigger": "bgl.GL_COLOR_INDEXES\tbgl const",
+			"contents": "bgl.GL_COLOR_INDEXES"
+		},
+		{
+			"trigger": "bgl.GL_COLOR_MATERIAL\tbgl const",
+			"contents": "bgl.GL_COLOR_MATERIAL"
+		},
+		{
+			"trigger": "bgl.GL_COLOR_MATERIAL_FACE\tbgl const",
+			"contents": "bgl.GL_COLOR_MATERIAL_FACE"
+		},
+		{
+			"trigger": "bgl.GL_COLOR_MATERIAL_PARAMETER\tbgl const",
+			"contents": "bgl.GL_COLOR_MATERIAL_PARAMETER"
+		},
+		{
+			"trigger": "bgl.GL_COLOR_WRITEMASK\tbgl const",
+			"contents": "bgl.GL_COLOR_WRITEMASK"
+		},
+		{
+			"trigger": "bgl.GL_COMPILE\tbgl const",
+			"contents": "bgl.GL_COMPILE"
+		},
+		{
+			"trigger": "bgl.GL_COMPILE_AND_EXECUTE\tbgl const",
+			"contents": "bgl.GL_COMPILE_AND_EXECUTE"
+		},
+		{
+			"trigger": "bgl.GL_COMPILE_STATUS\tbgl const",
+			"contents": "bgl.GL_COMPILE_STATUS"
+		},
+		{
+			"trigger": "bgl.GL_CONSTANT_ATTENUATION\tbgl const",
+			"contents": "bgl.GL_CONSTANT_ATTENUATION"
+		},
+		{
+			"trigger": "bgl.GL_COPY\tbgl const",
+			"contents": "bgl.GL_COPY"
+		},
+		{
+			"trigger": "bgl.GL_COPY_INVERTED\tbgl const",
+			"contents": "bgl.GL_COPY_INVERTED"
+		},
+		{
+			"trigger": "bgl.GL_COPY_PIXEL_TOKEN\tbgl const",
+			"contents": "bgl.GL_COPY_PIXEL_TOKEN"
+		},
+		{
+			"trigger": "bgl.GL_CULL_FACE\tbgl const",
+			"contents": "bgl.GL_CULL_FACE"
+		},
+		{
+			"trigger": "bgl.GL_CULL_FACE_MODE\tbgl const",
+			"contents": "bgl.GL_CULL_FACE_MODE"
+		},
+		{
+			"trigger": "bgl.GL_CURRENT_BIT\tbgl const",
+			"contents": "bgl.GL_CURRENT_BIT"
+		},
+		{
+			"trigger": "bgl.GL_CURRENT_COLOR\tbgl const",
+			"contents": "bgl.GL_CURRENT_COLOR"
+		},
+		{
+			"trigger": "bgl.GL_CURRENT_INDEX\tbgl const",
+			"contents": "bgl.GL_CURRENT_INDEX"
+		},
+		{
+			"trigger": "bgl.GL_CURRENT_NORMAL\tbgl const",
+			"contents": "bgl.GL_CURRENT_NORMAL"
+		},
+		{
+			"trigger": "bgl.GL_CURRENT_RASTER_COLOR\tbgl const",
+			"contents": "bgl.GL_CURRENT_RASTER_COLOR"
+		},
+		{
+			"trigger": "bgl.GL_CURRENT_RASTER_DISTANCE\tbgl const",
+			"contents": "bgl.GL_CURRENT_RASTER_DISTANCE"
+		},
+		{
+			"trigger": "bgl.GL_CURRENT_RASTER_INDEX\tbgl const",
+			"contents": "bgl.GL_CURRENT_RASTER_INDEX"
+		},
+		{
+			"trigger": "bgl.GL_CURRENT_RASTER_POSITION\tbgl const",
+			"contents": "bgl.GL_CURRENT_RASTER_POSITION"
+		},
+		{
+			"trigger": "bgl.GL_CURRENT_RASTER_POSITION_VALID\tbgl const",
+			"contents": "bgl.GL_CURRENT_RASTER_POSITION_VALID"
+		},
+		{
+			"trigger": "bgl.GL_CURRENT_RASTER_TEXTURE_COORDS\tbgl const",
+			"contents": "bgl.GL_CURRENT_RASTER_TEXTURE_COORDS"
+		},
+		{
+			"trigger": "bgl.GL_CURRENT_TEXTURE_COORDS\tbgl const",
+			"contents": "bgl.GL_CURRENT_TEXTURE_COORDS"
+		},
+		{
+			"trigger": "bgl.GL_CW\tbgl const",
+			"contents": "bgl.GL_CW"
+		},
+		{
+			"trigger": "bgl.GL_DECAL\tbgl const",
+			"contents": "bgl.GL_DECAL"
+		},
+		{
+			"trigger": "bgl.GL_DECR\tbgl const",
+			"contents": "bgl.GL_DECR"
+		},
+		{
+			"trigger": "bgl.GL_DEPTH\tbgl const",
+			"contents": "bgl.GL_DEPTH"
+		},
+		{
+			"trigger": "bgl.GL_DEPTH_BIAS\tbgl const",
+			"contents": "bgl.GL_DEPTH_BIAS"
+		},
+		{
+			"trigger": "bgl.GL_DEPTH_BITS\tbgl const",
+			"contents": "bgl.GL_DEPTH_BITS"
+		},
+		{
+			"trigger": "bgl.GL_DEPTH_BUFFER_BIT\tbgl const",
+			"contents": "bgl.GL_DEPTH_BUFFER_BIT"
+		},
+		{
+			"trigger": "bgl.GL_DEPTH_CLEAR_VALUE\tbgl const",
+			"contents": "bgl.GL_DEPTH_CLEAR_VALUE"
+		},
+		{
+			"trigger": "bgl.GL_DEPTH_COMPONENT\tbgl const",
+			"contents": "bgl.GL_DEPTH_COMPONENT"
+		},
+		{
+			"trigger": "bgl.GL_DEPTH_COMPONENT32\tbgl const",
+			"contents": "bgl.GL_DEPTH_COMPONENT32"
+		},
+		{
+			"trigger": "bgl.GL_DEPTH_FUNC\tbgl const",
+			"contents": "bgl.GL_DEPTH_FUNC"
+		},
+		{
+			"trigger": "bgl.GL_DEPTH_RANGE\tbgl const",
+			"contents": "bgl.GL_DEPTH_RANGE"
+		},
+		{
+			"trigger": "bgl.GL_DEPTH_SCALE\tbgl const",
+			"contents": "bgl.GL_DEPTH_SCALE"
+		},
+		{
+			"trigger": "bgl.GL_DEPTH_TEST\tbgl const",
+			"contents": "bgl.GL_DEPTH_TEST"
+		},
+		{
+			"trigger": "bgl.GL_DEPTH_WRITEMASK\tbgl const",
+			"contents": "bgl.GL_DEPTH_WRITEMASK"
+		},
+		{
+			"trigger": "bgl.GL_DIFFUSE\tbgl const",
+			"contents": "bgl.GL_DIFFUSE"
+		},
+		{
+			"trigger": "bgl.GL_DITHER\tbgl const",
+			"contents": "bgl.GL_DITHER"
+		},
+		{
+			"trigger": "bgl.GL_DOMAIN\tbgl const",
+			"contents": "bgl.GL_DOMAIN"
+		},
+		{
+			"trigger": "bgl.GL_DONT_CARE\tbgl const",
+			"contents": "bgl.GL_DONT_CARE"
+		},
+		{
+			"trigger": "bgl.GL_DOUBLE\tbgl const",
+			"contents": "bgl.GL_DOUBLE"
+		},
+		{
+			"trigger": "bgl.GL_DOUBLEBUFFER\tbgl const",
+			"contents": "bgl.GL_DOUBLEBUFFER"
+		},
+		{
+			"trigger": "bgl.GL_DRAW_BUFFER\tbgl const",
+			"contents": "bgl.GL_DRAW_BUFFER"
+		},
+		{
+			"trigger": "bgl.GL_DRAW_PIXEL_TOKEN\tbgl const",
+			"contents": "bgl.GL_DRAW_PIXEL_TOKEN"
+		},
+		{
+			"trigger": "bgl.GL_DST_ALPHA\tbgl const",
+			"contents": "bgl.GL_DST_ALPHA"
+		},
+		{
+			"trigger": "bgl.GL_DST_COLOR\tbgl const",
+			"contents": "bgl.GL_DST_COLOR"
+		},
+		{
+			"trigger": "bgl.GL_EDGE_FLAG\tbgl const",
+			"contents": "bgl.GL_EDGE_FLAG"
+		},
+		{
+			"trigger": "bgl.GL_EMISSION\tbgl const",
+			"contents": "bgl.GL_EMISSION"
+		},
+		{
+			"trigger": "bgl.GL_ENABLE_BIT\tbgl const",
+			"contents": "bgl.GL_ENABLE_BIT"
+		},
+		{
+			"trigger": "bgl.GL_EQUAL\tbgl const",
+			"contents": "bgl.GL_EQUAL"
+		},
+		{
+			"trigger": "bgl.GL_EQUIV\tbgl const",
+			"contents": "bgl.GL_EQUIV"
+		},
+		{
+			"trigger": "bgl.GL_EVAL_BIT\tbgl const",
+			"contents": "bgl.GL_EVAL_BIT"
+		},
+		{
+			"trigger": "bgl.GL_EXP\tbgl const",
+			"contents": "bgl.GL_EXP"
+		},
+		{
+			"trigger": "bgl.GL_EXP2\tbgl const",
+			"contents": "bgl.GL_EXP2"
+		},
+		{
+			"trigger": "bgl.GL_EXTENSIONS\tbgl const",
+			"contents": "bgl.GL_EXTENSIONS"
+		},
+		{
+			"trigger": "bgl.GL_EYE_LINEAR\tbgl const",
+			"contents": "bgl.GL_EYE_LINEAR"
+		},
+		{
+			"trigger": "bgl.GL_EYE_PLANE\tbgl const",
+			"contents": "bgl.GL_EYE_PLANE"
+		},
+		{
+			"trigger": "bgl.GL_FALSE\tbgl const",
+			"contents": "bgl.GL_FALSE"
+		},
+		{
+			"trigger": "bgl.GL_FASTEST\tbgl const",
+			"contents": "bgl.GL_FASTEST"
+		},
+		{
+			"trigger": "bgl.GL_FEEDBACK\tbgl const",
+			"contents": "bgl.GL_FEEDBACK"
+		},
+		{
+			"trigger": "bgl.GL_FILL\tbgl const",
+			"contents": "bgl.GL_FILL"
+		},
+		{
+			"trigger": "bgl.GL_FLAT\tbgl const",
+			"contents": "bgl.GL_FLAT"
+		},
+		{
+			"trigger": "bgl.GL_FLOAT\tbgl const",
+			"contents": "bgl.GL_FLOAT"
+		},
+		{
+			"trigger": "bgl.GL_FOG\tbgl const",
+			"contents": "bgl.GL_FOG"
+		},
+		{
+			"trigger": "bgl.GL_FOG_BIT\tbgl const",
+			"contents": "bgl.GL_FOG_BIT"
+		},
+		{
+			"trigger": "bgl.GL_FOG_COLOR\tbgl const",
+			"contents": "bgl.GL_FOG_COLOR"
+		},
+		{
+			"trigger": "bgl.GL_FOG_DENSITY\tbgl const",
+			"contents": "bgl.GL_FOG_DENSITY"
+		},
+		{
+			"trigger": "bgl.GL_FOG_END\tbgl const",
+			"contents": "bgl.GL_FOG_END"
+		},
+		{
+			"trigger": "bgl.GL_FOG_HINT\tbgl const",
+			"contents": "bgl.GL_FOG_HINT"
+		},
+		{
+			"trigger": "bgl.GL_FOG_INDEX\tbgl const",
+			"contents": "bgl.GL_FOG_INDEX"
+		},
+		{
+			"trigger": "bgl.GL_FOG_MODE\tbgl const",
+			"contents": "bgl.GL_FOG_MODE"
+		},
+		{
+			"trigger": "bgl.GL_FOG_START\tbgl const",
+			"contents": "bgl.GL_FOG_START"
+		},
+		{
+			"trigger": "bgl.GL_FRAGMENT_SHADER\tbgl const",
+			"contents": "bgl.GL_FRAGMENT_SHADER"
+		},
+		{
+			"trigger": "bgl.GL_FRONT\tbgl const",
+			"contents": "bgl.GL_FRONT"
+		},
+		{
+			"trigger": "bgl.GL_FRONT_AND_BACK\tbgl const",
+			"contents": "bgl.GL_FRONT_AND_BACK"
+		},
+		{
+			"trigger": "bgl.GL_FRONT_FACE\tbgl const",
+			"contents": "bgl.GL_FRONT_FACE"
+		},
+		{
+			"trigger": "bgl.GL_FRONT_LEFT\tbgl const",
+			"contents": "bgl.GL_FRONT_LEFT"
+		},
+		{
+			"trigger": "bgl.GL_FRONT_RIGHT\tbgl const",
+			"contents": "bgl.GL_FRONT_RIGHT"
+		},
+		{
+			"trigger": "bgl.GL_GEQUAL\tbgl const",
+			"contents": "bgl.GL_GEQUAL"
+		},
+		{
+			"trigger": "bgl.GL_GREATER\tbgl const",
+			"contents": "bgl.GL_GREATER"
+		},
+		{
+			"trigger": "bgl.GL_GREEN\tbgl const",
+			"contents": "bgl.GL_GREEN"
+		},
+		{
+			"trigger": "bgl.GL_GREEN_BIAS\tbgl const",
+			"contents": "bgl.GL_GREEN_BIAS"
+		},
+		{
+			"trigger": "bgl.GL_GREEN_BITS\tbgl const",
+			"contents": "bgl.GL_GREEN_BITS"
+		},
+		{
+			"trigger": "bgl.GL_GREEN_SCALE\tbgl const",
+			"contents": "bgl.GL_GREEN_SCALE"
+		},
+		{
+			"trigger": "bgl.GL_HINT_BIT\tbgl const",
+			"contents": "bgl.GL_HINT_BIT"
+		},
+		{
+			"trigger": "bgl.GL_INCR\tbgl const",
+			"contents": "bgl.GL_INCR"
+		},
+		{
+			"trigger": "bgl.GL_INDEX_BITS\tbgl const",
+			"contents": "bgl.GL_INDEX_BITS"
+		},
+		{
+			"trigger": "bgl.GL_INDEX_CLEAR_VALUE\tbgl const",
+			"contents": "bgl.GL_INDEX_CLEAR_VALUE"
+		},
+		{
+			"trigger": "bgl.GL_INDEX_MODE\tbgl const",
+			"contents": "bgl.GL_INDEX_MODE"
+		},
+		{
+			"trigger": "bgl.GL_INDEX_OFFSET\tbgl const",
+			"contents": "bgl.GL_INDEX_OFFSET"
+		},
+		{
+			"trigger": "bgl.GL_INDEX_SHIFT\tbgl const",
+			"contents": "bgl.GL_INDEX_SHIFT"
+		},
+		{
+			"trigger": "bgl.GL_INDEX_WRITEMASK\tbgl const",
+			"contents": "bgl.GL_INDEX_WRITEMASK"
+		},
+		{
+			"trigger": "bgl.GL_INT\tbgl const",
+			"contents": "bgl.GL_INT"
+		},
+		{
+			"trigger": "bgl.GL_INVALID_ENUM\tbgl const",
+			"contents": "bgl.GL_INVALID_ENUM"
+		},
+		{
+			"trigger": "bgl.GL_INVALID_OPERATION\tbgl const",
+			"contents": "bgl.GL_INVALID_OPERATION"
+		},
+		{
+			"trigger": "bgl.GL_INVALID_VALUE\tbgl const",
+			"contents": "bgl.GL_INVALID_VALUE"
+		},
+		{
+			"trigger": "bgl.GL_INVERT\tbgl const",
+			"contents": "bgl.GL_INVERT"
+		},
+		{
+			"trigger": "bgl.GL_KEEP\tbgl const",
+			"contents": "bgl.GL_KEEP"
+		},
+		{
+			"trigger": "bgl.GL_LEFT\tbgl const",
+			"contents": "bgl.GL_LEFT"
+		},
+		{
+			"trigger": "bgl.GL_LEQUAL\tbgl const",
+			"contents": "bgl.GL_LEQUAL"
+		},
+		{
+			"trigger": "bgl.GL_LESS\tbgl const",
+			"contents": "bgl.GL_LESS"
+		},
+		{
+			"trigger": "bgl.GL_LIGHT0\tbgl const",
+			"contents": "bgl.GL_LIGHT0"
+		},
+		{
+			"trigger": "bgl.GL_LIGHT1\tbgl const",
+			"contents": "bgl.GL_LIGHT1"
+		},
+		{
+			"trigger": "bgl.GL_LIGHT2\tbgl const",
+			"contents": "bgl.GL_LIGHT2"
+		},
+		{
+			"trigger": "bgl.GL_LIGHT3\tbgl const",
+			"contents": "bgl.GL_LIGHT3"
+		},
+		{
+			"trigger": "bgl.GL_LIGHT4\tbgl const",
+			"contents": "bgl.GL_LIGHT4"
+		},
+		{
+			"trigger": "bgl.GL_LIGHT5\tbgl const",
+			"contents": "bgl.GL_LIGHT5"
+		},
+		{
+			"trigger": "bgl.GL_LIGHT6\tbgl const",
+			"contents": "bgl.GL_LIGHT6"
+		},
+		{
+			"trigger": "bgl.GL_LIGHT7\tbgl const",
+			"contents": "bgl.GL_LIGHT7"
+		},
+		{
+			"trigger": "bgl.GL_LIGHTING\tbgl const",
+			"contents": "bgl.GL_LIGHTING"
+		},
+		{
+			"trigger": "bgl.GL_LIGHTING_BIT\tbgl const",
+			"contents": "bgl.GL_LIGHTING_BIT"
+		},
+		{
+			"trigger": "bgl.GL_LIGHT_MODEL_AMBIENT\tbgl const",
+			"contents": "bgl.GL_LIGHT_MODEL_AMBIENT"
+		},
+		{
+			"trigger": "bgl.GL_LIGHT_MODEL_LOCAL_VIEWER\tbgl const",
+			"contents": "bgl.GL_LIGHT_MODEL_LOCAL_VIEWER"
+		},
+		{
+			"trigger": "bgl.GL_LIGHT_MODEL_TWO_SIDE\tbgl const",
+			"contents": "bgl.GL_LIGHT_MODEL_TWO_SIDE"
+		},
+		{
+			"trigger": "bgl.GL_LINE\tbgl const",
+			"contents": "bgl.GL_LINE"
+		},
+		{
+			"trigger": "bgl.GL_LINEAR\tbgl const",
+			"contents": "bgl.GL_LINEAR"
+		},
+		{
+			"trigger": "bgl.GL_LINEAR_ATTENUATION\tbgl const",
+			"contents": "bgl.GL_LINEAR_ATTENUATION"
+		},
+		{
+			"trigger": "bgl.GL_LINEAR_MIPMAP_LINEAR\tbgl const",
+			"contents": "bgl.GL_LINEAR_MIPMAP_LINEAR"
+		},
+		{
+			"trigger": "bgl.GL_LINEAR_MIPMAP_NEAREST\tbgl const",
+			"contents": "bgl.GL_LINEAR_MIPMAP_NEAREST"
+		},
+		{
+			"trigger": "bgl.GL_LINES\tbgl const",
+			"contents": "bgl.GL_LINES"
+		},
+		{
+			"trigger": "bgl.GL_LINE_BIT\tbgl const",
+			"contents": "bgl.GL_LINE_BIT"
+		},
+		{
+			"trigger": "bgl.GL_LINE_LOOP\tbgl const",
+			"contents": "bgl.GL_LINE_LOOP"
+		},
+		{
+			"trigger": "bgl.GL_LINE_RESET_TOKEN\tbgl const",
+			"contents": "bgl.GL_LINE_RESET_TOKEN"
+		},
+		{
+			"trigger": "bgl.GL_LINE_SMOOTH\tbgl const",
+			"contents": "bgl.GL_LINE_SMOOTH"
+		},
+		{
+			"trigger": "bgl.GL_LINE_SMOOTH_HINT\tbgl const",
+			"contents": "bgl.GL_LINE_SMOOTH_HINT"
+		},
+		{
+			"trigger": "bgl.GL_LINE_STIPPLE\tbgl const",
+			"contents": "bgl.GL_LINE_STIPPLE"
+		},
+		{
+			"trigger": "bgl.GL_LINE_STIPPLE_PATTERN\tbgl const",
+			"contents": "bgl.GL_LINE_STIPPLE_PATTERN"
+		},
+		{
+			"trigger": "bgl.GL_LINE_STIPPLE_REPEAT\tbgl const",
+			"contents": "bgl.GL_LINE_STIPPLE_REPEAT"
+		},
+		{
+			"trigger": "bgl.GL_LINE_STRIP\tbgl const",
+			"contents": "bgl.GL_LINE_STRIP"
+		},
+		{
+			"trigger": "bgl.GL_LINE_TOKEN\tbgl const",
+			"contents": "bgl.GL_LINE_TOKEN"
+		},
+		{
+			"trigger": "bgl.GL_LINE_WIDTH\tbgl const",
+			"contents": "bgl.GL_LINE_WIDTH"
+		},
+		{
+			"trigger": "bgl.GL_LINE_WIDTH_GRANULARITY\tbgl const",
+			"contents": "bgl.GL_LINE_WIDTH_GRANULARITY"
+		},
+		{
+			"trigger": "bgl.GL_LINE_WIDTH_RANGE\tbgl const",
+			"contents": "bgl.GL_LINE_WIDTH_RANGE"
+		},
+		{
+			"trigger": "bgl.GL_LIST_BASE\tbgl const",
+			"contents": "bgl.GL_LIST_BASE"
+		},
+		{
+			"trigger": "bgl.GL_LIST_BIT\tbgl const",
+			"contents": "bgl.GL_LIST_BIT"
+		},
+		{
+			"trigger": "bgl.GL_LIST_INDEX\tbgl const",
+			"contents": "bgl.GL_LIST_INDEX"
+		},
+		{
+			"trigger": "bgl.GL_LIST_MODE\tbgl const",
+			"contents": "bgl.GL_LIST_MODE"
+		},
+		{
+			"trigger": "bgl.GL_LOAD\tbgl const",
+			"contents": "bgl.GL_LOAD"
+		},
+		{
+			"trigger": "bgl.GL_LOGIC_OP\tbgl const",
+			"contents": "bgl.GL_LOGIC_OP"
+		},
+		{
+			"trigger": "bgl.GL_LOGIC_OP_MODE\tbgl const",
+			"contents": "bgl.GL_LOGIC_OP_MODE"
+		},
+		{
+			"trigger": "bgl.GL_LUMINANCE\tbgl const",
+			"contents": "bgl.GL_LUMINANCE"
+		},
+		{
+			"trigger": "bgl.GL_LUMINANCE_ALPHA\tbgl const",
+			"contents": "bgl.GL_LUMINANCE_ALPHA"
+		},
+		{
+			"trigger": "bgl.GL_MAP1_COLOR_4\tbgl const",
+			"contents": "bgl.GL_MAP1_COLOR_4"
+		},
+		{
+			"trigger": "bgl.GL_MAP1_GRID_DOMAIN\tbgl const",
+			"contents": "bgl.GL_MAP1_GRID_DOMAIN"
+		},
+		{
+			"trigger": "bgl.GL_MAP1_GRID_SEGMENTS\tbgl const",
+			"contents": "bgl.GL_MAP1_GRID_SEGMENTS"
+		},
+		{
+			"trigger": "bgl.GL_MAP1_INDEX\tbgl const",
+			"contents": "bgl.GL_MAP1_INDEX"
+		},
+		{
+			"trigger": "bgl.GL_MAP1_NORMAL\tbgl const",
+			"contents": "bgl.GL_MAP1_NORMAL"
+		},
+		{
+			"trigger": "bgl.GL_MAP1_TEXTURE_COORD_1\tbgl const",
+			"contents": "bgl.GL_MAP1_TEXTURE_COORD_1"
+		},
+		{
+			"trigger": "bgl.GL_MAP1_TEXTURE_COORD_2\tbgl const",
+			"contents": "bgl.GL_MAP1_TEXTURE_COORD_2"
+		},
+		{
+			"trigger": "bgl.GL_MAP1_TEXTURE_COORD_3\tbgl const",
+			"contents": "bgl.GL_MAP1_TEXTURE_COORD_3"
+		},
+		{
+			"trigger": "bgl.GL_MAP1_TEXTURE_COORD_4\tbgl const",
+			"contents": "bgl.GL_MAP1_TEXTURE_COORD_4"
+		},
+		{
+			"trigger": "bgl.GL_MAP1_VERTEX_3\tbgl const",
+			"contents": "bgl.GL_MAP1_VERTEX_3"
+		},
+		{
+			"trigger": "bgl.GL_MAP1_VERTEX_4\tbgl const",
+			"contents": "bgl.GL_MAP1_VERTEX_4"
+		},
+		{
+			"trigger": "bgl.GL_MAP2_COLOR_4\tbgl const",
+			"contents": "bgl.GL_MAP2_COLOR_4"
+		},
+		{
+			"trigger": "bgl.GL_MAP2_GRID_DOMAIN\tbgl const",
+			"contents": "bgl.GL_MAP2_GRID_DOMAIN"
+		},
+		{
+			"trigger": "bgl.GL_MAP2_GRID_SEGMENTS\tbgl const",
+			"contents": "bgl.GL_MAP2_GRID_SEGMENTS"
+		},
+		{
+			"trigger": "bgl.GL_MAP2_INDEX\tbgl const",
+			"contents": "bgl.GL_MAP2_INDEX"
+		},
+		{
+			"trigger": "bgl.GL_MAP2_NORMAL\tbgl const",
+			"contents": "bgl.GL_MAP2_NORMAL"
+		},
+		{
+			"trigger": "bgl.GL_MAP2_TEXTURE_COORD_1\tbgl const",
+			"contents": "bgl.GL_MAP2_TEXTURE_COORD_1"
+		},
+		{
+			"trigger": "bgl.GL_MAP2_TEXTURE_COORD_2\tbgl const",
+			"contents": "bgl.GL_MAP2_TEXTURE_COORD_2"
+		},
+		{
+			"trigger": "bgl.GL_MAP2_TEXTURE_COORD_3\tbgl const",
+			"contents": "bgl.GL_MAP2_TEXTURE_COORD_3"
+		},
+		{
+			"trigger": "bgl.GL_MAP2_TEXTURE_COORD_4\tbgl const",
+			"contents": "bgl.GL_MAP2_TEXTURE_COORD_4"
+		},
+		{
+			"trigger": "bgl.GL_MAP2_VERTEX_3\tbgl const",
+			"contents": "bgl.GL_MAP2_VERTEX_3"
+		},
+		{
+			"trigger": "bgl.GL_MAP2_VERTEX_4\tbgl const",
+			"contents": "bgl.GL_MAP2_VERTEX_4"
+		},
+		{
+			"trigger": "bgl.GL_MAP_COLOR\tbgl const",
+			"contents": "bgl.GL_MAP_COLOR"
+		},
+		{
+			"trigger": "bgl.GL_MAP_STENCIL\tbgl const",
+			"contents": "bgl.GL_MAP_STENCIL"
+		},
+		{
+			"trigger": "bgl.GL_MATRIX_MODE\tbgl const",
+			"contents": "bgl.GL_MATRIX_MODE"
+		},
+		{
+			"trigger": "bgl.GL_MAX_ATTRIB_STACK_DEPTH\tbgl const",
+			"contents": "bgl.GL_MAX_ATTRIB_STACK_DEPTH"
+		},
+		{
+			"trigger": "bgl.GL_MAX_CLIP_PLANES\tbgl const",
+			"contents": "bgl.GL_MAX_CLIP_PLANES"
+		},
+		{
+			"trigger": "bgl.GL_MAX_EVAL_ORDER\tbgl const",
+			"contents": "bgl.GL_MAX_EVAL_ORDER"
+		},
+		{
+			"trigger": "bgl.GL_MAX_LIGHTS\tbgl const",
+			"contents": "bgl.GL_MAX_LIGHTS"
+		},
+		{
+			"trigger": "bgl.GL_MAX_LIST_NESTING\tbgl const",
+			"contents": "bgl.GL_MAX_LIST_NESTING"
+		},
+		{
+			"trigger": "bgl.GL_MAX_MODELVIEW_STACK_DEPTH\tbgl const",
+			"contents": "bgl.GL_MAX_MODELVIEW_STACK_DEPTH"
+		},
+		{
+			"trigger": "bgl.GL_MAX_NAME_STACK_DEPTH\tbgl const",
+			"contents": "bgl.GL_MAX_NAME_STACK_DEPTH"
+		},
+		{
+			"trigger": "bgl.GL_MAX_PIXEL_MAP_TABLE\tbgl const",
+			"contents": "bgl.GL_MAX_PIXEL_MAP_TABLE"
+		},
+		{
+			"trigger": "bgl.GL_MAX_PROJECTION_STACK_DEPTH\tbgl const",
+			"contents": "bgl.GL_MAX_PROJECTION_STACK_DEPTH"
+		},
+		{
+			"trigger": "bgl.GL_MAX_TEXTURE_SIZE\tbgl const",
+			"contents": "bgl.GL_MAX_TEXTURE_SIZE"
+		},
+		{
+			"trigger": "bgl.GL_MAX_TEXTURE_STACK_DEPTH\tbgl const",
+			"contents": "bgl.GL_MAX_TEXTURE_STACK_DEPTH"
+		},
+		{
+			"trigger": "bgl.GL_MAX_VIEWPORT_DIMS\tbgl const",
+			"contents": "bgl.GL_MAX_VIEWPORT_DIMS"
+		},
+		{
+			"trigger": "bgl.GL_MODELVIEW\tbgl const",
+			"contents": "bgl.GL_MODELVIEW"
+		},
+		{
+			"trigger": "bgl.GL_MODELVIEW_MATRIX\tbgl const",
+			"contents": "bgl.GL_MODELVIEW_MATRIX"
+		},
+		{
+			"trigger": "bgl.GL_MODELVIEW_STACK_DEPTH\tbgl const",
+			"contents": "bgl.GL_MODELVIEW_STACK_DEPTH"
+		},
+		{
+			"trigger": "bgl.GL_MODULATE\tbgl const",
+			"contents": "bgl.GL_MODULATE"
+		},
+		{
+			"trigger": "bgl.GL_MULT\tbgl const",
+			"contents": "bgl.GL_MULT"
+		},
+		{
+			"trigger": "bgl.GL_NAME_STACK_DEPTH\tbgl const",
+			"contents": "bgl.GL_NAME_STACK_DEPTH"
+		},
+		{
+			"trigger": "bgl.GL_NAND\tbgl const",
+			"contents": "bgl.GL_NAND"
+		},
+		{
+			"trigger": "bgl.GL_NEAREST\tbgl const",
+			"contents": "bgl.GL_NEAREST"
+		},
+		{
+			"trigger": "bgl.GL_NEAREST_MIPMAP_LINEAR\tbgl const",
+			"contents": "bgl.GL_NEAREST_MIPMAP_LINEAR"
+		},
+		{
+			"trigger": "bgl.GL_NEAREST_MIPMAP_NEAREST\tbgl const",
+			"contents": "bgl.GL_NEAREST_MIPMAP_NEAREST"
+		},
+		{
+			"trigger": "bgl.GL_NEVER\tbgl const",
+			"contents": "bgl.GL_NEVER"
+		},
+		{
+			"trigger": "bgl.GL_NICEST\tbgl const",
+			"contents": "bgl.GL_NICEST"
+		},
+		{
+			"trigger": "bgl.GL_NONE\tbgl const",
+			"contents": "bgl.GL_NONE"
+		},
+		{
+			"trigger": "bgl.GL_NOOP\tbgl const",
+			"contents": "bgl.GL_NOOP"
+		},
+		{
+			"trigger": "bgl.GL_NOR\tbgl const",
+			"contents": "bgl.GL_NOR"
+		},
+		{
+			"trigger": "bgl.GL_NORMALIZE\tbgl const",
+			"contents": "bgl.GL_NORMALIZE"
+		},
+		{
+			"trigger": "bgl.GL_NOTEQUAL\tbgl const",
+			"contents": "bgl.GL_NOTEQUAL"
+		},
+		{
+			"trigger": "bgl.GL_NO_ERROR\tbgl const",
+			"contents": "bgl.GL_NO_ERROR"
+		},
+		{
+			"trigger": "bgl.GL_OBJECT_LINEAR\tbgl const",
+			"contents": "bgl.GL_OBJECT_LINEAR"
+		},
+		{
+			"trigger": "bgl.GL_OBJECT_PLANE\tbgl const",
+			"contents": "bgl.GL_OBJECT_PLANE"
+		},
+		{
+			"trigger": "bgl.GL_ONE\tbgl const",
+			"contents": "bgl.GL_ONE"
+		},
+		{
+			"trigger": "bgl.GL_ONE_MINUS_DST_ALPHA\tbgl const",
+			"contents": "bgl.GL_ONE_MINUS_DST_ALPHA"
+		},
+		{
+			"trigger": "bgl.GL_ONE_MINUS_DST_COLOR\tbgl const",
+			"contents": "bgl.GL_ONE_MINUS_DST_COLOR"
+		},
+		{
+			"trigger": "bgl.GL_ONE_MINUS_SRC_ALPHA\tbgl const",
+			"contents": "bgl.GL_ONE_MINUS_SRC_ALPHA"
+		},
+		{
+			"trigger": "bgl.GL_ONE_MINUS_SRC_COLOR\tbgl const",
+			"contents": "bgl.GL_ONE_MINUS_SRC_COLOR"
+		},
+		{
+			"trigger": "bgl.GL_OR\tbgl const",
+			"contents": "bgl.GL_OR"
+		},
+		{
+			"trigger": "bgl.GL_ORDER\tbgl const",
+			"contents": "bgl.GL_ORDER"
+		},
+		{
+			"trigger": "bgl.GL_OR_INVERTED\tbgl const",
+			"contents": "bgl.GL_OR_INVERTED"
+		},
+		{
+			"trigger": "bgl.GL_OR_REVERSE\tbgl const",
+			"contents": "bgl.GL_OR_REVERSE"
+		},
+		{
+			"trigger": "bgl.GL_OUT_OF_MEMORY\tbgl const",
+			"contents": "bgl.GL_OUT_OF_MEMORY"
+		},
+		{
+			"trigger": "bgl.GL_PACK_ALIGNMENT\tbgl const",
+			"contents": "bgl.GL_PACK_ALIGNMENT"
+		},
+		{
+			"trigger": "bgl.GL_PACK_LSB_FIRST\tbgl const",
+			"contents": "bgl.GL_PACK_LSB_FIRST"
+		},
+		{
+			"trigger": "bgl.GL_PACK_ROW_LENGTH\tbgl const",
+			"contents": "bgl.GL_PACK_ROW_LENGTH"
+		},
+		{
+			"trigger": "bgl.GL_PACK_SKIP_PIXELS\tbgl const",
+			"contents": "bgl.GL_PACK_SKIP_PIXELS"
+		},
+		{
+			"trigger": "bgl.GL_PACK_SKIP_ROWS\tbgl const",
+			"contents": "bgl.GL_PACK_SKIP_ROWS"
+		},
+		{
+			"trigger": "bgl.GL_PACK_SWAP_BYTES\tbgl const",
+			"contents": "bgl.GL_PACK_SWAP_BYTES"
+		},
+		{
+			"trigger": "bgl.GL_PASS_THROUGH_TOKEN\tbgl const",
+			"contents": "bgl.GL_PASS_THROUGH_TOKEN"
+		},
+		{
+			"trigger": "bgl.GL_PERSPECTIVE_CORRECTION_HINT\tbgl const",
+			"contents": "bgl.GL_PERSPECTIVE_CORRECTION_HINT"
+		},
+		{
+			"trigger": "bgl.GL_PIXEL_MAP_A_TO_A\tbgl const",
+			"contents": "bgl.GL_PIXEL_MAP_A_TO_A"
+		},
+		{
+			"trigger": "bgl.GL_PIXEL_MAP_A_TO_A_SIZE\tbgl const",
+			"contents": "bgl.GL_PIXEL_MAP_A_TO_A_SIZE"
+		},
+		{
+			"trigger": "bgl.GL_PIXEL_MAP_B_TO_B\tbgl const",
+			"contents": "bgl.GL_PIXEL_MAP_B_TO_B"
+		},
+		{
+			"trigger": "bgl.GL_PIXEL_MAP_B_TO_B_SIZE\tbgl const",
+			"contents": "bgl.GL_PIXEL_MAP_B_TO_B_SIZE"
+		},
+		{
+			"trigger": "bgl.GL_PIXEL_MAP_G_TO_G\tbgl const",
+			"contents": "bgl.GL_PIXEL_MAP_G_TO_G"
+		},
+		{
+			"trigger": "bgl.GL_PIXEL_MAP_G_TO_G_SIZE\tbgl const",
+			"contents": "bgl.GL_PIXEL_MAP_G_TO_G_SIZE"
+		},
+		{
+			"trigger": "bgl.GL_PIXEL_MAP_I_TO_A\tbgl const",
+			"contents": "bgl.GL_PIXEL_MAP_I_TO_A"
+		},
+		{
+			"trigger": "bgl.GL_PIXEL_MAP_I_TO_A_SIZE\tbgl const",
+			"contents": "bgl.GL_PIXEL_MAP_I_TO_A_SIZE"
+		},
+		{
+			"trigger": "bgl.GL_PIXEL_MAP_I_TO_B\tbgl const",
+			"contents": "bgl.GL_PIXEL_MAP_I_TO_B"
+		},
+		{
+			"trigger": "bgl.GL_PIXEL_MAP_I_TO_B_SIZE\tbgl const",
+			"contents": "bgl.GL_PIXEL_MAP_I_TO_B_SIZE"
+		},
+		{
+			"trigger": "bgl.GL_PIXEL_MAP_I_TO_G\tbgl const",
+			"contents": "bgl.GL_PIXEL_MAP_I_TO_G"
+		},
+		{
+			"trigger": "bgl.GL_PIXEL_MAP_I_TO_G_SIZE\tbgl const",
+			"contents": "bgl.GL_PIXEL_MAP_I_TO_G_SIZE"
+		},
+		{
+			"trigger": "bgl.GL_PIXEL_MAP_I_TO_I\tbgl const",
+			"contents": "bgl.GL_PIXEL_MAP_I_TO_I"
+		},
+		{
+			"trigger": "bgl.GL_PIXEL_MAP_I_TO_I_SIZE\tbgl const",
+			"contents": "bgl.GL_PIXEL_MAP_I_TO_I_SIZE"
+		},
+		{
+			"trigger": "bgl.GL_PIXEL_MAP_I_TO_R\tbgl const",
+			"contents": "bgl.GL_PIXEL_MAP_I_TO_R"
+		},
+		{
+			"trigger": "bgl.GL_PIXEL_MAP_I_TO_R_SIZE\tbgl const",
+			"contents": "bgl.GL_PIXEL_MAP_I_TO_R_SIZE"
+		},
+		{
+			"trigger": "bgl.GL_PIXEL_MAP_R_TO_R\tbgl const",
+			"contents": "bgl.GL_PIXEL_MAP_R_TO_R"
+		},
+		{
+			"trigger": "bgl.GL_PIXEL_MAP_R_TO_R_SIZE\tbgl const",
+			"contents": "bgl.GL_PIXEL_MAP_R_TO_R_SIZE"
+		},
+		{
+			"trigger": "bgl.GL_PIXEL_MAP_S_TO_S\tbgl const",
+			"contents": "bgl.GL_PIXEL_MAP_S_TO_S"
+		},
+		{
+			"trigger": "bgl.GL_PIXEL_MAP_S_TO_S_SIZE\tbgl const",
+			"contents": "bgl.GL_PIXEL_MAP_S_TO_S_SIZE"
+		},
+		{
+			"trigger": "bgl.GL_PIXEL_MODE_BIT\tbgl const",
+			"contents": "bgl.GL_PIXEL_MODE_BIT"
+		},
+		{
+			"trigger": "bgl.GL_POINT\tbgl const",
+			"contents": "bgl.GL_POINT"
+		},
+		{
+			"trigger": "bgl.GL_POINTS\tbgl const",
+			"contents": "bgl.GL_POINTS"
+		},
+		{
+			"trigger": "bgl.GL_POINT_BIT\tbgl const",
+			"contents": "bgl.GL_POINT_BIT"
+		},
+		{
+			"trigger": "bgl.GL_POINT_SIZE\tbgl const",
+			"contents": "bgl.GL_POINT_SIZE"
+		},
+		{
+			"trigger": "bgl.GL_POINT_SIZE_GRANULARITY\tbgl const",
+			"contents": "bgl.GL_POINT_SIZE_GRANULARITY"
+		},
+		{
+			"trigger": "bgl.GL_POINT_SIZE_RANGE\tbgl const",
+			"contents": "bgl.GL_POINT_SIZE_RANGE"
+		},
+		{
+			"trigger": "bgl.GL_POINT_SMOOTH\tbgl const",
+			"contents": "bgl.GL_POINT_SMOOTH"
+		},
+		{
+			"trigger": "bgl.GL_POINT_SMOOTH_HINT\tbgl const",
+			"contents": "bgl.GL_POINT_SMOOTH_HINT"
+		},
+		{
+			"trigger": "bgl.GL_POINT_TOKEN\tbgl const",
+			"contents": "bgl.GL_POINT_TOKEN"
+		},
+		{
+			"trigger": "bgl.GL_POLYGON\tbgl const",
+			"contents": "bgl.GL_POLYGON"
+		},
+		{
+			"trigger": "bgl.GL_POLYGON_BIT\tbgl const",
+			"contents": "bgl.GL_POLYGON_BIT"
+		},
+		{
+			"trigger": "bgl.GL_POLYGON_MODE\tbgl const",
+			"contents": "bgl.GL_POLYGON_MODE"
+		},
+		{
+			"trigger": "bgl.GL_POLYGON_OFFSET_FACTOR\tbgl const",
+			"contents": "bgl.GL_POLYGON_OFFSET_FACTOR"
+		},
+		{
+			"trigger": "bgl.GL_POLYGON_OFFSET_FILL\tbgl const",
+			"contents": "bgl.GL_POLYGON_OFFSET_FILL"
+		},
+		{
+			"trigger": "bgl.GL_POLYGON_OFFSET_LINE\tbgl const",
+			"contents": "bgl.GL_POLYGON_OFFSET_LINE"
+		},
+		{
+			"trigger": "bgl.GL_POLYGON_OFFSET_POINT\tbgl const",
+			"contents": "bgl.GL_POLYGON_OFFSET_POINT"
+		},
+		{
+			"trigger": "bgl.GL_POLYGON_OFFSET_UNITS\tbgl const",
+			"contents": "bgl.GL_POLYGON_OFFSET_UNITS"
+		},
+		{
+			"trigger": "bgl.GL_POLYGON_SMOOTH\tbgl const",
+			"contents": "bgl.GL_POLYGON_SMOOTH"
+		},
+		{
+			"trigger": "bgl.GL_POLYGON_SMOOTH_HINT\tbgl const",
+			"contents": "bgl.GL_POLYGON_SMOOTH_HINT"
+		},
+		{
+			"trigger": "bgl.GL_POLYGON_STIPPLE\tbgl const",
+			"contents": "bgl.GL_POLYGON_STIPPLE"
+		},
+		{
+			"trigger": "bgl.GL_POLYGON_STIPPLE_BIT\tbgl const",
+			"contents": "bgl.GL_POLYGON_STIPPLE_BIT"
+		},
+		{
+			"trigger": "bgl.GL_POLYGON_TOKEN\tbgl const",
+			"contents": "bgl.GL_POLYGON_TOKEN"
+		},
+		{
+			"trigger": "bgl.GL_POSITION\tbgl const",
+			"contents": "bgl.GL_POSITION"
+		},
+		{
+			"trigger": "bgl.GL_PROJECTION\tbgl const",
+			"contents": "bgl.GL_PROJECTION"
+		},
+		{
+			"trigger": "bgl.GL_PROJECTION_MATRIX\tbgl const",
+			"contents": "bgl.GL_PROJECTION_MATRIX"
+		},
+		{
+			"trigger": "bgl.GL_PROJECTION_STACK_DEPTH\tbgl const",
+			"contents": "bgl.GL_PROJECTION_STACK_DEPTH"
+		},
+		{
+			"trigger": "bgl.GL_Q\tbgl const",
+			"contents": "bgl.GL_Q"
+		},
+		{
+			"trigger": "bgl.GL_QUADRATIC_ATTENUATION\tbgl const",
+			"contents": "bgl.GL_QUADRATIC_ATTENUATION"
+		},
+		{
+			"trigger": "bgl.GL_QUADS\tbgl const",
+			"contents": "bgl.GL_QUADS"
+		},
+		{
+			"trigger": "bgl.GL_QUAD_STRIP\tbgl const",
+			"contents": "bgl.GL_QUAD_STRIP"
+		},
+		{
+			"trigger": "bgl.GL_R\tbgl const",
+			"contents": "bgl.GL_R"
+		},
+		{
+			"trigger": "bgl.GL_READ_BUFFER\tbgl const",
+			"contents": "bgl.GL_READ_BUFFER"
+		},
+		{
+			"trigger": "bgl.GL_RED\tbgl const",
+			"contents": "bgl.GL_RED"
+		},
+		{
+			"trigger": "bgl.GL_RED_BIAS\tbgl const",
+			"contents": "bgl.GL_RED_BIAS"
+		},
+		{
+			"trigger": "bgl.GL_RED_BITS\tbgl const",
+			"contents": "bgl.GL_RED_BITS"
+		},
+		{
+			"trigger": "bgl.GL_RED_SCALE\tbgl const",
+			"contents": "bgl.GL_RED_SCALE"
+		},
+		{
+			"trigger": "bgl.GL_RENDER\tbgl const",
+			"contents": "bgl.GL_RENDER"
+		},
+		{
+			"trigger": "bgl.GL_RENDERER\tbgl const",
+			"contents": "bgl.GL_RENDERER"
+		},
+		{
+			"trigger": "bgl.GL_RENDER_MODE\tbgl const",
+			"contents": "bgl.GL_RENDER_MODE"
+		},
+		{
+			"trigger": "bgl.GL_REPEAT\tbgl const",
+			"contents": "bgl.GL_REPEAT"
+		},
+		{
+			"trigger": "bgl.GL_REPLACE\tbgl const",
+			"contents": "bgl.GL_REPLACE"
+		},
+		{
+			"trigger": "bgl.GL_RETURN\tbgl const",
+			"contents": "bgl.GL_RETURN"
+		},
+		{
+			"trigger": "bgl.GL_RGB\tbgl const",
+			"contents": "bgl.GL_RGB"
+		},
+		{
+			"trigger": "bgl.GL_RGBA\tbgl const",
+			"contents": "bgl.GL_RGBA"
+		},
+		{
+			"trigger": "bgl.GL_RGBA_MODE\tbgl const",
+			"contents": "bgl.GL_RGBA_MODE"
+		},
+		{
+			"trigger": "bgl.GL_RIGHT\tbgl const",
+			"contents": "bgl.GL_RIGHT"
+		},
+		{
+			"trigger": "bgl.GL_S\tbgl const",
+			"contents": "bgl.GL_S"
+		},
+		{
+			"trigger": "bgl.GL_SCISSOR_BIT\tbgl const",
+			"contents": "bgl.GL_SCISSOR_BIT"
+		},
+		{
+			"trigger": "bgl.GL_SCISSOR_BOX\tbgl const",
+			"contents": "bgl.GL_SCISSOR_BOX"
+		},
+		{
+			"trigger": "bgl.GL_SCISSOR_TEST\tbgl const",
+			"contents": "bgl.GL_SCISSOR_TEST"
+		},
+		{
+			"trigger": "bgl.GL_SELECT\tbgl const",
+			"contents": "bgl.GL_SELECT"
+		},
+		{
+			"trigger": "bgl.GL_SET\tbgl const",
+			"contents": "bgl.GL_SET"
+		},
+		{
+			"trigger": "bgl.GL_SHADE_MODEL\tbgl const",
+			"contents": "bgl.GL_SHADE_MODEL"
+		},
+		{
+			"trigger": "bgl.GL_SHININESS\tbgl const",
+			"contents": "bgl.GL_SHININESS"
+		},
+		{
+			"trigger": "bgl.GL_SHORT\tbgl const",
+			"contents": "bgl.GL_SHORT"
+		},
+		{
+			"trigger": "bgl.GL_SMOOTH\tbgl const",
+			"contents": "bgl.GL_SMOOTH"
+		},
+		{
+			"trigger": "bgl.GL_SPECULAR\tbgl const",
+			"contents": "bgl.GL_SPECULAR"
+		},
+		{
+			"trigger": "bgl.GL_SPHERE_MAP\tbgl const",
+			"contents": "bgl.GL_SPHERE_MAP"
+		},
+		{
+			"trigger": "bgl.GL_SPOT_CUTOFF\tbgl const",
+			"contents": "bgl.GL_SPOT_CUTOFF"
+		},
+		{
+			"trigger": "bgl.GL_SPOT_DIRECTION\tbgl const",
+			"contents": "bgl.GL_SPOT_DIRECTION"
+		},
+		{
+			"trigger": "bgl.GL_SPOT_EXPONENT\tbgl const",
+			"contents": "bgl.GL_SPOT_EXPONENT"
+		},
+		{
+			"trigger": "bgl.GL_SRC_ALPHA\tbgl const",
+			"contents": "bgl.GL_SRC_ALPHA"
+		},
+		{
+			"trigger": "bgl.GL_SRC_ALPHA_SATURATE\tbgl const",
+			"contents": "bgl.GL_SRC_ALPHA_SATURATE"
+		},
+		{
+			"trigger": "bgl.GL_SRC_COLOR\tbgl const",
+			"contents": "bgl.GL_SRC_COLOR"
+		},
+		{
+			"trigger": "bgl.GL_STACK_OVERFLOW\tbgl const",
+			"contents": "bgl.GL_STACK_OVERFLOW"
+		},
+		{
+			"trigger": "bgl.GL_STACK_UNDERFLOW\tbgl const",
+			"contents": "bgl.GL_STACK_UNDERFLOW"
+		},
+		{
+			"trigger": "bgl.GL_STENCIL\tbgl const",
+			"contents": "bgl.GL_STENCIL"
+		},
+		{
+			"trigger": "bgl.GL_STENCIL_BITS\tbgl const",
+			"contents": "bgl.GL_STENCIL_BITS"
+		},
+		{
+			"trigger": "bgl.GL_STENCIL_BUFFER_BIT\tbgl const",
+			"contents": "bgl.GL_STENCIL_BUFFER_BIT"
+		},
+		{
+			"trigger": "bgl.GL_STENCIL_CLEAR_VALUE\tbgl const",
+			"contents": "bgl.GL_STENCIL_CLEAR_VALUE"
+		},
+		{
+			"trigger": "bgl.GL_STENCIL_FAIL\tbgl const",
+			"contents": "bgl.GL_STENCIL_FAIL"
+		},
+		{
+			"trigger": "bgl.GL_STENCIL_FUNC\tbgl const",
+			"contents": "bgl.GL_STENCIL_FUNC"
+		},
+		{
+			"trigger": "bgl.GL_STENCIL_INDEX\tbgl const",
+			"contents": "bgl.GL_STENCIL_INDEX"
+		},
+		{
+			"trigger": "bgl.GL_STENCIL_PASS_DEPTH_FAIL\tbgl const",
+			"contents": "bgl.GL_STENCIL_PASS_DEPTH_FAIL"
+		},
+		{
+			"trigger": "bgl.GL_STENCIL_PASS_DEPTH_PASS\tbgl const",
+			"contents": "bgl.GL_STENCIL_PASS_DEPTH_PASS"
+		},
+		{
+			"trigger": "bgl.GL_STENCIL_REF\tbgl const",
+			"contents": "bgl.GL_STENCIL_REF"
+		},
+		{
+			"trigger": "bgl.GL_STENCIL_TEST\tbgl const",
+			"contents": "bgl.GL_STENCIL_TEST"
+		},
+		{
+			"trigger": "bgl.GL_STENCIL_VALUE_MASK\tbgl const",
+			"contents": "bgl.GL_STENCIL_VALUE_MASK"
+		},
+		{
+			"trigger": "bgl.GL_STENCIL_WRITEMASK\tbgl const",
+			"contents": "bgl.GL_STENCIL_WRITEMASK"
+		},
+		{
+			"trigger": "bgl.GL_STEREO\tbgl const",
+			"contents": "bgl.GL_STEREO"
+		},
+		{
+			"trigger": "bgl.GL_SUBPIXEL_BITS\tbgl const",
+			"contents": "bgl.GL_SUBPIXEL_BITS"
+		},
+		{
+			"trigger": "bgl.GL_T\tbgl const",
+			"contents": "bgl.GL_T"
+		},
+		{
+			"trigger": "bgl.GL_TEXTURE\tbgl const",
+			"contents": "bgl.GL_TEXTURE"
+		},
+		{
+			"trigger": "bgl.GL_TEXTURE0\tbgl const",
+			"contents": "bgl.GL_TEXTURE0"
+		},
+		{
+			"trigger": "bgl.GL_TEXTURE1\tbgl const",
+			"contents": "bgl.GL_TEXTURE1"
+		},
+		{
+			"trigger": "bgl.GL_TEXTURE2\tbgl const",
+			"contents": "bgl.GL_TEXTURE2"
+		},
+		{
+			"trigger": "bgl.GL_TEXTURE3\tbgl const",
+			"contents": "bgl.GL_TEXTURE3"
+		},
+		{
+			"trigger": "bgl.GL_TEXTURE4\tbgl const",
+			"contents": "bgl.GL_TEXTURE4"
+		},
+		{
+			"trigger": "bgl.GL_TEXTURE5\tbgl const",
+			"contents": "bgl.GL_TEXTURE5"
+		},
+		{
+			"trigger": "bgl.GL_TEXTURE6\tbgl const",
+			"contents": "bgl.GL_TEXTURE6"
+		},
+		{
+			"trigger": "bgl.GL_TEXTURE7\tbgl const",
+			"contents": "bgl.GL_TEXTURE7"
+		},
+		{
+			"trigger": "bgl.GL_TEXTURE8\tbgl const",
+			"contents": "bgl.GL_TEXTURE8"
+		},
+		{
+			"trigger": "bgl.GL_TEXTURE_1D\tbgl const",
+			"contents": "bgl.GL_TEXTURE_1D"
+		},
+		{
+			"trigger": "bgl.GL_TEXTURE_2D\tbgl const",
+			"contents": "bgl.GL_TEXTURE_2D"
+		},
+		{
+			"trigger": "bgl.GL_TEXTURE_BINDING_1D\tbgl const",
+			"contents": "bgl.GL_TEXTURE_BINDING_1D"
+		},
+		{
+			"trigger": "bgl.GL_TEXTURE_BINDING_2D\tbgl const",
+			"contents": "bgl.GL_TEXTURE_BINDING_2D"
+		},
+		{
+			"trigger": "bgl.GL_TEXTURE_BIT\tbgl const",
+			"contents": "bgl.GL_TEXTURE_BIT"
+		},
+		{
+			"trigger": "bgl.GL_TEXTURE_BORDER\tbgl const",
+			"contents": "bgl.GL_TEXTURE_BORDER"
+		},
+		{
+			"trigger": "bgl.GL_TEXTURE_BORDER_COLOR\tbgl const",
+			"contents": "bgl.GL_TEXTURE_BORDER_COLOR"
+		},
+		{
+			"trigger": "bgl.GL_TEXTURE_COMPARE_MODE\tbgl const",
+			"contents": "bgl.GL_TEXTURE_COMPARE_MODE"
+		},
+		{
+			"trigger": "bgl.GL_TEXTURE_COMPONENTS\tbgl const",
+			"contents": "bgl.GL_TEXTURE_COMPONENTS"
+		},
+		{
+			"trigger": "bgl.GL_TEXTURE_ENV\tbgl const",
+			"contents": "bgl.GL_TEXTURE_ENV"
+		},
+		{
+			"trigger": "bgl.GL_TEXTURE_ENV_COLOR\tbgl const",
+			"contents": "bgl.GL_TEXTURE_ENV_COLOR"
+		},
+		{
+			"trigger": "bgl.GL_TEXTURE_ENV_MODE\tbgl const",
+			"contents": "bgl.GL_TEXTURE_ENV_MODE"
+		},
+		{
+			"trigger": "bgl.GL_TEXTURE_GEN_MODE\tbgl const",
+			"contents": "bgl.GL_TEXTURE_GEN_MODE"
+		},
+		{
+			"trigger": "bgl.GL_TEXTURE_GEN_Q\tbgl const",
+			"contents": "bgl.GL_TEXTURE_GEN_Q"
+		},
+		{
+			"trigger": "bgl.GL_TEXTURE_GEN_R\tbgl const",
+			"contents": "bgl.GL_TEXTURE_GEN_R"
+		},
+		{
+			"trigger": "bgl.GL_TEXTURE_GEN_S\tbgl const",
+			"contents": "bgl.GL_TEXTURE_GEN_S"
+		},
+		{
+			"trigger": "bgl.GL_TEXTURE_GEN_T\tbgl const",
+			"contents": "bgl.GL_TEXTURE_GEN_T"
+		},
+		{
+			"trigger": "bgl.GL_TEXTURE_HEIGHT\tbgl const",
+			"contents": "bgl.GL_TEXTURE_HEIGHT"
+		},
+		{
+			"trigger": "bgl.GL_TEXTURE_MAG_FILTER\tbgl const",
+			"contents": "bgl.GL_TEXTURE_MAG_FILTER"
+		},
+		{
+			"trigger": "bgl.GL_TEXTURE_MATRIX\tbgl const",
+			"contents": "bgl.GL_TEXTURE_MATRIX"
+		},
+		{
+			"trigger": "bgl.GL_TEXTURE_MIN_FILTER\tbgl const",
+			"contents": "bgl.GL_TEXTURE_MIN_FILTER"
+		},
+		{
+			"trigger": "bgl.GL_TEXTURE_PRIORITY\tbgl const",
+			"contents": "bgl.GL_TEXTURE_PRIORITY"
+		},
+		{
+			"trigger": "bgl.GL_TEXTURE_RESIDENT\tbgl const",
+			"contents": "bgl.GL_TEXTURE_RESIDENT"
+		},
+		{
+			"trigger": "bgl.GL_TEXTURE_STACK_DEPTH\tbgl const",
+			"contents": "bgl.GL_TEXTURE_STACK_DEPTH"
+		},
+		{
+			"trigger": "bgl.GL_TEXTURE_WIDTH\tbgl const",
+			"contents": "bgl.GL_TEXTURE_WIDTH"
+		},
+		{
+			"trigger": "bgl.GL_TEXTURE_WRAP_S\tbgl const",
+			"contents": "bgl.GL_TEXTURE_WRAP_S"
+		},
+		{
+			"trigger": "bgl.GL_TEXTURE_WRAP_T\tbgl const",
+			"contents": "bgl.GL_TEXTURE_WRAP_T"
+		},
+		{
+			"trigger": "bgl.GL_TRANSFORM_BIT\tbgl const",
+			"contents": "bgl.GL_TRANSFORM_BIT"
+		},
+		{
+			"trigger": "bgl.GL_TRIANGLES\tbgl const",
+			"contents": "bgl.GL_TRIANGLES"
+		},
+		{
+			"trigger": "bgl.GL_TRIANGLE_FAN\tbgl const",
+			"contents": "bgl.GL_TRIANGLE_FAN"
+		},
+		{
+			"trigger": "bgl.GL_TRIANGLE_STRIP\tbgl const",
+			"contents": "bgl.GL_TRIANGLE_STRIP"
+		},
+		{
+			"trigger": "bgl.GL_TRUE\tbgl const",
+			"contents": "bgl.GL_TRUE"
+		},
+		{
+			"trigger": "bgl.GL_UNPACK_ALIGNMENT\tbgl const",
+			"contents": "bgl.GL_UNPACK_ALIGNMENT"
+		},
+		{
+			"trigger": "bgl.GL_UNPACK_LSB_FIRST\tbgl const",
+			"contents": "bgl.GL_UNPACK_LSB_FIRST"
+		},
+		{
+			"trigger": "bgl.GL_UNPACK_ROW_LENGTH\tbgl const",
+			"contents": "bgl.GL_UNPACK_ROW_LENGTH"
+		},
+		{
+			"trigger": "bgl.GL_UNPACK_SKIP_PIXELS\tbgl const",
+			"contents": "bgl.GL_UNPACK_SKIP_PIXELS"
+		},
+		{
+			"trigger": "bgl.GL_UNPACK_SKIP_ROWS\tbgl const",
+			"contents": "bgl.GL_UNPACK_SKIP_ROWS"
+		},
+		{
+			"trigger": "bgl.GL_UNPACK_SWAP_BYTES\tbgl const",
+			"contents": "bgl.GL_UNPACK_SWAP_BYTES"
+		},
+		{
+			"trigger": "bgl.GL_UNSIGNED_BYTE\tbgl const",
+			"contents": "bgl.GL_UNSIGNED_BYTE"
+		},
+		{
+			"trigger": "bgl.GL_UNSIGNED_INT\tbgl const",
+			"contents": "bgl.GL_UNSIGNED_INT"
+		},
+		{
+			"trigger": "bgl.GL_UNSIGNED_SHORT\tbgl const",
+			"contents": "bgl.GL_UNSIGNED_SHORT"
+		},
+		{
+			"trigger": "bgl.GL_VENDOR\tbgl const",
+			"contents": "bgl.GL_VENDOR"
+		},
+		{
+			"trigger": "bgl.GL_VERSION\tbgl const",
+			"contents": "bgl.GL_VERSION"
+		},
+		{
+			"trigger": "bgl.GL_VERTEX_SHADER\tbgl const",
+			"contents": "bgl.GL_VERTEX_SHADER"
+		},
+		{
+			"trigger": "bgl.GL_VIEWPORT\tbgl const",
+			"contents": "bgl.GL_VIEWPORT"
+		},
+		{
+			"trigger": "bgl.GL_VIEWPORT_BIT\tbgl const",
+			"contents": "bgl.GL_VIEWPORT_BIT"
+		},
+		{
+			"trigger": "bgl.GL_XOR\tbgl const",
+			"contents": "bgl.GL_XOR"
+		},
+		{
+			"trigger": "bgl.GL_ZERO\tbgl const",
+			"contents": "bgl.GL_ZERO"
+		},
+		{
+			"trigger": "bgl.GL_ZOOM_X\tbgl const",
+			"contents": "bgl.GL_ZOOM_X"
+		},
+		{
+			"trigger": "bgl.GL_ZOOM_Y\tbgl const",
+			"contents": "bgl.GL_ZOOM_Y"
+		}
+	]
+}
