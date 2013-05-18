@@ -3,6 +3,9 @@
 	[
 		{
 			"path": "."
+		},
+		{
+			"path": "~/.config/sublime-text-2/Packages/Blender-Auto-Complete/"
 		}
 	]
 }

@@ -7,374 +7,3958 @@
 			"trigger": "aud\taud",
 			"contents": "aud"
 		},
-		{
-			"trigger": "aud.Device()\taud sub-class",
-			"contents": "aud.Device(${1:obj})"
-		},
-		{
-			"trigger": "aud.Factory()\taud sub-class",
-			"contents": "aud.Factory(${1:obj})"
-		},
-		{
-			"trigger": "aud.Handle()\taud sub-class",
-			"contents": "aud.Handle(${1:obj})"
-		},
+			{
+				"trigger": "device()\taud function",
+				"contents": "device(${1})"
+			},
+			// sub classes
+			{
+				"trigger": "aud.Device()\taud sub-class",
+				"contents": "aud.Device(${1})"
+			},
+				
+				{
+					"trigger": "channels\tDevice property",
+					"contents" : "channels"
+				},
+				{
+					"trigger": "distance_model\tDevice property",
+					"contents" : "distance_model"
+				},
+				{
+					"trigger": "doppler_factor\tDevice property",
+					"contents" : "doppler_factor"
+				},
+				{
+					"trigger": "format\tDevice property",
+					"contents" : "format"
+				},
+				{
+					"trigger": "listener_location\tDevice property",
+					"contents" : "listener_location"
+				},
+				{
+					"trigger": "listener_orientation\tDevice property",
+					"contents" : "listener_orientation"
+				},
+				{
+					"trigger": "listener_velocity\tDevice property",
+					"contents" : "listener_velocity"
+				},
+				{
+					"trigger": "rate\tDevice property",
+					"contents" : "rate"
+				},
+				{
+					"trigger": "speed_of_sound\tDevice property",
+					"contents" : "speed_of_sound"
+				},
+				{
+					"trigger": "volume\tDevice property",
+					"contents" : "volume"
+				},
+				{
+					"trigger": "lock()\tDevice method",
+					"contents": "lock(${1}):"
+				},
+				{
+					"trigger": "play()\tDevice method",
+					"contents": "play(${1}):"
+				},
+				{
+					"trigger": "stopAll()\tDevice method",
+					"contents": "stopAll(${1}):"
+				},
+				{
+					"trigger": "unlock()\tDevice method",
+					"contents": "unlock(${1}):"
+				},
+			{
+				"trigger": "aud.Factory()\taud sub-class",
+				"contents": "aud.Factory(${1})"
+			},
+				{
+					"trigger": "file()\tFactory method",
+					"contents": "file(${1})"
+				},
+				{
+					"trigger": "sine()\tFactory method",
+					"contents": "sine(${1})"
+				},
+				{
+					"trigger": "buffer()\tFactory method",
+					"contents": "buffer(${1})"
+				},
+				{
+					"trigger": "delay()\tFactory method",
+					"contents": "delay(${1})"
+				},
+				{
+					"trigger": "fadein()\tFactory method",
+					"contents": "fadein(${1})"
+				},
+				{
+					"trigger": "fadeout()\tFactory method",
+					"contents": "fadeout(${1})"
+				},
+				{
+					"trigger": "filter()\tFactory method",
+					"contents": "filter(${1})"
+				},
+				{
+					"trigger": "highpass()\tFactory method",
+					"contents": "highpass(${1})"
+				},
+				{
+					"trigger": "join()\tFactory method",
+					"contents": "join(${1})"
+				},
+				{
+					"trigger": "limit()\tFactory method",
+					"contents": "limit(${1})"
+				},
+				{
+					"trigger": "loop()\tFactory method",
+					"contents": "loop(${1})"
+				},
+				{
+					"trigger": "lowpass()\tFactory method",
+					"contents": "lowpass(${1})"
+				},
+				{
+					"trigger": "mix()\tFactory method",
+					"contents": "mix(${1})"
+				},
+				{
+					"trigger": "pingpong()\tFactory method",
+					"contents": "pingpong(${1})"
+				},
+				{
+					"trigger": "pitch()\tFactory method",
+					"contents": "pitch(${1})"
+				},
+				{
+					"trigger": "reverse()\tFactory method",
+					"contents": "reverse(${1})"
+				},
+				{
+					"trigger": "square()\tFactory method",
+					"contents": "square(${1})"
+				},
+				{
+					"trigger": "volume()\tFactory method",
+					"contents": "volume(${1})"
+				},
+			{
+				"trigger": "aud.Handle()\taud sub-class",
+				"contents": "aud.Handle(${1})"
+			},
+				{
+					"trigger": "pause()\tHandle method",
+					"contents": "pause(${1})"
+				},
+				{
+					"trigger": "resume()\tHandle method",
+					"contents": "resume(${1})"
+				},
+				{
+					"trigger": "stop()\tHandle method",
+					"contents": "stop(${1})"
+				},
+				{
+					"trigger": "attenuation\tHandle property",
+					"contents": "attenuation"
+				},
+				{
+					"trigger": "cone_angle_inner\tHandle property",
+					"contents": "cone_angle_inner"
+				},
+				{
+					"trigger": "cone_angle_outer\tHandle property",
+					"contents": "cone_angle_outer"
+				},
+				{
+					"trigger": "cone_volume_outer\tHandle property",
+					"contents": "cone_volume_outer"
+				},
+				{
+					"trigger": "distance_maximum\tHandle property",
+					"contents": "distance_maximum"
+				},
+				{
+					"trigger": "distance_reference\tHandle property",
+					"contents": "distance_reference"
+				},
+				{
+					"trigger": "keep\tHandle property",
+					"contents": "keep"
+				},
+				{
+					"trigger": "location\tHandle property",
+					"contents": "location"
+				},
+				{
+					"trigger": "loop_count\tHandle property",
+					"contents": "loop_count"
+				},
+				{
+					"trigger": "orientation\tHandle property",
+					"contents": "orientation"
+				},
+				{
+					"trigger": "pitch\tHandle property",
+					"contents": "pitch"
+				},
+				{
+					"trigger": "position\tHandle property",
+					"contents": "position"
+				},
+				{
+					"trigger": "relative\tHandle property",
+					"contents": "relative"
+				},
+				{
+					"trigger": "status\tHandle property",
+					"contents": "status"
+				},
+				{
+					"trigger": "velocity\tHandle property",
+					"contents": "velocity"
+				},
+				{
+					"trigger": "volume\tHandle property",
+					"contents": "volume"
+				},
+				{
+					"trigger": "volume_maximum\tHandle property",
+					"contents": "volume_maximum"
+				},
+				{
+					"trigger": "volume_minimum\tHandle property",
+					"contents": "volume_minimum"
+				},
 		{
 			"trigger": "aud.error\taud sub-class",
 			"contents": "aud.error"
 		},
+
+
+		// Blender game engine
 		{
 			"trigger": "bge\tbge",
 			"contents": "bge"
 		},
-		{
-			"trigger": "bge.constraints\tbge sub-class",
-			"contents": "bge.constraints"
-		},
-		{
-			"trigger": "bge.events\tbge sub-class",
-			"contents": "bge.events"
-		},
-		{
-			"trigger": "bge.logic\tbge sub-class",
-			"contents": "bge.logic"
-		},
-		{
-			"trigger": "bge.render\tbge sub-class",
-			"contents": "bge.render"
-		},
-		{
-			"trigger": "bge.texture\tbge sub-class",
-			"contents": "bge.texture"
-		},
-		{
-			"trigger": "bge.types\tbge sub-class",
-			"contents": "bge.types"
-		},
+			{
+				"trigger": "bge.constraints\tbge sub-class",
+				"contents": "bge.constraints"
+			},
+			{
+				"trigger": "bge.events\tbge sub-class",
+				"contents": "bge.events"
+			},
+			{
+				"trigger": "bge.logic\tbge sub-class",
+				"contents": "bge.logic"
+			},
+			{
+				"trigger": "bge.render\tbge sub-class",
+				"contents": "bge.render"
+			},
+			{
+				"trigger": "bge.texture\tbge sub-class",
+				"contents": "bge.texture"
+			},
+			{
+				"trigger": "bge.types\tbge sub-class",
+				"contents": "bge.types"
+			},
+
 		{
 			"trigger": "bgl\tbgl",
 			"contents": "bgl"
 		},
+			{
+				"trigger": "GL_2D\tbgl constant",
+				"contents": "GL_2D"
+			},
+			{
+				"trigger": "GL_2_BYTES\tbgl constant",
+				"contents": "GL_2_BYTES"
+			},
+			{
+				"trigger": "GL_3D\tbgl constant",
+				"contents": "GL_3D"
+			},
+			{
+				"trigger": "GL_3D_COLOR\tbgl constant",
+				"contents": "GL_3D_COLOR"
+			},
+			{
+				"trigger": "GL_3D_COLOR_TEXTURE\tbgl constant",
+				"contents": "GL_3D_COLOR_TEXTURE"
+			},
+			{
+				"trigger": "GL_3_BYTES\tbgl constant",
+				"contents": "GL_3_BYTES"
+			},
+			{
+				"trigger": "GL_4D_COLOR_TEXTURE\tbgl constant",
+				"contents": "GL_4D_COLOR_TEXTURE"
+			},
+			{
+				"trigger": "GL_4_BYTES\tbgl constant",
+				"contents": "GL_4_BYTES"
+			},
+			{
+				"trigger": "GL_ACCUM\tbgl constant",
+				"contents": "GL_ACCUM"
+			},
+			{
+				"trigger": "GL_ACCUM_ALPHA_BITS\tbgl constant",
+				"contents": "GL_ACCUM_ALPHA_BITS"
+			},
+			{
+				"trigger": "GL_ACCUM_BLUE_BITS\tbgl constant",
+				"contents": "GL_ACCUM_BLUE_BITS"
+			},
+			{
+				"trigger": "GL_ACCUM_BUFFER_BIT\tbgl constant",
+				"contents": "GL_ACCUM_BUFFER_BIT"
+			},
+			{
+				"trigger": "GL_ACCUM_CLEAR_VALUE\tbgl constant",
+				"contents": "GL_ACCUM_CLEAR_VALUE"
+			},
+			{
+				"trigger": "GL_ACCUM_GREEN_BITS\tbgl constant",
+				"contents": "GL_ACCUM_GREEN_BITS"
+			},
+			{
+				"trigger": "GL_ACCUM_RED_BITS\tbgl constant",
+				"contents": "GL_ACCUM_RED_BITS"
+			},
+			{
+				"trigger": "GL_ACTIVE_TEXTURE\tbgl constant",
+				"contents": "GL_ACTIVE_TEXTURE"
+			},
+			{
+				"trigger": "GL_ADD\tbgl constant",
+				"contents": "GL_ADD"
+			},
+			{
+				"trigger": "GL_ALL_ATTRIB_BITS\tbgl constant",
+				"contents": "GL_ALL_ATTRIB_BITS"
+			},
+			{
+				"trigger": "GL_ALPHA\tbgl constant",
+				"contents": "GL_ALPHA"
+			},
+			{
+				"trigger": "GL_ALPHA_BIAS\tbgl constant",
+				"contents": "GL_ALPHA_BIAS"
+			},
+			{
+				"trigger": "GL_ALPHA_BITS\tbgl constant",
+				"contents": "GL_ALPHA_BITS"
+			},
+			{
+				"trigger": "GL_ALPHA_SCALE\tbgl constant",
+				"contents": "GL_ALPHA_SCALE"
+			},
+			{
+				"trigger": "GL_ALPHA_TEST\tbgl constant",
+				"contents": "GL_ALPHA_TEST"
+			},
+			{
+				"trigger": "GL_ALPHA_TEST_FUNC\tbgl constant",
+				"contents": "GL_ALPHA_TEST_FUNC"
+			},
+			{
+				"trigger": "GL_ALPHA_TEST_REF\tbgl constant",
+				"contents": "GL_ALPHA_TEST_REF"
+			},
+			{
+				"trigger": "GL_ALWAYS\tbgl constant",
+				"contents": "GL_ALWAYS"
+			},
+			{
+				"trigger": "GL_AMBIENT\tbgl constant",
+				"contents": "GL_AMBIENT"
+			},
+			{
+				"trigger": "GL_AMBIENT_AND_DIFFUSE\tbgl constant",
+				"contents": "GL_AMBIENT_AND_DIFFUSE"
+			},
+			{
+				"trigger": "GL_AND\tbgl constant",
+				"contents": "GL_AND"
+			},
+			{
+				"trigger": "GL_AND_INVERTED\tbgl constant",
+				"contents": "GL_AND_INVERTED"
+			},
+			{
+				"trigger": "GL_AND_REVERSE\tbgl constant",
+				"contents": "GL_AND_REVERSE"
+			},
+			{
+				"trigger": "GL_ATTRIB_STACK_DEPTH\tbgl constant",
+				"contents": "GL_ATTRIB_STACK_DEPTH"
+			},
+			{
+				"trigger": "GL_AUTO_NORMAL\tbgl constant",
+				"contents": "GL_AUTO_NORMAL"
+			},
+			{
+				"trigger": "GL_AUX0\tbgl constant",
+				"contents": "GL_AUX0"
+			},
+			{
+				"trigger": "GL_AUX1\tbgl constant",
+				"contents": "GL_AUX1"
+			},
+			{
+				"trigger": "GL_AUX2\tbgl constant",
+				"contents": "GL_AUX2"
+			},
+			{
+				"trigger": "GL_AUX3\tbgl constant",
+				"contents": "GL_AUX3"
+			},
+			{
+				"trigger": "GL_AUX_BUFFERS\tbgl constant",
+				"contents": "GL_AUX_BUFFERS"
+			},
+			{
+				"trigger": "GL_BACK\tbgl constant",
+				"contents": "GL_BACK"
+			},
+			{
+				"trigger": "GL_BACK_LEFT\tbgl constant",
+				"contents": "GL_BACK_LEFT"
+			},
+			{
+				"trigger": "GL_BACK_RIGHT\tbgl constant",
+				"contents": "GL_BACK_RIGHT"
+			},
+			{
+				"trigger": "GL_BITMAP\tbgl constant",
+				"contents": "GL_BITMAP"
+			},
+			{
+				"trigger": "GL_BITMAP_TOKEN\tbgl constant",
+				"contents": "GL_BITMAP_TOKEN"
+			},
+			{
+				"trigger": "GL_BLEND\tbgl constant",
+				"contents": "GL_BLEND"
+			},
+			{
+				"trigger": "GL_BLEND_DST\tbgl constant",
+				"contents": "GL_BLEND_DST"
+			},
+			{
+				"trigger": "GL_BLEND_SRC\tbgl constant",
+				"contents": "GL_BLEND_SRC"
+			},
+			{
+				"trigger": "GL_BLUE\tbgl constant",
+				"contents": "GL_BLUE"
+			},
+			{
+				"trigger": "GL_BLUE_BIAS\tbgl constant",
+				"contents": "GL_BLUE_BIAS"
+			},
+			{
+				"trigger": "GL_BLUE_BITS\tbgl constant",
+				"contents": "GL_BLUE_BITS"
+			},
+			{
+				"trigger": "GL_BLUE_SCALE\tbgl constant",
+				"contents": "GL_BLUE_SCALE"
+			},
+			{
+				"trigger": "GL_BYTE\tbgl constant",
+				"contents": "GL_BYTE"
+			},
+			{
+				"trigger": "GL_CCW\tbgl constant",
+				"contents": "GL_CCW"
+			},
+			{
+				"trigger": "GL_CLAMP\tbgl constant",
+				"contents": "GL_CLAMP"
+			},
+			{
+				"trigger": "GL_CLEAR\tbgl constant",
+				"contents": "GL_CLEAR"
+			},
+			{
+				"trigger": "GL_CLIENT_ALL_ATTRIB_BITS\tbgl constant",
+				"contents": "GL_CLIENT_ALL_ATTRIB_BITS"
+			},
+			{
+				"trigger": "GL_CLIP_PLANE0\tbgl constant",
+				"contents": "GL_CLIP_PLANE0"
+			},
+			{
+				"trigger": "GL_CLIP_PLANE1\tbgl constant",
+				"contents": "GL_CLIP_PLANE1"
+			},
+			{
+				"trigger": "GL_CLIP_PLANE2\tbgl constant",
+				"contents": "GL_CLIP_PLANE2"
+			},
+			{
+				"trigger": "GL_CLIP_PLANE3\tbgl constant",
+				"contents": "GL_CLIP_PLANE3"
+			},
+			{
+				"trigger": "GL_CLIP_PLANE4\tbgl constant",
+				"contents": "GL_CLIP_PLANE4"
+			},
+			{
+				"trigger": "GL_CLIP_PLANE5\tbgl constant",
+				"contents": "GL_CLIP_PLANE5"
+			},
+			{
+				"trigger": "GL_COEFF\tbgl constant",
+				"contents": "GL_COEFF"
+			},
+			{
+				"trigger": "GL_COLOR\tbgl constant",
+				"contents": "GL_COLOR"
+			},
+			{
+				"trigger": "GL_COLOR_BUFFER_BIT\tbgl constant",
+				"contents": "GL_COLOR_BUFFER_BIT"
+			},
+			{
+				"trigger": "GL_COLOR_CLEAR_VALUE\tbgl constant",
+				"contents": "GL_COLOR_CLEAR_VALUE"
+			},
+			{
+				"trigger": "GL_COLOR_INDEX\tbgl constant",
+				"contents": "GL_COLOR_INDEX"
+			},
+			{
+				"trigger": "GL_COLOR_INDEXES\tbgl constant",
+				"contents": "GL_COLOR_INDEXES"
+			},
+			{
+				"trigger": "GL_COLOR_MATERIAL\tbgl constant",
+				"contents": "GL_COLOR_MATERIAL"
+			},
+			{
+				"trigger": "GL_COLOR_MATERIAL_FACE\tbgl constant",
+				"contents": "GL_COLOR_MATERIAL_FACE"
+			},
+			{
+				"trigger": "GL_COLOR_MATERIAL_PARAMETER\tbgl constant",
+				"contents": "GL_COLOR_MATERIAL_PARAMETER"
+			},
+			{
+				"trigger": "GL_COLOR_WRITEMASK\tbgl constant",
+				"contents": "GL_COLOR_WRITEMASK"
+			},
+			{
+				"trigger": "GL_COMPILE\tbgl constant",
+				"contents": "GL_COMPILE"
+			},
+			{
+				"trigger": "GL_COMPILE_AND_EXECUTE\tbgl constant",
+				"contents": "GL_COMPILE_AND_EXECUTE"
+			},
+			{
+				"trigger": "GL_COMPILE_STATUS\tbgl constant",
+				"contents": "GL_COMPILE_STATUS"
+			},
+			{
+				"trigger": "GL_CONSTANT_ATTENUATION\tbgl constant",
+				"contents": "GL_CONSTANT_ATTENUATION"
+			},
+			{
+				"trigger": "GL_COPY\tbgl constant",
+				"contents": "GL_COPY"
+			},
+			{
+				"trigger": "GL_COPY_INVERTED\tbgl constant",
+				"contents": "GL_COPY_INVERTED"
+			},
+			{
+				"trigger": "GL_COPY_PIXEL_TOKEN\tbgl constant",
+				"contents": "GL_COPY_PIXEL_TOKEN"
+			},
+			{
+				"trigger": "GL_CULL_FACE\tbgl constant",
+				"contents": "GL_CULL_FACE"
+			},
+			{
+				"trigger": "GL_CULL_FACE_MODE\tbgl constant",
+				"contents": "GL_CULL_FACE_MODE"
+			},
+			{
+				"trigger": "GL_CURRENT_BIT\tbgl constant",
+				"contents": "GL_CURRENT_BIT"
+			},
+			{
+				"trigger": "GL_CURRENT_COLOR\tbgl constant",
+				"contents": "GL_CURRENT_COLOR"
+			},
+			{
+				"trigger": "GL_CURRENT_INDEX\tbgl constant",
+				"contents": "GL_CURRENT_INDEX"
+			},
+			{
+				"trigger": "GL_CURRENT_NORMAL\tbgl constant",
+				"contents": "GL_CURRENT_NORMAL"
+			},
+			{
+				"trigger": "GL_CURRENT_RASTER_COLOR\tbgl constant",
+				"contents": "GL_CURRENT_RASTER_COLOR"
+			},
+			{
+				"trigger": "GL_CURRENT_RASTER_DISTANCE\tbgl constant",
+				"contents": "GL_CURRENT_RASTER_DISTANCE"
+			},
+			{
+				"trigger": "GL_CURRENT_RASTER_INDEX\tbgl constant",
+				"contents": "GL_CURRENT_RASTER_INDEX"
+			},
+			{
+				"trigger": "GL_CURRENT_RASTER_POSITION\tbgl constant",
+				"contents": "GL_CURRENT_RASTER_POSITION"
+			},
+			{
+				"trigger": "GL_CURRENT_RASTER_POSITION_VALID\tbgl constant",
+				"contents": "GL_CURRENT_RASTER_POSITION_VALID"
+			},
+			{
+				"trigger": "GL_CURRENT_RASTER_TEXTURE_COORDS\tbgl constant",
+				"contents": "GL_CURRENT_RASTER_TEXTURE_COORDS"
+			},
+			{
+				"trigger": "GL_CURRENT_TEXTURE_COORDS\tbgl constant",
+				"contents": "GL_CURRENT_TEXTURE_COORDS"
+			},
+			{
+				"trigger": "GL_CW\tbgl constant",
+				"contents": "GL_CW"
+			},
+			{
+				"trigger": "GL_DECAL\tbgl constant",
+				"contents": "GL_DECAL"
+			},
+			{
+				"trigger": "GL_DECR\tbgl constant",
+				"contents": "GL_DECR"
+			},
+			{
+				"trigger": "GL_DEPTH\tbgl constant",
+				"contents": "GL_DEPTH"
+			},
+			{
+				"trigger": "GL_DEPTH_BIAS\tbgl constant",
+				"contents": "GL_DEPTH_BIAS"
+			},
+			{
+				"trigger": "GL_DEPTH_BITS\tbgl constant",
+				"contents": "GL_DEPTH_BITS"
+			},
+			{
+				"trigger": "GL_DEPTH_BUFFER_BIT\tbgl constant",
+				"contents": "GL_DEPTH_BUFFER_BIT"
+			},
+			{
+				"trigger": "GL_DEPTH_CLEAR_VALUE\tbgl constant",
+				"contents": "GL_DEPTH_CLEAR_VALUE"
+			},
+			{
+				"trigger": "GL_DEPTH_COMPONENT\tbgl constant",
+				"contents": "GL_DEPTH_COMPONENT"
+			},
+			{
+				"trigger": "GL_DEPTH_COMPONENT32\tbgl constant",
+				"contents": "GL_DEPTH_COMPONENT32"
+			},
+			{
+				"trigger": "GL_DEPTH_FUNC\tbgl constant",
+				"contents": "GL_DEPTH_FUNC"
+			},
+			{
+				"trigger": "GL_DEPTH_RANGE\tbgl constant",
+				"contents": "GL_DEPTH_RANGE"
+			},
+			{
+				"trigger": "GL_DEPTH_SCALE\tbgl constant",
+				"contents": "GL_DEPTH_SCALE"
+			},
+			{
+				"trigger": "GL_DEPTH_TEST\tbgl constant",
+				"contents": "GL_DEPTH_TEST"
+			},
+			{
+				"trigger": "GL_DEPTH_WRITEMASK\tbgl constant",
+				"contents": "GL_DEPTH_WRITEMASK"
+			},
+			{
+				"trigger": "GL_DIFFUSE\tbgl constant",
+				"contents": "GL_DIFFUSE"
+			},
+			{
+				"trigger": "GL_DITHER\tbgl constant",
+				"contents": "GL_DITHER"
+			},
+			{
+				"trigger": "GL_DOMAIN\tbgl constant",
+				"contents": "GL_DOMAIN"
+			},
+			{
+				"trigger": "GL_DONT_CARE\tbgl constant",
+				"contents": "GL_DONT_CARE"
+			},
+			{
+				"trigger": "GL_DOUBLE\tbgl constant",
+				"contents": "GL_DOUBLE"
+			},
+			{
+				"trigger": "GL_DOUBLEBUFFER\tbgl constant",
+				"contents": "GL_DOUBLEBUFFER"
+			},
+			{
+				"trigger": "GL_DRAW_BUFFER\tbgl constant",
+				"contents": "GL_DRAW_BUFFER"
+			},
+			{
+				"trigger": "GL_DRAW_PIXEL_TOKEN\tbgl constant",
+				"contents": "GL_DRAW_PIXEL_TOKEN"
+			},
+			{
+				"trigger": "GL_DST_ALPHA\tbgl constant",
+				"contents": "GL_DST_ALPHA"
+			},
+			{
+				"trigger": "GL_DST_COLOR\tbgl constant",
+				"contents": "GL_DST_COLOR"
+			},
+			{
+				"trigger": "GL_EDGE_FLAG\tbgl constant",
+				"contents": "GL_EDGE_FLAG"
+			},
+			{
+				"trigger": "GL_EMISSION\tbgl constant",
+				"contents": "GL_EMISSION"
+			},
+			{
+				"trigger": "GL_ENABLE_BIT\tbgl constant",
+				"contents": "GL_ENABLE_BIT"
+			},
+			{
+				"trigger": "GL_EQUAL\tbgl constant",
+				"contents": "GL_EQUAL"
+			},
+			{
+				"trigger": "GL_EQUIV\tbgl constant",
+				"contents": "GL_EQUIV"
+			},
+			{
+				"trigger": "GL_EVAL_BIT\tbgl constant",
+				"contents": "GL_EVAL_BIT"
+			},
+			{
+				"trigger": "GL_EXP\tbgl constant",
+				"contents": "GL_EXP"
+			},
+			{
+				"trigger": "GL_EXP2\tbgl constant",
+				"contents": "GL_EXP2"
+			},
+			{
+				"trigger": "GL_EXTENSIONS\tbgl constant",
+				"contents": "GL_EXTENSIONS"
+			},
+			{
+				"trigger": "GL_EYE_LINEAR\tbgl constant",
+				"contents": "GL_EYE_LINEAR"
+			},
+			{
+				"trigger": "GL_EYE_PLANE\tbgl constant",
+				"contents": "GL_EYE_PLANE"
+			},
+			{
+				"trigger": "GL_FALSE\tbgl constant",
+				"contents": "GL_FALSE"
+			},
+			{
+				"trigger": "GL_FASTEST\tbgl constant",
+				"contents": "GL_FASTEST"
+			},
+			{
+				"trigger": "GL_FEEDBACK\tbgl constant",
+				"contents": "GL_FEEDBACK"
+			},
+			{
+				"trigger": "GL_FILL\tbgl constant",
+				"contents": "GL_FILL"
+			},
+			{
+				"trigger": "GL_FLAT\tbgl constant",
+				"contents": "GL_FLAT"
+			},
+			{
+				"trigger": "GL_FLOAT\tbgl constant",
+				"contents": "GL_FLOAT"
+			},
+			{
+				"trigger": "GL_FOG\tbgl constant",
+				"contents": "GL_FOG"
+			},
+			{
+				"trigger": "GL_FOG_BIT\tbgl constant",
+				"contents": "GL_FOG_BIT"
+			},
+			{
+				"trigger": "GL_FOG_COLOR\tbgl constant",
+				"contents": "GL_FOG_COLOR"
+			},
+			{
+				"trigger": "GL_FOG_DENSITY\tbgl constant",
+				"contents": "GL_FOG_DENSITY"
+			},
+			{
+				"trigger": "GL_FOG_END\tbgl constant",
+				"contents": "GL_FOG_END"
+			},
+			{
+				"trigger": "GL_FOG_HINT\tbgl constant",
+				"contents": "GL_FOG_HINT"
+			},
+			{
+				"trigger": "GL_FOG_INDEX\tbgl constant",
+				"contents": "GL_FOG_INDEX"
+			},
+			{
+				"trigger": "GL_FOG_MODE\tbgl constant",
+				"contents": "GL_FOG_MODE"
+			},
+			{
+				"trigger": "GL_FOG_START\tbgl constant",
+				"contents": "GL_FOG_START"
+			},
+			{
+				"trigger": "GL_FRAGMENT_SHADER\tbgl constant",
+				"contents": "GL_FRAGMENT_SHADER"
+			},
+			{
+				"trigger": "GL_FRONT\tbgl constant",
+				"contents": "GL_FRONT"
+			},
+			{
+				"trigger": "GL_FRONT_AND_BACK\tbgl constant",
+				"contents": "GL_FRONT_AND_BACK"
+			},
+			{
+				"trigger": "GL_FRONT_FACE\tbgl constant",
+				"contents": "GL_FRONT_FACE"
+			},
+			{
+				"trigger": "GL_FRONT_LEFT\tbgl constant",
+				"contents": "GL_FRONT_LEFT"
+			},
+			{
+				"trigger": "GL_FRONT_RIGHT\tbgl constant",
+				"contents": "GL_FRONT_RIGHT"
+			},
+			{
+				"trigger": "GL_GEQUAL\tbgl constant",
+				"contents": "GL_GEQUAL"
+			},
+			{
+				"trigger": "GL_GREATER\tbgl constant",
+				"contents": "GL_GREATER"
+			},
+			{
+				"trigger": "GL_GREEN\tbgl constant",
+				"contents": "GL_GREEN"
+			},
+			{
+				"trigger": "GL_GREEN_BIAS\tbgl constant",
+				"contents": "GL_GREEN_BIAS"
+			},
+			{
+				"trigger": "GL_GREEN_BITS\tbgl constant",
+				"contents": "GL_GREEN_BITS"
+			},
+			{
+				"trigger": "GL_GREEN_SCALE\tbgl constant",
+				"contents": "GL_GREEN_SCALE"
+			},
+			{
+				"trigger": "GL_HINT_BIT\tbgl constant",
+				"contents": "GL_HINT_BIT"
+			},
+			{
+				"trigger": "GL_INCR\tbgl constant",
+				"contents": "GL_INCR"
+			},
+			{
+				"trigger": "GL_INDEX_BITS\tbgl constant",
+				"contents": "GL_INDEX_BITS"
+			},
+			{
+				"trigger": "GL_INDEX_CLEAR_VALUE\tbgl constant",
+				"contents": "GL_INDEX_CLEAR_VALUE"
+			},
+			{
+				"trigger": "GL_INDEX_MODE\tbgl constant",
+				"contents": "GL_INDEX_MODE"
+			},
+			{
+				"trigger": "GL_INDEX_OFFSET\tbgl constant",
+				"contents": "GL_INDEX_OFFSET"
+			},
+			{
+				"trigger": "GL_INDEX_SHIFT\tbgl constant",
+				"contents": "GL_INDEX_SHIFT"
+			},
+			{
+				"trigger": "GL_INDEX_WRITEMASK\tbgl constant",
+				"contents": "GL_INDEX_WRITEMASK"
+			},
+			{
+				"trigger": "GL_INT\tbgl constant",
+				"contents": "GL_INT"
+			},
+			{
+				"trigger": "GL_INVALID_ENUM\tbgl constant",
+				"contents": "GL_INVALID_ENUM"
+			},
+			{
+				"trigger": "GL_INVALID_OPERATION\tbgl constant",
+				"contents": "GL_INVALID_OPERATION"
+			},
+			{
+				"trigger": "GL_INVALID_VALUE\tbgl constant",
+				"contents": "GL_INVALID_VALUE"
+			},
+			{
+				"trigger": "GL_INVERT\tbgl constant",
+				"contents": "GL_INVERT"
+			},
+			{
+				"trigger": "GL_KEEP\tbgl constant",
+				"contents": "GL_KEEP"
+			},
+			{
+				"trigger": "GL_LEFT\tbgl constant",
+				"contents": "GL_LEFT"
+			},
+			{
+				"trigger": "GL_LEQUAL\tbgl constant",
+				"contents": "GL_LEQUAL"
+			},
+			{
+				"trigger": "GL_LESS\tbgl constant",
+				"contents": "GL_LESS"
+			},
+			{
+				"trigger": "GL_LIGHT0\tbgl constant",
+				"contents": "GL_LIGHT0"
+			},
+			{
+				"trigger": "GL_LIGHT1\tbgl constant",
+				"contents": "GL_LIGHT1"
+			},
+			{
+				"trigger": "GL_LIGHT2\tbgl constant",
+				"contents": "GL_LIGHT2"
+			},
+			{
+				"trigger": "GL_LIGHT3\tbgl constant",
+				"contents": "GL_LIGHT3"
+			},
+			{
+				"trigger": "GL_LIGHT4\tbgl constant",
+				"contents": "GL_LIGHT4"
+			},
+			{
+				"trigger": "GL_LIGHT5\tbgl constant",
+				"contents": "GL_LIGHT5"
+			},
+			{
+				"trigger": "GL_LIGHT6\tbgl constant",
+				"contents": "GL_LIGHT6"
+			},
+			{
+				"trigger": "GL_LIGHT7\tbgl constant",
+				"contents": "GL_LIGHT7"
+			},
+			{
+				"trigger": "GL_LIGHTING\tbgl constant",
+				"contents": "GL_LIGHTING"
+			},
+			{
+				"trigger": "GL_LIGHTING_BIT\tbgl constant",
+				"contents": "GL_LIGHTING_BIT"
+			},
+			{
+				"trigger": "GL_LIGHT_MODEL_AMBIENT\tbgl constant",
+				"contents": "GL_LIGHT_MODEL_AMBIENT"
+			},
+			{
+				"trigger": "GL_LIGHT_MODEL_LOCAL_VIEWER\tbgl constant",
+				"contents": "GL_LIGHT_MODEL_LOCAL_VIEWER"
+			},
+			{
+				"trigger": "GL_LIGHT_MODEL_TWO_SIDE\tbgl constant",
+				"contents": "GL_LIGHT_MODEL_TWO_SIDE"
+			},
+			{
+				"trigger": "GL_LINE\tbgl constant",
+				"contents": "GL_LINE"
+			},
+			{
+				"trigger": "GL_LINEAR\tbgl constant",
+				"contents": "GL_LINEAR"
+			},
+			{
+				"trigger": "GL_LINEAR_ATTENUATION\tbgl constant",
+				"contents": "GL_LINEAR_ATTENUATION"
+			},
+			{
+				"trigger": "GL_LINEAR_MIPMAP_LINEAR\tbgl constant",
+				"contents": "GL_LINEAR_MIPMAP_LINEAR"
+			},
+			{
+				"trigger": "GL_LINEAR_MIPMAP_NEAREST\tbgl constant",
+				"contents": "GL_LINEAR_MIPMAP_NEAREST"
+			},
+			{
+				"trigger": "GL_LINES\tbgl constant",
+				"contents": "GL_LINES"
+			},
+			{
+				"trigger": "GL_LINE_BIT\tbgl constant",
+				"contents": "GL_LINE_BIT"
+			},
+			{
+				"trigger": "GL_LINE_LOOP\tbgl constant",
+				"contents": "GL_LINE_LOOP"
+			},
+			{
+				"trigger": "GL_LINE_RESET_TOKEN\tbgl constant",
+				"contents": "GL_LINE_RESET_TOKEN"
+			},
+			{
+				"trigger": "GL_LINE_SMOOTH\tbgl constant",
+				"contents": "GL_LINE_SMOOTH"
+			},
+			{
+				"trigger": "GL_LINE_SMOOTH_HINT\tbgl constant",
+				"contents": "GL_LINE_SMOOTH_HINT"
+			},
+			{
+				"trigger": "GL_LINE_STIPPLE\tbgl constant",
+				"contents": "GL_LINE_STIPPLE"
+			},
+			{
+				"trigger": "GL_LINE_STIPPLE_PATTERN\tbgl constant",
+				"contents": "GL_LINE_STIPPLE_PATTERN"
+			},
+			{
+				"trigger": "GL_LINE_STIPPLE_REPEAT\tbgl constant",
+				"contents": "GL_LINE_STIPPLE_REPEAT"
+			},
+			{
+				"trigger": "GL_LINE_STRIP\tbgl constant",
+				"contents": "GL_LINE_STRIP"
+			},
+			{
+				"trigger": "GL_LINE_TOKEN\tbgl constant",
+				"contents": "GL_LINE_TOKEN"
+			},
+			{
+				"trigger": "GL_LINE_WIDTH\tbgl constant",
+				"contents": "GL_LINE_WIDTH"
+			},
+			{
+				"trigger": "GL_LINE_WIDTH_GRANULARITY\tbgl constant",
+				"contents": "GL_LINE_WIDTH_GRANULARITY"
+			},
+			{
+				"trigger": "GL_LINE_WIDTH_RANGE\tbgl constant",
+				"contents": "GL_LINE_WIDTH_RANGE"
+			},
+			{
+				"trigger": "GL_LIST_BASE\tbgl constant",
+				"contents": "GL_LIST_BASE"
+			},
+			{
+				"trigger": "GL_LIST_BIT\tbgl constant",
+				"contents": "GL_LIST_BIT"
+			},
+			{
+				"trigger": "GL_LIST_INDEX\tbgl constant",
+				"contents": "GL_LIST_INDEX"
+			},
+			{
+				"trigger": "GL_LIST_MODE\tbgl constant",
+				"contents": "GL_LIST_MODE"
+			},
+			{
+				"trigger": "GL_LOAD\tbgl constant",
+				"contents": "GL_LOAD"
+			},
+			{
+				"trigger": "GL_LOGIC_OP\tbgl constant",
+				"contents": "GL_LOGIC_OP"
+			},
+			{
+				"trigger": "GL_LOGIC_OP_MODE\tbgl constant",
+				"contents": "GL_LOGIC_OP_MODE"
+			},
+			{
+				"trigger": "GL_LUMINANCE\tbgl constant",
+				"contents": "GL_LUMINANCE"
+			},
+			{
+				"trigger": "GL_LUMINANCE_ALPHA\tbgl constant",
+				"contents": "GL_LUMINANCE_ALPHA"
+			},
+			{
+				"trigger": "GL_MAP1_COLOR_4\tbgl constant",
+				"contents": "GL_MAP1_COLOR_4"
+			},
+			{
+				"trigger": "GL_MAP1_GRID_DOMAIN\tbgl constant",
+				"contents": "GL_MAP1_GRID_DOMAIN"
+			},
+			{
+				"trigger": "GL_MAP1_GRID_SEGMENTS\tbgl constant",
+				"contents": "GL_MAP1_GRID_SEGMENTS"
+			},
+			{
+				"trigger": "GL_MAP1_INDEX\tbgl constant",
+				"contents": "GL_MAP1_INDEX"
+			},
+			{
+				"trigger": "GL_MAP1_NORMAL\tbgl constant",
+				"contents": "GL_MAP1_NORMAL"
+			},
+			{
+				"trigger": "GL_MAP1_TEXTURE_COORD_1\tbgl constant",
+				"contents": "GL_MAP1_TEXTURE_COORD_1"
+			},
+			{
+				"trigger": "GL_MAP1_TEXTURE_COORD_2\tbgl constant",
+				"contents": "GL_MAP1_TEXTURE_COORD_2"
+			},
+			{
+				"trigger": "GL_MAP1_TEXTURE_COORD_3\tbgl constant",
+				"contents": "GL_MAP1_TEXTURE_COORD_3"
+			},
+			{
+				"trigger": "GL_MAP1_TEXTURE_COORD_4\tbgl constant",
+				"contents": "GL_MAP1_TEXTURE_COORD_4"
+			},
+			{
+				"trigger": "GL_MAP1_VERTEX_3\tbgl constant",
+				"contents": "GL_MAP1_VERTEX_3"
+			},
+			{
+				"trigger": "GL_MAP1_VERTEX_4\tbgl constant",
+				"contents": "GL_MAP1_VERTEX_4"
+			},
+			{
+				"trigger": "GL_MAP2_COLOR_4\tbgl constant",
+				"contents": "GL_MAP2_COLOR_4"
+			},
+			{
+				"trigger": "GL_MAP2_GRID_DOMAIN\tbgl constant",
+				"contents": "GL_MAP2_GRID_DOMAIN"
+			},
+			{
+				"trigger": "GL_MAP2_GRID_SEGMENTS\tbgl constant",
+				"contents": "GL_MAP2_GRID_SEGMENTS"
+			},
+			{
+				"trigger": "GL_MAP2_INDEX\tbgl constant",
+				"contents": "GL_MAP2_INDEX"
+			},
+			{
+				"trigger": "GL_MAP2_NORMAL\tbgl constant",
+				"contents": "GL_MAP2_NORMAL"
+			},
+			{
+				"trigger": "GL_MAP2_TEXTURE_COORD_1\tbgl constant",
+				"contents": "GL_MAP2_TEXTURE_COORD_1"
+			},
+			{
+				"trigger": "GL_MAP2_TEXTURE_COORD_2\tbgl constant",
+				"contents": "GL_MAP2_TEXTURE_COORD_2"
+			},
+			{
+				"trigger": "GL_MAP2_TEXTURE_COORD_3\tbgl constant",
+				"contents": "GL_MAP2_TEXTURE_COORD_3"
+			},
+			{
+				"trigger": "GL_MAP2_TEXTURE_COORD_4\tbgl constant",
+				"contents": "GL_MAP2_TEXTURE_COORD_4"
+			},
+			{
+				"trigger": "GL_MAP2_VERTEX_3\tbgl constant",
+				"contents": "GL_MAP2_VERTEX_3"
+			},
+			{
+				"trigger": "GL_MAP2_VERTEX_4\tbgl constant",
+				"contents": "GL_MAP2_VERTEX_4"
+			},
+			{
+				"trigger": "GL_MAP_COLOR\tbgl constant",
+				"contents": "GL_MAP_COLOR"
+			},
+			{
+				"trigger": "GL_MAP_STENCIL\tbgl constant",
+				"contents": "GL_MAP_STENCIL"
+			},
+			{
+				"trigger": "GL_MATRIX_MODE\tbgl constant",
+				"contents": "GL_MATRIX_MODE"
+			},
+			{
+				"trigger": "GL_MAX_ATTRIB_STACK_DEPTH\tbgl constant",
+				"contents": "GL_MAX_ATTRIB_STACK_DEPTH"
+			},
+			{
+				"trigger": "GL_MAX_CLIP_PLANES\tbgl constant",
+				"contents": "GL_MAX_CLIP_PLANES"
+			},
+			{
+				"trigger": "GL_MAX_EVAL_ORDER\tbgl constant",
+				"contents": "GL_MAX_EVAL_ORDER"
+			},
+			{
+				"trigger": "GL_MAX_LIGHTS\tbgl constant",
+				"contents": "GL_MAX_LIGHTS"
+			},
+			{
+				"trigger": "GL_MAX_LIST_NESTING\tbgl constant",
+				"contents": "GL_MAX_LIST_NESTING"
+			},
+			{
+				"trigger": "GL_MAX_MODELVIEW_STACK_DEPTH\tbgl constant",
+				"contents": "GL_MAX_MODELVIEW_STACK_DEPTH"
+			},
+			{
+				"trigger": "GL_MAX_NAME_STACK_DEPTH\tbgl constant",
+				"contents": "GL_MAX_NAME_STACK_DEPTH"
+			},
+			{
+				"trigger": "GL_MAX_PIXEL_MAP_TABLE\tbgl constant",
+				"contents": "GL_MAX_PIXEL_MAP_TABLE"
+			},
+			{
+				"trigger": "GL_MAX_PROJECTION_STACK_DEPTH\tbgl constant",
+				"contents": "GL_MAX_PROJECTION_STACK_DEPTH"
+			},
+			{
+				"trigger": "GL_MAX_TEXTURE_SIZE\tbgl constant",
+				"contents": "GL_MAX_TEXTURE_SIZE"
+			},
+			{
+				"trigger": "GL_MAX_TEXTURE_STACK_DEPTH\tbgl constant",
+				"contents": "GL_MAX_TEXTURE_STACK_DEPTH"
+			},
+			{
+				"trigger": "GL_MAX_VIEWPORT_DIMS\tbgl constant",
+				"contents": "GL_MAX_VIEWPORT_DIMS"
+			},
+			{
+				"trigger": "GL_MODELVIEW\tbgl constant",
+				"contents": "GL_MODELVIEW"
+			},
+			{
+				"trigger": "GL_MODELVIEW_MATRIX\tbgl constant",
+				"contents": "GL_MODELVIEW_MATRIX"
+			},
+			{
+				"trigger": "GL_MODELVIEW_STACK_DEPTH\tbgl constant",
+				"contents": "GL_MODELVIEW_STACK_DEPTH"
+			},
+			{
+				"trigger": "GL_MODULATE\tbgl constant",
+				"contents": "GL_MODULATE"
+			},
+			{
+				"trigger": "GL_MULT\tbgl constant",
+				"contents": "GL_MULT"
+			},
+			{
+				"trigger": "GL_NAME_STACK_DEPTH\tbgl constant",
+				"contents": "GL_NAME_STACK_DEPTH"
+			},
+			{
+				"trigger": "GL_NAND\tbgl constant",
+				"contents": "GL_NAND"
+			},
+			{
+				"trigger": "GL_NEAREST\tbgl constant",
+				"contents": "GL_NEAREST"
+			},
+			{
+				"trigger": "GL_NEAREST_MIPMAP_LINEAR\tbgl constant",
+				"contents": "GL_NEAREST_MIPMAP_LINEAR"
+			},
+			{
+				"trigger": "GL_NEAREST_MIPMAP_NEAREST\tbgl constant",
+				"contents": "GL_NEAREST_MIPMAP_NEAREST"
+			},
+			{
+				"trigger": "GL_NEVER\tbgl constant",
+				"contents": "GL_NEVER"
+			},
+			{
+				"trigger": "GL_NICEST\tbgl constant",
+				"contents": "GL_NICEST"
+			},
+			{
+				"trigger": "GL_NONE\tbgl constant",
+				"contents": "GL_NONE"
+			},
+			{
+				"trigger": "GL_NOOP\tbgl constant",
+				"contents": "GL_NOOP"
+			},
+			{
+				"trigger": "GL_NOR\tbgl constant",
+				"contents": "GL_NOR"
+			},
+			{
+				"trigger": "GL_NORMALIZE\tbgl constant",
+				"contents": "GL_NORMALIZE"
+			},
+			{
+				"trigger": "GL_NOTEQUAL\tbgl constant",
+				"contents": "GL_NOTEQUAL"
+			},
+			{
+				"trigger": "GL_NO_ERROR\tbgl constant",
+				"contents": "GL_NO_ERROR"
+			},
+			{
+				"trigger": "GL_OBJECT_LINEAR\tbgl constant",
+				"contents": "GL_OBJECT_LINEAR"
+			},
+			{
+				"trigger": "GL_OBJECT_PLANE\tbgl constant",
+				"contents": "GL_OBJECT_PLANE"
+			},
+			{
+				"trigger": "GL_ONE\tbgl constant",
+				"contents": "GL_ONE"
+			},
+			{
+				"trigger": "GL_ONE_MINUS_DST_ALPHA\tbgl constant",
+				"contents": "GL_ONE_MINUS_DST_ALPHA"
+			},
+			{
+				"trigger": "GL_ONE_MINUS_DST_COLOR\tbgl constant",
+				"contents": "GL_ONE_MINUS_DST_COLOR"
+			},
+			{
+				"trigger": "GL_ONE_MINUS_SRC_ALPHA\tbgl constant",
+				"contents": "GL_ONE_MINUS_SRC_ALPHA"
+			},
+			{
+				"trigger": "GL_ONE_MINUS_SRC_COLOR\tbgl constant",
+				"contents": "GL_ONE_MINUS_SRC_COLOR"
+			},
+			{
+				"trigger": "GL_OR\tbgl constant",
+				"contents": "GL_OR"
+			},
+			{
+				"trigger": "GL_ORDER\tbgl constant",
+				"contents": "GL_ORDER"
+			},
+			{
+				"trigger": "GL_OR_INVERTED\tbgl constant",
+				"contents": "GL_OR_INVERTED"
+			},
+			{
+				"trigger": "GL_OR_REVERSE\tbgl constant",
+				"contents": "GL_OR_REVERSE"
+			},
+			{
+				"trigger": "GL_OUT_OF_MEMORY\tbgl constant",
+				"contents": "GL_OUT_OF_MEMORY"
+			},
+			{
+				"trigger": "GL_PACK_ALIGNMENT\tbgl constant",
+				"contents": "GL_PACK_ALIGNMENT"
+			},
+			{
+				"trigger": "GL_PACK_LSB_FIRST\tbgl constant",
+				"contents": "GL_PACK_LSB_FIRST"
+			},
+			{
+				"trigger": "GL_PACK_ROW_LENGTH\tbgl constant",
+				"contents": "GL_PACK_ROW_LENGTH"
+			},
+			{
+				"trigger": "GL_PACK_SKIP_PIXELS\tbgl constant",
+				"contents": "GL_PACK_SKIP_PIXELS"
+			},
+			{
+				"trigger": "GL_PACK_SKIP_ROWS\tbgl constant",
+				"contents": "GL_PACK_SKIP_ROWS"
+			},
+			{
+				"trigger": "GL_PACK_SWAP_BYTES\tbgl constant",
+				"contents": "GL_PACK_SWAP_BYTES"
+			},
+			{
+				"trigger": "GL_PASS_THROUGH_TOKEN\tbgl constant",
+				"contents": "GL_PASS_THROUGH_TOKEN"
+			},
+			{
+				"trigger": "GL_PERSPECTIVE_CORRECTION_HINT\tbgl constant",
+				"contents": "GL_PERSPECTIVE_CORRECTION_HINT"
+			},
+			{
+				"trigger": "GL_PIXEL_MAP_A_TO_A\tbgl constant",
+				"contents": "GL_PIXEL_MAP_A_TO_A"
+			},
+			{
+				"trigger": "GL_PIXEL_MAP_A_TO_A_SIZE\tbgl constant",
+				"contents": "GL_PIXEL_MAP_A_TO_A_SIZE"
+			},
+			{
+				"trigger": "GL_PIXEL_MAP_B_TO_B\tbgl constant",
+				"contents": "GL_PIXEL_MAP_B_TO_B"
+			},
+			{
+				"trigger": "GL_PIXEL_MAP_B_TO_B_SIZE\tbgl constant",
+				"contents": "GL_PIXEL_MAP_B_TO_B_SIZE"
+			},
+			{
+				"trigger": "GL_PIXEL_MAP_G_TO_G\tbgl constant",
+				"contents": "GL_PIXEL_MAP_G_TO_G"
+			},
+			{
+				"trigger": "GL_PIXEL_MAP_G_TO_G_SIZE\tbgl constant",
+				"contents": "GL_PIXEL_MAP_G_TO_G_SIZE"
+			},
+			{
+				"trigger": "GL_PIXEL_MAP_I_TO_A\tbgl constant",
+				"contents": "GL_PIXEL_MAP_I_TO_A"
+			},
+			{
+				"trigger": "GL_PIXEL_MAP_I_TO_A_SIZE\tbgl constant",
+				"contents": "GL_PIXEL_MAP_I_TO_A_SIZE"
+			},
+			{
+				"trigger": "GL_PIXEL_MAP_I_TO_B\tbgl constant",
+				"contents": "GL_PIXEL_MAP_I_TO_B"
+			},
+			{
+				"trigger": "GL_PIXEL_MAP_I_TO_B_SIZE\tbgl constant",
+				"contents": "GL_PIXEL_MAP_I_TO_B_SIZE"
+			},
+			{
+				"trigger": "GL_PIXEL_MAP_I_TO_G\tbgl constant",
+				"contents": "GL_PIXEL_MAP_I_TO_G"
+			},
+			{
+				"trigger": "GL_PIXEL_MAP_I_TO_G_SIZE\tbgl constant",
+				"contents": "GL_PIXEL_MAP_I_TO_G_SIZE"
+			},
+			{
+				"trigger": "GL_PIXEL_MAP_I_TO_I\tbgl constant",
+				"contents": "GL_PIXEL_MAP_I_TO_I"
+			},
+			{
+				"trigger": "GL_PIXEL_MAP_I_TO_I_SIZE\tbgl constant",
+				"contents": "GL_PIXEL_MAP_I_TO_I_SIZE"
+			},
+			{
+				"trigger": "GL_PIXEL_MAP_I_TO_R\tbgl constant",
+				"contents": "GL_PIXEL_MAP_I_TO_R"
+			},
+			{
+				"trigger": "GL_PIXEL_MAP_I_TO_R_SIZE\tbgl constant",
+				"contents": "GL_PIXEL_MAP_I_TO_R_SIZE"
+			},
+			{
+				"trigger": "GL_PIXEL_MAP_R_TO_R\tbgl constant",
+				"contents": "GL_PIXEL_MAP_R_TO_R"
+			},
+			{
+				"trigger": "GL_PIXEL_MAP_R_TO_R_SIZE\tbgl constant",
+				"contents": "GL_PIXEL_MAP_R_TO_R_SIZE"
+			},
+			{
+				"trigger": "GL_PIXEL_MAP_S_TO_S\tbgl constant",
+				"contents": "GL_PIXEL_MAP_S_TO_S"
+			},
+			{
+				"trigger": "GL_PIXEL_MAP_S_TO_S_SIZE\tbgl constant",
+				"contents": "GL_PIXEL_MAP_S_TO_S_SIZE"
+			},
+			{
+				"trigger": "GL_PIXEL_MODE_BIT\tbgl constant",
+				"contents": "GL_PIXEL_MODE_BIT"
+			},
+			{
+				"trigger": "GL_POINT\tbgl constant",
+				"contents": "GL_POINT"
+			},
+			{
+				"trigger": "GL_POINTS\tbgl constant",
+				"contents": "GL_POINTS"
+			},
+			{
+				"trigger": "GL_POINT_BIT\tbgl constant",
+				"contents": "GL_POINT_BIT"
+			},
+			{
+				"trigger": "GL_POINT_SIZE\tbgl constant",
+				"contents": "GL_POINT_SIZE"
+			},
+			{
+				"trigger": "GL_POINT_SIZE_GRANULARITY\tbgl constant",
+				"contents": "GL_POINT_SIZE_GRANULARITY"
+			},
+			{
+				"trigger": "GL_POINT_SIZE_RANGE\tbgl constant",
+				"contents": "GL_POINT_SIZE_RANGE"
+			},
+			{
+				"trigger": "GL_POINT_SMOOTH\tbgl constant",
+				"contents": "GL_POINT_SMOOTH"
+			},
+			{
+				"trigger": "GL_POINT_SMOOTH_HINT\tbgl constant",
+				"contents": "GL_POINT_SMOOTH_HINT"
+			},
+			{
+				"trigger": "GL_POINT_TOKEN\tbgl constant",
+				"contents": "GL_POINT_TOKEN"
+			},
+			{
+				"trigger": "GL_POLYGON\tbgl constant",
+				"contents": "GL_POLYGON"
+			},
+			{
+				"trigger": "GL_POLYGON_BIT\tbgl constant",
+				"contents": "GL_POLYGON_BIT"
+			},
+			{
+				"trigger": "GL_POLYGON_MODE\tbgl constant",
+				"contents": "GL_POLYGON_MODE"
+			},
+			{
+				"trigger": "GL_POLYGON_OFFSET_FACTOR\tbgl constant",
+				"contents": "GL_POLYGON_OFFSET_FACTOR"
+			},
+			{
+				"trigger": "GL_POLYGON_OFFSET_FILL\tbgl constant",
+				"contents": "GL_POLYGON_OFFSET_FILL"
+			},
+			{
+				"trigger": "GL_POLYGON_OFFSET_LINE\tbgl constant",
+				"contents": "GL_POLYGON_OFFSET_LINE"
+			},
+			{
+				"trigger": "GL_POLYGON_OFFSET_POINT\tbgl constant",
+				"contents": "GL_POLYGON_OFFSET_POINT"
+			},
+			{
+				"trigger": "GL_POLYGON_OFFSET_UNITS\tbgl constant",
+				"contents": "GL_POLYGON_OFFSET_UNITS"
+			},
+			{
+				"trigger": "GL_POLYGON_SMOOTH\tbgl constant",
+				"contents": "GL_POLYGON_SMOOTH"
+			},
+			{
+				"trigger": "GL_POLYGON_SMOOTH_HINT\tbgl constant",
+				"contents": "GL_POLYGON_SMOOTH_HINT"
+			},
+			{
+				"trigger": "GL_POLYGON_STIPPLE\tbgl constant",
+				"contents": "GL_POLYGON_STIPPLE"
+			},
+			{
+				"trigger": "GL_POLYGON_STIPPLE_BIT\tbgl constant",
+				"contents": "GL_POLYGON_STIPPLE_BIT"
+			},
+			{
+				"trigger": "GL_POLYGON_TOKEN\tbgl constant",
+				"contents": "GL_POLYGON_TOKEN"
+			},
+			{
+				"trigger": "GL_POSITION\tbgl constant",
+				"contents": "GL_POSITION"
+			},
+			{
+				"trigger": "GL_PROJECTION\tbgl constant",
+				"contents": "GL_PROJECTION"
+			},
+			{
+				"trigger": "GL_PROJECTION_MATRIX\tbgl constant",
+				"contents": "GL_PROJECTION_MATRIX"
+			},
+			{
+				"trigger": "GL_PROJECTION_STACK_DEPTH\tbgl constant",
+				"contents": "GL_PROJECTION_STACK_DEPTH"
+			},
+			{
+				"trigger": "GL_Q\tbgl constant",
+				"contents": "GL_Q"
+			},
+			{
+				"trigger": "GL_QUADRATIC_ATTENUATION\tbgl constant",
+				"contents": "GL_QUADRATIC_ATTENUATION"
+			},
+			{
+				"trigger": "GL_QUADS\tbgl constant",
+				"contents": "GL_QUADS"
+			},
+			{
+				"trigger": "GL_QUAD_STRIP\tbgl constant",
+				"contents": "GL_QUAD_STRIP"
+			},
+			{
+				"trigger": "GL_R\tbgl constant",
+				"contents": "GL_R"
+			},
+			{
+				"trigger": "GL_READ_BUFFER\tbgl constant",
+				"contents": "GL_READ_BUFFER"
+			},
+			{
+				"trigger": "GL_RED\tbgl constant",
+				"contents": "GL_RED"
+			},
+			{
+				"trigger": "GL_RED_BIAS\tbgl constant",
+				"contents": "GL_RED_BIAS"
+			},
+			{
+				"trigger": "GL_RED_BITS\tbgl constant",
+				"contents": "GL_RED_BITS"
+			},
+			{
+				"trigger": "GL_RED_SCALE\tbgl constant",
+				"contents": "GL_RED_SCALE"
+			},
+			{
+				"trigger": "GL_RENDER\tbgl constant",
+				"contents": "GL_RENDER"
+			},
+			{
+				"trigger": "GL_RENDERER\tbgl constant",
+				"contents": "GL_RENDERER"
+			},
+			{
+				"trigger": "GL_RENDER_MODE\tbgl constant",
+				"contents": "GL_RENDER_MODE"
+			},
+			{
+				"trigger": "GL_REPEAT\tbgl constant",
+				"contents": "GL_REPEAT"
+			},
+			{
+				"trigger": "GL_REPLACE\tbgl constant",
+				"contents": "GL_REPLACE"
+			},
+			{
+				"trigger": "GL_RETURN\tbgl constant",
+				"contents": "GL_RETURN"
+			},
+			{
+				"trigger": "GL_RGB\tbgl constant",
+				"contents": "GL_RGB"
+			},
+			{
+				"trigger": "GL_RGBA\tbgl constant",
+				"contents": "GL_RGBA"
+			},
+			{
+				"trigger": "GL_RGBA_MODE\tbgl constant",
+				"contents": "GL_RGBA_MODE"
+			},
+			{
+				"trigger": "GL_RIGHT\tbgl constant",
+				"contents": "GL_RIGHT"
+			},
+			{
+				"trigger": "GL_S\tbgl constant",
+				"contents": "GL_S"
+			},
+			{
+				"trigger": "GL_SCISSOR_BIT\tbgl constant",
+				"contents": "GL_SCISSOR_BIT"
+			},
+			{
+				"trigger": "GL_SCISSOR_BOX\tbgl constant",
+				"contents": "GL_SCISSOR_BOX"
+			},
+			{
+				"trigger": "GL_SCISSOR_TEST\tbgl constant",
+				"contents": "GL_SCISSOR_TEST"
+			},
+			{
+				"trigger": "GL_SELECT\tbgl constant",
+				"contents": "GL_SELECT"
+			},
+			{
+				"trigger": "GL_SET\tbgl constant",
+				"contents": "GL_SET"
+			},
+			{
+				"trigger": "GL_SHADE_MODEL\tbgl constant",
+				"contents": "GL_SHADE_MODEL"
+			},
+			{
+				"trigger": "GL_SHININESS\tbgl constant",
+				"contents": "GL_SHININESS"
+			},
+			{
+				"trigger": "GL_SHORT\tbgl constant",
+				"contents": "GL_SHORT"
+			},
+			{
+				"trigger": "GL_SMOOTH\tbgl constant",
+				"contents": "GL_SMOOTH"
+			},
+			{
+				"trigger": "GL_SPECULAR\tbgl constant",
+				"contents": "GL_SPECULAR"
+			},
+			{
+				"trigger": "GL_SPHERE_MAP\tbgl constant",
+				"contents": "GL_SPHERE_MAP"
+			},
+			{
+				"trigger": "GL_SPOT_CUTOFF\tbgl constant",
+				"contents": "GL_SPOT_CUTOFF"
+			},
+			{
+				"trigger": "GL_SPOT_DIRECTION\tbgl constant",
+				"contents": "GL_SPOT_DIRECTION"
+			},
+			{
+				"trigger": "GL_SPOT_EXPONENT\tbgl constant",
+				"contents": "GL_SPOT_EXPONENT"
+			},
+			{
+				"trigger": "GL_SRC_ALPHA\tbgl constant",
+				"contents": "GL_SRC_ALPHA"
+			},
+			{
+				"trigger": "GL_SRC_ALPHA_SATURATE\tbgl constant",
+				"contents": "GL_SRC_ALPHA_SATURATE"
+			},
+			{
+				"trigger": "GL_SRC_COLOR\tbgl constant",
+				"contents": "GL_SRC_COLOR"
+			},
+			{
+				"trigger": "GL_STACK_OVERFLOW\tbgl constant",
+				"contents": "GL_STACK_OVERFLOW"
+			},
+			{
+				"trigger": "GL_STACK_UNDERFLOW\tbgl constant",
+				"contents": "GL_STACK_UNDERFLOW"
+			},
+			{
+				"trigger": "GL_STENCIL\tbgl constant",
+				"contents": "GL_STENCIL"
+			},
+			{
+				"trigger": "GL_STENCIL_BITS\tbgl constant",
+				"contents": "GL_STENCIL_BITS"
+			},
+			{
+				"trigger": "GL_STENCIL_BUFFER_BIT\tbgl constant",
+				"contents": "GL_STENCIL_BUFFER_BIT"
+			},
+			{
+				"trigger": "GL_STENCIL_CLEAR_VALUE\tbgl constant",
+				"contents": "GL_STENCIL_CLEAR_VALUE"
+			},
+			{
+				"trigger": "GL_STENCIL_FAIL\tbgl constant",
+				"contents": "GL_STENCIL_FAIL"
+			},
+			{
+				"trigger": "GL_STENCIL_FUNC\tbgl constant",
+				"contents": "GL_STENCIL_FUNC"
+			},
+			{
+				"trigger": "GL_STENCIL_INDEX\tbgl constant",
+				"contents": "GL_STENCIL_INDEX"
+			},
+			{
+				"trigger": "GL_STENCIL_PASS_DEPTH_FAIL\tbgl constant",
+				"contents": "GL_STENCIL_PASS_DEPTH_FAIL"
+			},
+			{
+				"trigger": "GL_STENCIL_PASS_DEPTH_PASS\tbgl constant",
+				"contents": "GL_STENCIL_PASS_DEPTH_PASS"
+			},
+			{
+				"trigger": "GL_STENCIL_REF\tbgl constant",
+				"contents": "GL_STENCIL_REF"
+			},
+			{
+				"trigger": "GL_STENCIL_TEST\tbgl constant",
+				"contents": "GL_STENCIL_TEST"
+			},
+			{
+				"trigger": "GL_STENCIL_VALUE_MASK\tbgl constant",
+				"contents": "GL_STENCIL_VALUE_MASK"
+			},
+			{
+				"trigger": "GL_STENCIL_WRITEMASK\tbgl constant",
+				"contents": "GL_STENCIL_WRITEMASK"
+			},
+			{
+				"trigger": "GL_STEREO\tbgl constant",
+				"contents": "GL_STEREO"
+			},
+			{
+				"trigger": "GL_SUBPIXEL_BITS\tbgl constant",
+				"contents": "GL_SUBPIXEL_BITS"
+			},
+			{
+				"trigger": "GL_T\tbgl constant",
+				"contents": "GL_T"
+			},
+			{
+				"trigger": "GL_TEXTURE\tbgl constant",
+				"contents": "GL_TEXTURE"
+			},
+			{
+				"trigger": "GL_TEXTURE0\tbgl constant",
+				"contents": "GL_TEXTURE0"
+			},
+			{
+				"trigger": "GL_TEXTURE1\tbgl constant",
+				"contents": "GL_TEXTURE1"
+			},
+			{
+				"trigger": "GL_TEXTURE2\tbgl constant",
+				"contents": "GL_TEXTURE2"
+			},
+			{
+				"trigger": "GL_TEXTURE3\tbgl constant",
+				"contents": "GL_TEXTURE3"
+			},
+			{
+				"trigger": "GL_TEXTURE4\tbgl constant",
+				"contents": "GL_TEXTURE4"
+			},
+			{
+				"trigger": "GL_TEXTURE5\tbgl constant",
+				"contents": "GL_TEXTURE5"
+			},
+			{
+				"trigger": "GL_TEXTURE6\tbgl constant",
+				"contents": "GL_TEXTURE6"
+			},
+			{
+				"trigger": "GL_TEXTURE7\tbgl constant",
+				"contents": "GL_TEXTURE7"
+			},
+			{
+				"trigger": "GL_TEXTURE8\tbgl constant",
+				"contents": "GL_TEXTURE8"
+			},
+			{
+				"trigger": "GL_TEXTURE_1D\tbgl constant",
+				"contents": "GL_TEXTURE_1D"
+			},
+			{
+				"trigger": "GL_TEXTURE_2D\tbgl constant",
+				"contents": "GL_TEXTURE_2D"
+			},
+			{
+				"trigger": "GL_TEXTURE_BINDING_1D\tbgl constant",
+				"contents": "GL_TEXTURE_BINDING_1D"
+			},
+			{
+				"trigger": "GL_TEXTURE_BINDING_2D\tbgl constant",
+				"contents": "GL_TEXTURE_BINDING_2D"
+			},
+			{
+				"trigger": "GL_TEXTURE_BIT\tbgl constant",
+				"contents": "GL_TEXTURE_BIT"
+			},
+			{
+				"trigger": "GL_TEXTURE_BORDER\tbgl constant",
+				"contents": "GL_TEXTURE_BORDER"
+			},
+			{
+				"trigger": "GL_TEXTURE_BORDER_COLOR\tbgl constant",
+				"contents": "GL_TEXTURE_BORDER_COLOR"
+			},
+			{
+				"trigger": "GL_TEXTURE_COMPARE_MODE\tbgl constant",
+				"contents": "GL_TEXTURE_COMPARE_MODE"
+			},
+			{
+				"trigger": "GL_TEXTURE_COMPONENTS\tbgl constant",
+				"contents": "GL_TEXTURE_COMPONENTS"
+			},
+			{
+				"trigger": "GL_TEXTURE_ENV\tbgl constant",
+				"contents": "GL_TEXTURE_ENV"
+			},
+			{
+				"trigger": "GL_TEXTURE_ENV_COLOR\tbgl constant",
+				"contents": "GL_TEXTURE_ENV_COLOR"
+			},
+			{
+				"trigger": "GL_TEXTURE_ENV_MODE\tbgl constant",
+				"contents": "GL_TEXTURE_ENV_MODE"
+			},
+			{
+				"trigger": "GL_TEXTURE_GEN_MODE\tbgl constant",
+				"contents": "GL_TEXTURE_GEN_MODE"
+			},
+			{
+				"trigger": "GL_TEXTURE_GEN_Q\tbgl constant",
+				"contents": "GL_TEXTURE_GEN_Q"
+			},
+			{
+				"trigger": "GL_TEXTURE_GEN_R\tbgl constant",
+				"contents": "GL_TEXTURE_GEN_R"
+			},
+			{
+				"trigger": "GL_TEXTURE_GEN_S\tbgl constant",
+				"contents": "GL_TEXTURE_GEN_S"
+			},
+			{
+				"trigger": "GL_TEXTURE_GEN_T\tbgl constant",
+				"contents": "GL_TEXTURE_GEN_T"
+			},
+			{
+				"trigger": "GL_TEXTURE_HEIGHT\tbgl constant",
+				"contents": "GL_TEXTURE_HEIGHT"
+			},
+			{
+				"trigger": "GL_TEXTURE_MAG_FILTER\tbgl constant",
+				"contents": "GL_TEXTURE_MAG_FILTER"
+			},
+			{
+				"trigger": "GL_TEXTURE_MATRIX\tbgl constant",
+				"contents": "GL_TEXTURE_MATRIX"
+			},
+			{
+				"trigger": "GL_TEXTURE_MIN_FILTER\tbgl constant",
+				"contents": "GL_TEXTURE_MIN_FILTER"
+			},
+			{
+				"trigger": "GL_TEXTURE_PRIORITY\tbgl constant",
+				"contents": "GL_TEXTURE_PRIORITY"
+			},
+			{
+				"trigger": "GL_TEXTURE_RESIDENT\tbgl constant",
+				"contents": "GL_TEXTURE_RESIDENT"
+			},
+			{
+				"trigger": "GL_TEXTURE_STACK_DEPTH\tbgl constant",
+				"contents": "GL_TEXTURE_STACK_DEPTH"
+			},
+			{
+				"trigger": "GL_TEXTURE_WIDTH\tbgl constant",
+				"contents": "GL_TEXTURE_WIDTH"
+			},
+			{
+				"trigger": "GL_TEXTURE_WRAP_S\tbgl constant",
+				"contents": "GL_TEXTURE_WRAP_S"
+			},
+			{
+				"trigger": "GL_TEXTURE_WRAP_T\tbgl constant",
+				"contents": "GL_TEXTURE_WRAP_T"
+			},
+			{
+				"trigger": "GL_TRANSFORM_BIT\tbgl constant",
+				"contents": "GL_TRANSFORM_BIT"
+			},
+			{
+				"trigger": "GL_TRIANGLES\tbgl constant",
+				"contents": "GL_TRIANGLES"
+			},
+			{
+				"trigger": "GL_TRIANGLE_FAN\tbgl constant",
+				"contents": "GL_TRIANGLE_FAN"
+			},
+			{
+				"trigger": "GL_TRIANGLE_STRIP\tbgl constant",
+				"contents": "GL_TRIANGLE_STRIP"
+			},
+			{
+				"trigger": "GL_TRUE\tbgl constant",
+				"contents": "GL_TRUE"
+			},
+			{
+				"trigger": "GL_UNPACK_ALIGNMENT\tbgl constant",
+				"contents": "GL_UNPACK_ALIGNMENT"
+			},
+			{
+				"trigger": "GL_UNPACK_LSB_FIRST\tbgl constant",
+				"contents": "GL_UNPACK_LSB_FIRST"
+			},
+			{
+				"trigger": "GL_UNPACK_ROW_LENGTH\tbgl constant",
+				"contents": "GL_UNPACK_ROW_LENGTH"
+			},
+			{
+				"trigger": "GL_UNPACK_SKIP_PIXELS\tbgl constant",
+				"contents": "GL_UNPACK_SKIP_PIXELS"
+			},
+			{
+				"trigger": "GL_UNPACK_SKIP_ROWS\tbgl constant",
+				"contents": "GL_UNPACK_SKIP_ROWS"
+			},
+			{
+				"trigger": "GL_UNPACK_SWAP_BYTES\tbgl constant",
+				"contents": "GL_UNPACK_SWAP_BYTES"
+			},
+			{
+				"trigger": "GL_UNSIGNED_BYTE\tbgl constant",
+				"contents": "GL_UNSIGNED_BYTE"
+			},
+			{
+				"trigger": "GL_UNSIGNED_INT\tbgl constant",
+				"contents": "GL_UNSIGNED_INT"
+			},
+			{
+				"trigger": "GL_UNSIGNED_SHORT\tbgl constant",
+				"contents": "GL_UNSIGNED_SHORT"
+			},
+			{
+				"trigger": "GL_VENDOR\tbgl constant",
+				"contents": "GL_VENDOR"
+			},
+			{
+				"trigger": "GL_VERSION\tbgl constant",
+				"contents": "GL_VERSION"
+			},
+			{
+				"trigger": "GL_VERTEX_SHADER\tbgl constant",
+				"contents": "GL_VERTEX_SHADER"
+			},
+			{
+				"trigger": "GL_VIEWPORT\tbgl constant",
+				"contents": "GL_VIEWPORT"
+			},
+			{
+				"trigger": "GL_VIEWPORT_BIT\tbgl constant",
+				"contents": "GL_VIEWPORT_BIT"
+			},
+			{
+				"trigger": "GL_XOR\tbgl constant",
+				"contents": "GL_XOR"
+			},
+			{
+				"trigger": "GL_ZERO\tbgl constant",
+				"contents": "GL_ZERO"
+			},
+			{
+				"trigger": "GL_ZOOM_X\tbgl constant",
+				"contents": "GL_ZOOM_X"
+			},
+			{
+				"trigger": "GL_ZOOM_Y\tbgl constant",
+				"contents": "GL_ZOOM_Y"
+			},
+			{
+				"trigger": "glAccum\tbgl method",
+				"contents": "glAccum(${1})"
+			},
+			{
+				"trigger": "glActiveTexture\tbgl method",
+				"contents": "glActiveTexture(${1})"
+			},
+			{
+				"trigger": "glAlphaFunc\tbgl method",
+				"contents": "glAlphaFunc(${1})"
+			},
+			{
+				"trigger": "glAreTexturesResident\tbgl method",
+				"contents": "glAreTexturesResident(${1})"
+			},
+			{
+				"trigger": "glAttachShader\tbgl method",
+				"contents": "glAttachShader(${1})"
+			},
+			{
+				"trigger": "glBegin\tbgl method",
+				"contents": "glBegin(${1})"
+			},
+			{
+				"trigger": "glBindTexture\tbgl method",
+				"contents": "glBindTexture(${1})"
+			},
+			{
+				"trigger": "glBitmap\tbgl method",
+				"contents": "glBitmap(${1})"
+			},
+			{
+				"trigger": "glBlendFunc\tbgl method",
+				"contents": "glBlendFunc(${1})"
+			},
+			{
+				"trigger": "glCallList\tbgl method",
+				"contents": "glCallList(${1})"
+			},
+			{
+				"trigger": "glCallLists\tbgl method",
+				"contents": "glCallLists(${1})"
+			},
+			{
+				"trigger": "glClear\tbgl method",
+				"contents": "glClear(${1})"
+			},
+			{
+				"trigger": "glClearAccum\tbgl method",
+				"contents": "glClearAccum(${1})"
+			},
+			{
+				"trigger": "glClearColor\tbgl method",
+				"contents": "glClearColor(${1})"
+			},
+			{
+				"trigger": "glClearDepth\tbgl method",
+				"contents": "glClearDepth(${1})"
+			},
+			{
+				"trigger": "glClearIndex\tbgl method",
+				"contents": "glClearIndex(${1})"
+			},
+			{
+				"trigger": "glClearStencil\tbgl method",
+				"contents": "glClearStencil(${1})"
+			},
+			{
+				"trigger": "glClipPlane\tbgl method",
+				"contents": "glClipPlane(${1})"
+			},
+			{
+				"trigger": "glColor3b\tbgl method",
+				"contents": "glColor3b(${1})"
+			},
+			{
+				"trigger": "glColor3bv\tbgl method",
+				"contents": "glColor3bv(${1})"
+			},
+			{
+				"trigger": "glColor3d\tbgl method",
+				"contents": "glColor3d(${1})"
+			},
+			{
+				"trigger": "glColor3dv\tbgl method",
+				"contents": "glColor3dv(${1})"
+			},
+			{
+				"trigger": "glColor3f\tbgl method",
+				"contents": "glColor3f(${1})"
+			},
+			{
+				"trigger": "glColor3fv\tbgl method",
+				"contents": "glColor3fv(${1})"
+			},
+			{
+				"trigger": "glColor3i\tbgl method",
+				"contents": "glColor3i(${1})"
+			},
+			{
+				"trigger": "glColor3iv\tbgl method",
+				"contents": "glColor3iv(${1})"
+			},
+			{
+				"trigger": "glColor3s\tbgl method",
+				"contents": "glColor3s(${1})"
+			},
+			{
+				"trigger": "glColor3sv\tbgl method",
+				"contents": "glColor3sv(${1})"
+			},
+			{
+				"trigger": "glColor3ub\tbgl method",
+				"contents": "glColor3ub(${1})"
+			},
+			{
+				"trigger": "glColor3ubv\tbgl method",
+				"contents": "glColor3ubv(${1})"
+			},
+			{
+				"trigger": "glColor3ui\tbgl method",
+				"contents": "glColor3ui(${1})"
+			},
+			{
+				"trigger": "glColor3uiv\tbgl method",
+				"contents": "glColor3uiv(${1})"
+			},
+			{
+				"trigger": "glColor3us\tbgl method",
+				"contents": "glColor3us(${1})"
+			},
+			{
+				"trigger": "glColor3usv\tbgl method",
+				"contents": "glColor3usv(${1})"
+			},
+			{
+				"trigger": "glColor4b\tbgl method",
+				"contents": "glColor4b(${1})"
+			},
+			{
+				"trigger": "glColor4bv\tbgl method",
+				"contents": "glColor4bv(${1})"
+			},
+			{
+				"trigger": "glColor4d\tbgl method",
+				"contents": "glColor4d(${1})"
+			},
+			{
+				"trigger": "glColor4dv\tbgl method",
+				"contents": "glColor4dv(${1})"
+			},
+			{
+				"trigger": "glColor4f\tbgl method",
+				"contents": "glColor4f(${1})"
+			},
+			{
+				"trigger": "glColor4fv\tbgl method",
+				"contents": "glColor4fv(${1})"
+			},
+			{
+				"trigger": "glColor4i\tbgl method",
+				"contents": "glColor4i(${1})"
+			},
+			{
+				"trigger": "glColor4iv\tbgl method",
+				"contents": "glColor4iv(${1})"
+			},
+			{
+				"trigger": "glColor4s\tbgl method",
+				"contents": "glColor4s(${1})"
+			},
+			{
+				"trigger": "glColor4sv\tbgl method",
+				"contents": "glColor4sv(${1})"
+			},
+			{
+				"trigger": "glColor4ub\tbgl method",
+				"contents": "glColor4ub(${1})"
+			},
+			{
+				"trigger": "glColor4ubv\tbgl method",
+				"contents": "glColor4ubv(${1})"
+			},
+			{
+				"trigger": "glColor4ui\tbgl method",
+				"contents": "glColor4ui(${1})"
+			},
+			{
+				"trigger": "glColor4uiv\tbgl method",
+				"contents": "glColor4uiv(${1})"
+			},
+			{
+				"trigger": "glColor4us\tbgl method",
+				"contents": "glColor4us(${1})"
+			},
+			{
+				"trigger": "glColor4usv\tbgl method",
+				"contents": "glColor4usv(${1})"
+			},
+			{
+				"trigger": "glColorMask\tbgl method",
+				"contents": "glColorMask(${1})"
+			},
+			{
+				"trigger": "glColorMaterial\tbgl method",
+				"contents": "glColorMaterial(${1})"
+			},
+			{
+				"trigger": "glCompileShader\tbgl method",
+				"contents": "glCompileShader(${1})"
+			},
+			{
+				"trigger": "glCopyPixels\tbgl method",
+				"contents": "glCopyPixels(${1})"
+			},
+			{
+				"trigger": "glCopyTexImage2D\tbgl method",
+				"contents": "glCopyTexImage2D(${1})"
+			},
+			{
+				"trigger": "glCreateProgram\tbgl method",
+				"contents": "glCreateProgram(${1})"
+			},
+			{
+				"trigger": "glCreateShader\tbgl method",
+				"contents": "glCreateShader(${1})"
+			},
+			{
+				"trigger": "glCullFace\tbgl method",
+				"contents": "glCullFace(${1})"
+			},
+			{
+				"trigger": "glDeleteLists\tbgl method",
+				"contents": "glDeleteLists(${1})"
+			},
+			{
+				"trigger": "glDeleteProgram\tbgl method",
+				"contents": "glDeleteProgram(${1})"
+			},
+			{
+				"trigger": "glDeleteShader\tbgl method",
+				"contents": "glDeleteShader(${1})"
+			},
+			{
+				"trigger": "glDeleteTextures\tbgl method",
+				"contents": "glDeleteTextures(${1})"
+			},
+			{
+				"trigger": "glDepthFunc\tbgl method",
+				"contents": "glDepthFunc(${1})"
+			},
+			{
+				"trigger": "glDepthMask\tbgl method",
+				"contents": "glDepthMask(${1})"
+			},
+			{
+				"trigger": "glDepthRange\tbgl method",
+				"contents": "glDepthRange(${1})"
+			},
+			{
+				"trigger": "glDetachShader\tbgl method",
+				"contents": "glDetachShader(${1})"
+			},
+			{
+				"trigger": "glDisable\tbgl method",
+				"contents": "glDisable(${1})"
+			},
+			{
+				"trigger": "glDrawBuffer\tbgl method",
+				"contents": "glDrawBuffer(${1})"
+			},
+			{
+				"trigger": "glDrawPixels\tbgl method",
+				"contents": "glDrawPixels(${1})"
+			},
+			{
+				"trigger": "glEdgeFlag\tbgl method",
+				"contents": "glEdgeFlag(${1})"
+			},
+			{
+				"trigger": "glEdgeFlagv\tbgl method",
+				"contents": "glEdgeFlagv(${1})"
+			},
+			{
+				"trigger": "glEnable\tbgl method",
+				"contents": "glEnable(${1})"
+			},
+			{
+				"trigger": "glEnd\tbgl method",
+				"contents": "glEnd(${1})"
+			},
+			{
+				"trigger": "glEndList\tbgl method",
+				"contents": "glEndList(${1})"
+			},
+			{
+				"trigger": "glEvalCoord1d\tbgl method",
+				"contents": "glEvalCoord1d(${1})"
+			},
+			{
+				"trigger": "glEvalCoord1dv\tbgl method",
+				"contents": "glEvalCoord1dv(${1})"
+			},
+			{
+				"trigger": "glEvalCoord1f\tbgl method",
+				"contents": "glEvalCoord1f(${1})"
+			},
+			{
+				"trigger": "glEvalCoord1fv\tbgl method",
+				"contents": "glEvalCoord1fv(${1})"
+			},
+			{
+				"trigger": "glEvalCoord2d\tbgl method",
+				"contents": "glEvalCoord2d(${1})"
+			},
+			{
+				"trigger": "glEvalCoord2dv\tbgl method",
+				"contents": "glEvalCoord2dv(${1})"
+			},
+			{
+				"trigger": "glEvalCoord2f\tbgl method",
+				"contents": "glEvalCoord2f(${1})"
+			},
+			{
+				"trigger": "glEvalCoord2fv\tbgl method",
+				"contents": "glEvalCoord2fv(${1})"
+			},
+			{
+				"trigger": "glEvalMesh1\tbgl method",
+				"contents": "glEvalMesh1(${1})"
+			},
+			{
+				"trigger": "glEvalMesh2\tbgl method",
+				"contents": "glEvalMesh2(${1})"
+			},
+			{
+				"trigger": "glEvalPoint1\tbgl method",
+				"contents": "glEvalPoint1(${1})"
+			},
+			{
+				"trigger": "glEvalPoint2\tbgl method",
+				"contents": "glEvalPoint2(${1})"
+			},
+			{
+				"trigger": "glFeedbackBuffer\tbgl method",
+				"contents": "glFeedbackBuffer(${1})"
+			},
+			{
+				"trigger": "glFinish\tbgl method",
+				"contents": "glFinish(${1})"
+			},
+			{
+				"trigger": "glFlush\tbgl method",
+				"contents": "glFlush(${1})"
+			},
+			{
+				"trigger": "glFogf\tbgl method",
+				"contents": "glFogf(${1})"
+			},
+			{
+				"trigger": "glFogfv\tbgl method",
+				"contents": "glFogfv(${1})"
+			},
+			{
+				"trigger": "glFogi\tbgl method",
+				"contents": "glFogi(${1})"
+			},
+			{
+				"trigger": "glFogiv\tbgl method",
+				"contents": "glFogiv(${1})"
+			},
+			{
+				"trigger": "glFrontFace\tbgl method",
+				"contents": "glFrontFace(${1})"
+			},
+			{
+				"trigger": "glFrustum\tbgl method",
+				"contents": "glFrustum(${1})"
+			},
+			{
+				"trigger": "glGenLists\tbgl method",
+				"contents": "glGenLists(${1})"
+			},
+			{
+				"trigger": "glGenTextures\tbgl method",
+				"contents": "glGenTextures(${1})"
+			},
+			{
+				"trigger": "glGetAttachedShaders\tbgl method",
+				"contents": "glGetAttachedShaders(${1})"
+			},
+			{
+				"trigger": "glGetBooleanv\tbgl method",
+				"contents": "glGetBooleanv(${1})"
+			},
+			{
+				"trigger": "glGetClipPlane\tbgl method",
+				"contents": "glGetClipPlane(${1})"
+			},
+			{
+				"trigger": "glGetDoublev\tbgl method",
+				"contents": "glGetDoublev(${1})"
+			},
+			{
+				"trigger": "glGetError\tbgl method",
+				"contents": "glGetError(${1})"
+			},
+			{
+				"trigger": "glGetFloatv\tbgl method",
+				"contents": "glGetFloatv(${1})"
+			},
+			{
+				"trigger": "glGetIntegerv\tbgl method",
+				"contents": "glGetIntegerv(${1})"
+			},
+			{
+				"trigger": "glGetLightfv\tbgl method",
+				"contents": "glGetLightfv(${1})"
+			},
+			{
+				"trigger": "glGetLightiv\tbgl method",
+				"contents": "glGetLightiv(${1})"
+			},
+			{
+				"trigger": "glGetMapdv\tbgl method",
+				"contents": "glGetMapdv(${1})"
+			},
+			{
+				"trigger": "glGetMapfv\tbgl method",
+				"contents": "glGetMapfv(${1})"
+			},
+			{
+				"trigger": "glGetMapiv\tbgl method",
+				"contents": "glGetMapiv(${1})"
+			},
+			{
+				"trigger": "glGetMaterialfv\tbgl method",
+				"contents": "glGetMaterialfv(${1})"
+			},
+			{
+				"trigger": "glGetMaterialiv\tbgl method",
+				"contents": "glGetMaterialiv(${1})"
+			},
+			{
+				"trigger": "glGetPixelMapfv\tbgl method",
+				"contents": "glGetPixelMapfv(${1})"
+			},
+			{
+				"trigger": "glGetPixelMapuiv\tbgl method",
+				"contents": "glGetPixelMapuiv(${1})"
+			},
+			{
+				"trigger": "glGetPixelMapusv\tbgl method",
+				"contents": "glGetPixelMapusv(${1})"
+			},
+			{
+				"trigger": "glGetPolygonStipple\tbgl method",
+				"contents": "glGetPolygonStipple(${1})"
+			},
+			{
+				"trigger": "glGetProgramInfoLog\tbgl method",
+				"contents": "glGetProgramInfoLog(${1})"
+			},
+			{
+				"trigger": "glGetProgramiv\tbgl method",
+				"contents": "glGetProgramiv(${1})"
+			},
+			{
+				"trigger": "glGetShaderInfoLog\tbgl method",
+				"contents": "glGetShaderInfoLog(${1})"
+			},
+			{
+				"trigger": "glGetShaderSource\tbgl method",
+				"contents": "glGetShaderSource(${1})"
+			},
+			{
+				"trigger": "glGetShaderiv\tbgl method",
+				"contents": "glGetShaderiv(${1})"
+			},
+			{
+				"trigger": "glGetString\tbgl method",
+				"contents": "glGetString(${1})"
+			},
+			{
+				"trigger": "glGetTexEnvfv\tbgl method",
+				"contents": "glGetTexEnvfv(${1})"
+			},
+			{
+				"trigger": "glGetTexEnviv\tbgl method",
+				"contents": "glGetTexEnviv(${1})"
+			},
+			{
+				"trigger": "glGetTexGendv\tbgl method",
+				"contents": "glGetTexGendv(${1})"
+			},
+			{
+				"trigger": "glGetTexGenfv\tbgl method",
+				"contents": "glGetTexGenfv(${1})"
+			},
+			{
+				"trigger": "glGetTexGeniv\tbgl method",
+				"contents": "glGetTexGeniv(${1})"
+			},
+			{
+				"trigger": "glGetTexImage\tbgl method",
+				"contents": "glGetTexImage(${1})"
+			},
+			{
+				"trigger": "glGetTexLevelParameterfv\tbgl method",
+				"contents": "glGetTexLevelParameterfv(${1})"
+			},
+			{
+				"trigger": "glGetTexLevelParameteriv\tbgl method",
+				"contents": "glGetTexLevelParameteriv(${1})"
+			},
+			{
+				"trigger": "glGetTexParameterfv\tbgl method",
+				"contents": "glGetTexParameterfv(${1})"
+			},
+			{
+				"trigger": "glGetTexParameteriv\tbgl method",
+				"contents": "glGetTexParameteriv(${1})"
+			},
+			{
+				"trigger": "glGetUniformLocation\tbgl method",
+				"contents": "glGetUniformLocation(${1})"
+			},
+			{
+				"trigger": "glHint\tbgl method",
+				"contents": "glHint(${1})"
+			},
+			{
+				"trigger": "glIndexMask\tbgl method",
+				"contents": "glIndexMask(${1})"
+			},
+			{
+				"trigger": "glIndexd\tbgl method",
+				"contents": "glIndexd(${1})"
+			},
+			{
+				"trigger": "glIndexdv\tbgl method",
+				"contents": "glIndexdv(${1})"
+			},
+			{
+				"trigger": "glIndexf\tbgl method",
+				"contents": "glIndexf(${1})"
+			},
+			{
+				"trigger": "glIndexfv\tbgl method",
+				"contents": "glIndexfv(${1})"
+			},
+			{
+				"trigger": "glIndexi\tbgl method",
+				"contents": "glIndexi(${1})"
+			},
+			{
+				"trigger": "glIndexiv\tbgl method",
+				"contents": "glIndexiv(${1})"
+			},
+			{
+				"trigger": "glIndexs\tbgl method",
+				"contents": "glIndexs(${1})"
+			},
+			{
+				"trigger": "glIndexsv\tbgl method",
+				"contents": "glIndexsv(${1})"
+			},
+			{
+				"trigger": "glInitNames\tbgl method",
+				"contents": "glInitNames(${1})"
+			},
+			{
+				"trigger": "glIsEnabled\tbgl method",
+				"contents": "glIsEnabled(${1})"
+			},
+			{
+				"trigger": "glIsList\tbgl method",
+				"contents": "glIsList(${1})"
+			},
+			{
+				"trigger": "glIsProgram\tbgl method",
+				"contents": "glIsProgram(${1})"
+			},
+			{
+				"trigger": "glIsShader\tbgl method",
+				"contents": "glIsShader(${1})"
+			},
+			{
+				"trigger": "glIsTexture\tbgl method",
+				"contents": "glIsTexture(${1})"
+			},
+			{
+				"trigger": "glLightModelf\tbgl method",
+				"contents": "glLightModelf(${1})"
+			},
+			{
+				"trigger": "glLightModelfv\tbgl method",
+				"contents": "glLightModelfv(${1})"
+			},
+			{
+				"trigger": "glLightModeli\tbgl method",
+				"contents": "glLightModeli(${1})"
+			},
+			{
+				"trigger": "glLightModeliv\tbgl method",
+				"contents": "glLightModeliv(${1})"
+			},
+			{
+				"trigger": "glLightf\tbgl method",
+				"contents": "glLightf(${1})"
+			},
+			{
+				"trigger": "glLightfv\tbgl method",
+				"contents": "glLightfv(${1})"
+			},
+			{
+				"trigger": "glLighti\tbgl method",
+				"contents": "glLighti(${1})"
+			},
+			{
+				"trigger": "glLightiv\tbgl method",
+				"contents": "glLightiv(${1})"
+			},
+			{
+				"trigger": "glLineStipple\tbgl method",
+				"contents": "glLineStipple(${1})"
+			},
+			{
+				"trigger": "glLineWidth\tbgl method",
+				"contents": "glLineWidth(${1})"
+			},
+			{
+				"trigger": "glLinkProgram\tbgl method",
+				"contents": "glLinkProgram(${1})"
+			},
+			{
+				"trigger": "glListBase\tbgl method",
+				"contents": "glListBase(${1})"
+			},
+			{
+				"trigger": "glLoadIdentity\tbgl method",
+				"contents": "glLoadIdentity(${1})"
+			},
+			{
+				"trigger": "glLoadMatrixd\tbgl method",
+				"contents": "glLoadMatrixd(${1})"
+			},
+			{
+				"trigger": "glLoadMatrixf\tbgl method",
+				"contents": "glLoadMatrixf(${1})"
+			},
+			{
+				"trigger": "glLoadName\tbgl method",
+				"contents": "glLoadName(${1})"
+			},
+			{
+				"trigger": "glLogicOp\tbgl method",
+				"contents": "glLogicOp(${1})"
+			},
+			{
+				"trigger": "glMap1d\tbgl method",
+				"contents": "glMap1d(${1})"
+			},
+			{
+				"trigger": "glMap1f\tbgl method",
+				"contents": "glMap1f(${1})"
+			},
+			{
+				"trigger": "glMap2d\tbgl method",
+				"contents": "glMap2d(${1})"
+			},
+			{
+				"trigger": "glMap2f\tbgl method",
+				"contents": "glMap2f(${1})"
+			},
+			{
+				"trigger": "glMapGrid1d\tbgl method",
+				"contents": "glMapGrid1d(${1})"
+			},
+			{
+				"trigger": "glMapGrid1f\tbgl method",
+				"contents": "glMapGrid1f(${1})"
+			},
+			{
+				"trigger": "glMapGrid2d\tbgl method",
+				"contents": "glMapGrid2d(${1})"
+			},
+			{
+				"trigger": "glMapGrid2f\tbgl method",
+				"contents": "glMapGrid2f(${1})"
+			},
+			{
+				"trigger": "glMaterialf\tbgl method",
+				"contents": "glMaterialf(${1})"
+			},
+			{
+				"trigger": "glMaterialfv\tbgl method",
+				"contents": "glMaterialfv(${1})"
+			},
+			{
+				"trigger": "glMateriali\tbgl method",
+				"contents": "glMateriali(${1})"
+			},
+			{
+				"trigger": "glMaterialiv\tbgl method",
+				"contents": "glMaterialiv(${1})"
+			},
+			{
+				"trigger": "glMatrixMode\tbgl method",
+				"contents": "glMatrixMode(${1})"
+			},
+			{
+				"trigger": "glMultMatrixd\tbgl method",
+				"contents": "glMultMatrixd(${1})"
+			},
+			{
+				"trigger": "glMultMatrixf\tbgl method",
+				"contents": "glMultMatrixf(${1})"
+			},
+			{
+				"trigger": "glNewList\tbgl method",
+				"contents": "glNewList(${1})"
+			},
+			{
+				"trigger": "glNormal3b\tbgl method",
+				"contents": "glNormal3b(${1})"
+			},
+			{
+				"trigger": "glNormal3bv\tbgl method",
+				"contents": "glNormal3bv(${1})"
+			},
+			{
+				"trigger": "glNormal3d\tbgl method",
+				"contents": "glNormal3d(${1})"
+			},
+			{
+				"trigger": "glNormal3dv\tbgl method",
+				"contents": "glNormal3dv(${1})"
+			},
+			{
+				"trigger": "glNormal3f\tbgl method",
+				"contents": "glNormal3f(${1})"
+			},
+			{
+				"trigger": "glNormal3fv\tbgl method",
+				"contents": "glNormal3fv(${1})"
+			},
+			{
+				"trigger": "glNormal3i\tbgl method",
+				"contents": "glNormal3i(${1})"
+			},
+			{
+				"trigger": "glNormal3iv\tbgl method",
+				"contents": "glNormal3iv(${1})"
+			},
+			{
+				"trigger": "glNormal3s\tbgl method",
+				"contents": "glNormal3s(${1})"
+			},
+			{
+				"trigger": "glNormal3sv\tbgl method",
+				"contents": "glNormal3sv(${1})"
+			},
+			{
+				"trigger": "glOrtho\tbgl method",
+				"contents": "glOrtho(${1})"
+			},
+			{
+				"trigger": "glPassThrough\tbgl method",
+				"contents": "glPassThrough(${1})"
+			},
+			{
+				"trigger": "glPixelMapfv\tbgl method",
+				"contents": "glPixelMapfv(${1})"
+			},
+			{
+				"trigger": "glPixelMapuiv\tbgl method",
+				"contents": "glPixelMapuiv(${1})"
+			},
+			{
+				"trigger": "glPixelMapusv\tbgl method",
+				"contents": "glPixelMapusv(${1})"
+			},
+			{
+				"trigger": "glPixelStoref\tbgl method",
+				"contents": "glPixelStoref(${1})"
+			},
+			{
+				"trigger": "glPixelStorei\tbgl method",
+				"contents": "glPixelStorei(${1})"
+			},
+			{
+				"trigger": "glPixelTransferf\tbgl method",
+				"contents": "glPixelTransferf(${1})"
+			},
+			{
+				"trigger": "glPixelTransferi\tbgl method",
+				"contents": "glPixelTransferi(${1})"
+			},
+			{
+				"trigger": "glPixelZoom\tbgl method",
+				"contents": "glPixelZoom(${1})"
+			},
+			{
+				"trigger": "glPointSize\tbgl method",
+				"contents": "glPointSize(${1})"
+			},
+			{
+				"trigger": "glPolygonMode\tbgl method",
+				"contents": "glPolygonMode(${1})"
+			},
+			{
+				"trigger": "glPolygonOffset\tbgl method",
+				"contents": "glPolygonOffset(${1})"
+			},
+			{
+				"trigger": "glPolygonStipple\tbgl method",
+				"contents": "glPolygonStipple(${1})"
+			},
+			{
+				"trigger": "glPopAttrib\tbgl method",
+				"contents": "glPopAttrib(${1})"
+			},
+			{
+				"trigger": "glPopClientAttrib\tbgl method",
+				"contents": "glPopClientAttrib(${1})"
+			},
+			{
+				"trigger": "glPopMatrix\tbgl method",
+				"contents": "glPopMatrix(${1})"
+			},
+			{
+				"trigger": "glPopName\tbgl method",
+				"contents": "glPopName(${1})"
+			},
+			{
+				"trigger": "glPrioritizeTextures\tbgl method",
+				"contents": "glPrioritizeTextures(${1})"
+			},
+			{
+				"trigger": "glPushAttrib\tbgl method",
+				"contents": "glPushAttrib(${1})"
+			},
+			{
+				"trigger": "glPushClientAttrib\tbgl method",
+				"contents": "glPushClientAttrib(${1})"
+			},
+			{
+				"trigger": "glPushMatrix\tbgl method",
+				"contents": "glPushMatrix(${1})"
+			},
+			{
+				"trigger": "glPushName\tbgl method",
+				"contents": "glPushName(${1})"
+			},
+			{
+				"trigger": "glRasterPos2d\tbgl method",
+				"contents": "glRasterPos2d(${1})"
+			},
+			{
+				"trigger": "glRasterPos2dv\tbgl method",
+				"contents": "glRasterPos2dv(${1})"
+			},
+			{
+				"trigger": "glRasterPos2f\tbgl method",
+				"contents": "glRasterPos2f(${1})"
+			},
+			{
+				"trigger": "glRasterPos2fv\tbgl method",
+				"contents": "glRasterPos2fv(${1})"
+			},
+			{
+				"trigger": "glRasterPos2i\tbgl method",
+				"contents": "glRasterPos2i(${1})"
+			},
+			{
+				"trigger": "glRasterPos2iv\tbgl method",
+				"contents": "glRasterPos2iv(${1})"
+			},
+			{
+				"trigger": "glRasterPos2s\tbgl method",
+				"contents": "glRasterPos2s(${1})"
+			},
+			{
+				"trigger": "glRasterPos2sv\tbgl method",
+				"contents": "glRasterPos2sv(${1})"
+			},
+			{
+				"trigger": "glRasterPos3d\tbgl method",
+				"contents": "glRasterPos3d(${1})"
+			},
+			{
+				"trigger": "glRasterPos3dv\tbgl method",
+				"contents": "glRasterPos3dv(${1})"
+			},
+			{
+				"trigger": "glRasterPos3f\tbgl method",
+				"contents": "glRasterPos3f(${1})"
+			},
+			{
+				"trigger": "glRasterPos3fv\tbgl method",
+				"contents": "glRasterPos3fv(${1})"
+			},
+			{
+				"trigger": "glRasterPos3i\tbgl method",
+				"contents": "glRasterPos3i(${1})"
+			},
+			{
+				"trigger": "glRasterPos3iv\tbgl method",
+				"contents": "glRasterPos3iv(${1})"
+			},
+			{
+				"trigger": "glRasterPos3s\tbgl method",
+				"contents": "glRasterPos3s(${1})"
+			},
+			{
+				"trigger": "glRasterPos3sv\tbgl method",
+				"contents": "glRasterPos3sv(${1})"
+			},
+			{
+				"trigger": "glRasterPos4d\tbgl method",
+				"contents": "glRasterPos4d(${1})"
+			},
+			{
+				"trigger": "glRasterPos4dv\tbgl method",
+				"contents": "glRasterPos4dv(${1})"
+			},
+			{
+				"trigger": "glRasterPos4f\tbgl method",
+				"contents": "glRasterPos4f(${1})"
+			},
+			{
+				"trigger": "glRasterPos4fv\tbgl method",
+				"contents": "glRasterPos4fv(${1})"
+			},
+			{
+				"trigger": "glRasterPos4i\tbgl method",
+				"contents": "glRasterPos4i(${1})"
+			},
+			{
+				"trigger": "glRasterPos4iv\tbgl method",
+				"contents": "glRasterPos4iv(${1})"
+			},
+			{
+				"trigger": "glRasterPos4s\tbgl method",
+				"contents": "glRasterPos4s(${1})"
+			},
+			{
+				"trigger": "glRasterPos4sv\tbgl method",
+				"contents": "glRasterPos4sv(${1})"
+			},
+			{
+				"trigger": "glReadBuffer\tbgl method",
+				"contents": "glReadBuffer(${1})"
+			},
+			{
+				"trigger": "glReadPixels\tbgl method",
+				"contents": "glReadPixels(${1})"
+			},
+			{
+				"trigger": "glRectd\tbgl method",
+				"contents": "glRectd(${1})"
+			},
+			{
+				"trigger": "glRectdv\tbgl method",
+				"contents": "glRectdv(${1})"
+			},
+			{
+				"trigger": "glRectf\tbgl method",
+				"contents": "glRectf(${1})"
+			},
+			{
+				"trigger": "glRectfv\tbgl method",
+				"contents": "glRectfv(${1})"
+			},
+			{
+				"trigger": "glRecti\tbgl method",
+				"contents": "glRecti(${1})"
+			},
+			{
+				"trigger": "glRectiv\tbgl method",
+				"contents": "glRectiv(${1})"
+			},
+			{
+				"trigger": "glRects\tbgl method",
+				"contents": "glRects(${1})"
+			},
+			{
+				"trigger": "glRectsv\tbgl method",
+				"contents": "glRectsv(${1})"
+			},
+			{
+				"trigger": "glRenderMode\tbgl method",
+				"contents": "glRenderMode(${1})"
+			},
+			{
+				"trigger": "glRotated\tbgl method",
+				"contents": "glRotated(${1})"
+			},
+			{
+				"trigger": "glRotatef\tbgl method",
+				"contents": "glRotatef(${1})"
+			},
+			{
+				"trigger": "glScaled\tbgl method",
+				"contents": "glScaled(${1})"
+			},
+			{
+				"trigger": "glScalef\tbgl method",
+				"contents": "glScalef(${1})"
+			},
+			{
+				"trigger": "glScissor\tbgl method",
+				"contents": "glScissor(${1})"
+			},
+			{
+				"trigger": "glSelectBuffer\tbgl method",
+				"contents": "glSelectBuffer(${1})"
+			},
+			{
+				"trigger": "glShadeModel\tbgl method",
+				"contents": "glShadeModel(${1})"
+			},
+			{
+				"trigger": "glShaderSource\tbgl method",
+				"contents": "glShaderSource(${1})"
+			},
+			{
+				"trigger": "glStencilFunc\tbgl method",
+				"contents": "glStencilFunc(${1})"
+			},
+			{
+				"trigger": "glStencilMask\tbgl method",
+				"contents": "glStencilMask(${1})"
+			},
+			{
+				"trigger": "glStencilOp\tbgl method",
+				"contents": "glStencilOp(${1})"
+			},
+			{
+				"trigger": "glTexCoord1d\tbgl method",
+				"contents": "glTexCoord1d(${1})"
+			},
+			{
+				"trigger": "glTexCoord1dv\tbgl method",
+				"contents": "glTexCoord1dv(${1})"
+			},
+			{
+				"trigger": "glTexCoord1f\tbgl method",
+				"contents": "glTexCoord1f(${1})"
+			},
+			{
+				"trigger": "glTexCoord1fv\tbgl method",
+				"contents": "glTexCoord1fv(${1})"
+			},
+			{
+				"trigger": "glTexCoord1i\tbgl method",
+				"contents": "glTexCoord1i(${1})"
+			},
+			{
+				"trigger": "glTexCoord1iv\tbgl method",
+				"contents": "glTexCoord1iv(${1})"
+			},
+			{
+				"trigger": "glTexCoord1s\tbgl method",
+				"contents": "glTexCoord1s(${1})"
+			},
+			{
+				"trigger": "glTexCoord1sv\tbgl method",
+				"contents": "glTexCoord1sv(${1})"
+			},
+			{
+				"trigger": "glTexCoord2d\tbgl method",
+				"contents": "glTexCoord2d(${1})"
+			},
+			{
+				"trigger": "glTexCoord2dv\tbgl method",
+				"contents": "glTexCoord2dv(${1})"
+			},
+			{
+				"trigger": "glTexCoord2f\tbgl method",
+				"contents": "glTexCoord2f(${1})"
+			},
+			{
+				"trigger": "glTexCoord2fv\tbgl method",
+				"contents": "glTexCoord2fv(${1})"
+			},
+			{
+				"trigger": "glTexCoord2i\tbgl method",
+				"contents": "glTexCoord2i(${1})"
+			},
+			{
+				"trigger": "glTexCoord2iv\tbgl method",
+				"contents": "glTexCoord2iv(${1})"
+			},
+			{
+				"trigger": "glTexCoord2s\tbgl method",
+				"contents": "glTexCoord2s(${1})"
+			},
+			{
+				"trigger": "glTexCoord2sv\tbgl method",
+				"contents": "glTexCoord2sv(${1})"
+			},
+			{
+				"trigger": "glTexCoord3d\tbgl method",
+				"contents": "glTexCoord3d(${1})"
+			},
+			{
+				"trigger": "glTexCoord3dv\tbgl method",
+				"contents": "glTexCoord3dv(${1})"
+			},
+			{
+				"trigger": "glTexCoord3f\tbgl method",
+				"contents": "glTexCoord3f(${1})"
+			},
+			{
+				"trigger": "glTexCoord3fv\tbgl method",
+				"contents": "glTexCoord3fv(${1})"
+			},
+			{
+				"trigger": "glTexCoord3i\tbgl method",
+				"contents": "glTexCoord3i(${1})"
+			},
+			{
+				"trigger": "glTexCoord3iv\tbgl method",
+				"contents": "glTexCoord3iv(${1})"
+			},
+			{
+				"trigger": "glTexCoord3s\tbgl method",
+				"contents": "glTexCoord3s(${1})"
+			},
+			{
+				"trigger": "glTexCoord3sv\tbgl method",
+				"contents": "glTexCoord3sv(${1})"
+			},
+			{
+				"trigger": "glTexCoord4d\tbgl method",
+				"contents": "glTexCoord4d(${1})"
+			},
+			{
+				"trigger": "glTexCoord4dv\tbgl method",
+				"contents": "glTexCoord4dv(${1})"
+			},
+			{
+				"trigger": "glTexCoord4f\tbgl method",
+				"contents": "glTexCoord4f(${1})"
+			},
+			{
+				"trigger": "glTexCoord4fv\tbgl method",
+				"contents": "glTexCoord4fv(${1})"
+			},
+			{
+				"trigger": "glTexCoord4i\tbgl method",
+				"contents": "glTexCoord4i(${1})"
+			},
+			{
+				"trigger": "glTexCoord4iv\tbgl method",
+				"contents": "glTexCoord4iv(${1})"
+			},
+			{
+				"trigger": "glTexCoord4s\tbgl method",
+				"contents": "glTexCoord4s(${1})"
+			},
+			{
+				"trigger": "glTexCoord4sv\tbgl method",
+				"contents": "glTexCoord4sv(${1})"
+			},
+			{
+				"trigger": "glTexEnvf\tbgl method",
+				"contents": "glTexEnvf(${1})"
+			},
+			{
+				"trigger": "glTexEnvfv\tbgl method",
+				"contents": "glTexEnvfv(${1})"
+			},
+			{
+				"trigger": "glTexEnvi\tbgl method",
+				"contents": "glTexEnvi(${1})"
+			},
+			{
+				"trigger": "glTexEnviv\tbgl method",
+				"contents": "glTexEnviv(${1})"
+			},
+			{
+				"trigger": "glTexGend\tbgl method",
+				"contents": "glTexGend(${1})"
+			},
+			{
+				"trigger": "glTexGendv\tbgl method",
+				"contents": "glTexGendv(${1})"
+			},
+			{
+				"trigger": "glTexGenf\tbgl method",
+				"contents": "glTexGenf(${1})"
+			},
+			{
+				"trigger": "glTexGenfv\tbgl method",
+				"contents": "glTexGenfv(${1})"
+			},
+			{
+				"trigger": "glTexGeni\tbgl method",
+				"contents": "glTexGeni(${1})"
+			},
+			{
+				"trigger": "glTexGeniv\tbgl method",
+				"contents": "glTexGeniv(${1})"
+			},
+			{
+				"trigger": "glTexImage1D\tbgl method",
+				"contents": "glTexImage1D(${1})"
+			},
+			{
+				"trigger": "glTexImage2D\tbgl method",
+				"contents": "glTexImage2D(${1})"
+			},
+			{
+				"trigger": "glTexParameterf\tbgl method",
+				"contents": "glTexParameterf(${1})"
+			},
+			{
+				"trigger": "glTexParameterfv\tbgl method",
+				"contents": "glTexParameterfv(${1})"
+			},
+			{
+				"trigger": "glTexParameteri\tbgl method",
+				"contents": "glTexParameteri(${1})"
+			},
+			{
+				"trigger": "glTexParameteriv\tbgl method",
+				"contents": "glTexParameteriv(${1})"
+			},
+			{
+				"trigger": "glTranslated\tbgl method",
+				"contents": "glTranslated(${1})"
+			},
+			{
+				"trigger": "glTranslatef\tbgl method",
+				"contents": "glTranslatef(${1})"
+			},
+			{
+				"trigger": "glUniform1f\tbgl method",
+				"contents": "glUniform1f(${1})"
+			},
+			{
+				"trigger": "glUniform1fv\tbgl method",
+				"contents": "glUniform1fv(${1})"
+			},
+			{
+				"trigger": "glUniform1i\tbgl method",
+				"contents": "glUniform1i(${1})"
+			},
+			{
+				"trigger": "glUniform1iv\tbgl method",
+				"contents": "glUniform1iv(${1})"
+			},
+			{
+				"trigger": "glUniform2f\tbgl method",
+				"contents": "glUniform2f(${1})"
+			},
+			{
+				"trigger": "glUniform2fv\tbgl method",
+				"contents": "glUniform2fv(${1})"
+			},
+			{
+				"trigger": "glUniform2i\tbgl method",
+				"contents": "glUniform2i(${1})"
+			},
+			{
+				"trigger": "glUniform2iv\tbgl method",
+				"contents": "glUniform2iv(${1})"
+			},
+			{
+				"trigger": "glUniform3f\tbgl method",
+				"contents": "glUniform3f(${1})"
+			},
+			{
+				"trigger": "glUniform3fv\tbgl method",
+				"contents": "glUniform3fv(${1})"
+			},
+			{
+				"trigger": "glUniform3i\tbgl method",
+				"contents": "glUniform3i(${1})"
+			},
+			{
+				"trigger": "glUniform3iv\tbgl method",
+				"contents": "glUniform3iv(${1})"
+			},
+			{
+				"trigger": "glUniform4f\tbgl method",
+				"contents": "glUniform4f(${1})"
+			},
+			{
+				"trigger": "glUniform4fv\tbgl method",
+				"contents": "glUniform4fv(${1})"
+			},
+			{
+				"trigger": "glUniform4i\tbgl method",
+				"contents": "glUniform4i(${1})"
+			},
+			{
+				"trigger": "glUniform4iv\tbgl method",
+				"contents": "glUniform4iv(${1})"
+			},
+			{
+				"trigger": "glUniformMatrix2fv\tbgl method",
+				"contents": "glUniformMatrix2fv(${1})"
+			},
+			{
+				"trigger": "glUniformMatrix2x3fv\tbgl method",
+				"contents": "glUniformMatrix2x3fv(${1})"
+			},
+			{
+				"trigger": "glUniformMatrix2x4fv\tbgl method",
+				"contents": "glUniformMatrix2x4fv(${1})"
+			},
+			{
+				"trigger": "glUniformMatrix3fv\tbgl method",
+				"contents": "glUniformMatrix3fv(${1})"
+			},
+			{
+				"trigger": "glUniformMatrix3x2fv\tbgl method",
+				"contents": "glUniformMatrix3x2fv(${1})"
+			},
+			{
+				"trigger": "glUniformMatrix3x4fv\tbgl method",
+				"contents": "glUniformMatrix3x4fv(${1})"
+			},
+			{
+				"trigger": "glUniformMatrix4fv\tbgl method",
+				"contents": "glUniformMatrix4fv(${1})"
+			},
+			{
+				"trigger": "glUniformMatrix4x2fv\tbgl method",
+				"contents": "glUniformMatrix4x2fv(${1})"
+			},
+			{
+				"trigger": "glUniformMatrix4x3fv\tbgl method",
+				"contents": "glUniformMatrix4x3fv(${1})"
+			},
+			{
+				"trigger": "glUseProgram\tbgl method",
+				"contents": "glUseProgram(${1})"
+			},
+			{
+				"trigger": "glValidateProgram\tbgl method",
+				"contents": "glValidateProgram(${1})"
+			},
+			{
+				"trigger": "glVertex2d\tbgl method",
+				"contents": "glVertex2d(${1})"
+			},
+			{
+				"trigger": "glVertex2dv\tbgl method",
+				"contents": "glVertex2dv(${1})"
+			},
+			{
+				"trigger": "glVertex2f\tbgl method",
+				"contents": "glVertex2f(${1})"
+			},
+			{
+				"trigger": "glVertex2fv\tbgl method",
+				"contents": "glVertex2fv(${1})"
+			},
+			{
+				"trigger": "glVertex2i\tbgl method",
+				"contents": "glVertex2i(${1})"
+			},
+			{
+				"trigger": "glVertex2iv\tbgl method",
+				"contents": "glVertex2iv(${1})"
+			},
+			{
+				"trigger": "glVertex2s\tbgl method",
+				"contents": "glVertex2s(${1})"
+			},
+			{
+				"trigger": "glVertex2sv\tbgl method",
+				"contents": "glVertex2sv(${1})"
+			},
+			{
+				"trigger": "glVertex3d\tbgl method",
+				"contents": "glVertex3d(${1})"
+			},
+			{
+				"trigger": "glVertex3dv\tbgl method",
+				"contents": "glVertex3dv(${1})"
+			},
+			{
+				"trigger": "glVertex3f\tbgl method",
+				"contents": "glVertex3f(${1})"
+			},
+			{
+				"trigger": "glVertex3fv\tbgl method",
+				"contents": "glVertex3fv(${1})"
+			},
+			{
+				"trigger": "glVertex3i\tbgl method",
+				"contents": "glVertex3i(${1})"
+			},
+			{
+				"trigger": "glVertex3iv\tbgl method",
+				"contents": "glVertex3iv(${1})"
+			},
+			{
+				"trigger": "glVertex3s\tbgl method",
+				"contents": "glVertex3s(${1})"
+			},
+			{
+				"trigger": "glVertex3sv\tbgl method",
+				"contents": "glVertex3sv(${1})"
+			},
+			{
+				"trigger": "glVertex4d\tbgl method",
+				"contents": "glVertex4d(${1})"
+			},
+			{
+				"trigger": "glVertex4dv\tbgl method",
+				"contents": "glVertex4dv(${1})"
+			},
+			{
+				"trigger": "glVertex4f\tbgl method",
+				"contents": "glVertex4f(${1})"
+			},
+			{
+				"trigger": "glVertex4fv\tbgl method",
+				"contents": "glVertex4fv(${1})"
+			},
+			{
+				"trigger": "glVertex4i\tbgl method",
+				"contents": "glVertex4i(${1})"
+			},
+			{
+				"trigger": "glVertex4iv\tbgl method",
+				"contents": "glVertex4iv(${1})"
+			},
+			{
+				"trigger": "glVertex4s\tbgl method",
+				"contents": "glVertex4s(${1})"
+			},
+			{
+				"trigger": "glVertex4sv\tbgl method",
+				"contents": "glVertex4sv(${1})"
+			},
+			{
+				"trigger": "glViewport\tbgl method",
+				"contents": "glViewport(${1})"
+			},
+			{
+				"trigger": "gluLookAt\tbgl method",
+				"contents": "gluLookAt(${1})"
+			},
+			{
+				"trigger": "gluOrtho2D\tbgl method",
+				"contents": "gluOrtho2D(${1})"
+			},
+			{
+				"trigger": "gluPerspective\tbgl method",
+				"contents": "gluPerspective(${1})"
+			},
+			{
+				"trigger": "gluPickMatrix\tbgl method",
+				"contents": "gluPickMatrix(${1})"
+			},
+			{
+				"trigger": "gluProject\tbgl method",
+				"contents": "gluProject(${1})"
+			},
+			{
+				"trigger": "gluUnProject\tbgl method",
+				"contents": "gluUnProject(${1})"
+			},
+			{
+				"trigger": "to_lis\tbgl method",
+				"contents": "to_list(${1})"
+			},
 		{
 			"trigger": "blf\tblf",
 			"contents": "blf"
 		},
+			{
+				"trigger": "CLIPPING\tblf constant",
+				"contents": "CLIPPING"
+			},
+			{
+				"trigger": "KERNING_DEFAULT\tblf constant",
+				"contents": "KERNING_DEFAULT"
+			},
+			{
+				"trigger": "ROTATION\tblf constant",
+				"contents": "ROTATION"
+			},
+			{
+				"trigger": "SHADOW\tblf constant",
+				"contents": "SHADOW"
+			},
+			{
+				"trigger": "aspect()\tblf method",
+				"contents": "aspect(${1:fontid}, ${2:aspect})"
+			},
+			{
+				"trigger": "blur()\tblf method",
+				"contents": "blur(${1:fontid}, ${2:radius})"
+			},
+			{
+				"trigger": "clipping()\tblf method",
+				"contents": "clipping(${1:fontid}, ${2:xmin}, ${3:ymin}, ${4:xmax}, ${5:ymax})"
+			},
+			{
+				"trigger": "dimensions()\tblf method",
+				"contents": "dimensions(${1:fontid}, ${2:text})"
+			},
+			{
+				"trigger": "disable()\tblf method",
+				"contents": "disable(${1:fontid}, ${2:option})"
+			},
+			{
+				"trigger": "enable()\tblf method",
+				"contents": "enable(${1:fontid}, ${2:option})"
+			},
+			{
+				"trigger": "draw()\tblf method",
+				"contents": "draw(${1:fontid}, ${2:text})"
+			},
+			{
+				"trigger": "load()\tblf method",
+				"contents": "load(${1:filename})"
+			},
+			{
+				"trigger": "position()\tblf method",
+				"contents": "position(${1:fontid}, ${2:x}, ${2:y}, ${2:z})"
+			},
+			{
+				"trigger": "rotation()\tblf method",
+				"contents": "rotation(${1:fontid}, ${2:angle})"
+			},
+			{
+				"trigger": "shadow()\tblf method",
+				"contents": "shadow(${1:fontid}, ${2:level}, ${3:red}, ${4:green}, ${5:blue}, ${6:alpha})"
+			},
+			{
+				"trigger": "shadow_offset()\tblf method",
+				"contents": "shadow_offset(${1:fontid}, ${2:x}, ${3:y})"
+			},
+			{
+				"trigger": "size()\tblf method",
+				"contents": "size(${1:fontid}, ${2:size}, ${3:dpi})"
+			},
+			{
+				"trigger": "unload()\tblf method",
+				"contents": "unload(${1:filename})"
+			},
 		{
 			"trigger": "bmesh\tbmesh",
 			"contents": "bmesh"
 		},
-		{
-			"trigger": "bmesh.ops\tbmesh sub-class",
-			"contents": "bmesh.ops"
-		},
-		{
-			"trigger": "bmesh.types\tbmesh sub-class",
-			"contents": "bmesh.types"
-		},
-		{
-			"trigger": "bmesh.utils\tbmesh sub-class",
-			"contents": "bmesh.utils"
-		},
+			{
+				"trigger": "from_edit_mesh()\tbmesh method",
+				"contents": "from_edit_mesh(${1:mesh})"
+			},
+			{
+				"trigger": "new()\tbmesh method",
+				"contents": "new()"
+			},
+			{
+				"trigger": "update_edit_mesh()\tbmesh method",
+				"contents": "update_edit_mesh(${1:mesh}, ${2:tessface}, ${3:destructive})"
+			},
+			{
+				"trigger": "bmesh.ops\tbmesh sub-class",
+				"contents": "bmesh.ops"
+			},
+			{
+				"trigger": "bmesh.types\tbmesh sub-class",
+				"contents": "bmesh.types"
+			},
+			{
+				"trigger": "bmesh.utils\tbmesh sub-class",
+				"contents": "bmesh.utils"
+			},
+
+		// bpy
 		{
 			"trigger": "bpy\tbpy",
 			"contents": "bpy"
 		},
-		{
-			"trigger": "bpy.app\tbpy.app",
-			"contents": "bpy.app"
-		},
-		{
-			"trigger": "bpy.app.handlers\tbpy.app.handlers",
-			"contents": "bpy.app.handlers"
-		},
-		{
-			"trigger": "bpy.app.translations\tbpy.app.translations",
-			"contents": "bpy.app.translations"
-		},
-		{
-			"trigger": "bpy.context\tbpy.context",
-			"contents": "bpy.context"
-		},
-		{
-			"trigger": "bpy.ops.action\tbpy.ops.action",
-			"contents": "bpy.ops.action"
-		},
-		{
-			"trigger": "bpy.ops.anim\tbpy.ops.anim",
-			"contents": "bpy.ops.anim"
-		},
-		{
-			"trigger": "bpy.ops.armature\tbpy.ops.armature",
-			"contents": "bpy.ops.armature"
-		},
-		{
-			"trigger": "bpy.ops.boid\tbpy.ops.boid",
-			"contents": "bpy.ops.boid"
-		},
-		{
-			"trigger": "bpy.ops.brush\tbpy.ops.brush",
-			"contents": "bpy.ops.brush"
-		},
-		{
-			"trigger": "bpy.ops.buttons\tbpy.ops.buttons",
-			"contents": "bpy.ops.buttons"
-		},
-		{
-			"trigger": "bpy.ops.camera\tbpy.ops.camera",
-			"contents": "bpy.ops.camera"
-		},
-		{
-			"trigger": "bpy.ops.clip\tbpy.ops.clip",
-			"contents": "bpy.ops.clip"
-		},
-		{
-			"trigger": "bpy.ops.cloth\tbpy.ops.cloth",
-			"contents": "bpy.ops.cloth"
-		},
-		{
-			"trigger": "bpy.ops.console\tbpy.ops.console",
-			"contents": "bpy.ops.console"
-		},
-		{
-			"trigger": "bpy.ops.constraint\tbpy.ops.constraint",
-			"contents": "bpy.ops.constraint"
-		},
-		{
-			"trigger": "bpy.ops.curve\tbpy.ops.curve",
-			"contents": "bpy.ops.curve"
-		},
-		{
-			"trigger": "bpy.ops.dpaint\tbpy.ops.dpaint",
-			"contents": "bpy.ops.dpaint"
-		},
-		{
-			"trigger": "bpy.ops.ed\tbpy.ops.ed",
-			"contents": "bpy.ops.ed"
-		},
-		{
-			"trigger": "bpy.ops.export_anim\tbpy.ops.export_anim",
-			"contents": "bpy.ops.export_anim"
-		},
-		{
-			"trigger": "bpy.ops.export_mesh\tbpy.ops.export_mesh",
-			"contents": "bpy.ops.export_mesh"
-		},
-		{
-			"trigger": "bpy.ops.export_scene\tbpy.ops.export_scene",
-			"contents": "bpy.ops.export_scene"
-		},
-		{
-			"trigger": "bpy.ops.file\tbpy.ops.file",
-			"contents": "bpy.ops.file"
-		},
-		{
-			"trigger": "bpy.ops.fluid\tbpy.ops.fluid",
-			"contents": "bpy.ops.fluid"
-		},
-		{
-			"trigger": "bpy.ops.font\tbpy.ops.font",
-			"contents": "bpy.ops.font"
-		},
-		{
-			"trigger": "bpy.ops.gpencil\tbpy.ops.gpencil",
-			"contents": "bpy.ops.gpencil"
-		},
-		{
-			"trigger": "bpy.ops.graph\tbpy.ops.graph",
-			"contents": "bpy.ops.graph"
-		},
-		{
-			"trigger": "bpy.ops.group\tbpy.ops.group",
-			"contents": "bpy.ops.group"
-		},
-		{
-			"trigger": "bpy.ops.image\tbpy.ops.image",
-			"contents": "bpy.ops.image"
-		},
-		{
-			"trigger": "bpy.ops.import_anim\tbpy.ops.import_anim",
-			"contents": "bpy.ops.import_anim"
-		},
-		{
-			"trigger": "bpy.ops.import_curve\tbpy.ops.import_curve",
-			"contents": "bpy.ops.import_curve"
-		},
-		{
-			"trigger": "bpy.ops.import_mesh\tbpy.ops.import_mesh",
-			"contents": "bpy.ops.import_mesh"
-		},
-		{
-			"trigger": "bpy.ops.import_scene\tbpy.ops.import_scene",
-			"contents": "bpy.ops.import_scene"
-		},
-		{
-			"trigger": "bpy.ops.info\tbpy.ops.info",
-			"contents": "bpy.ops.info"
-		},
-		{
-			"trigger": "bpy.ops.lamp\tbpy.ops.lamp",
-			"contents": "bpy.ops.lamp"
-		},
-		{
-			"trigger": "bpy.ops.lattice\tbpy.ops.lattice",
-			"contents": "bpy.ops.lattice"
-		},
-		{
-			"trigger": "bpy.ops.logic\tbpy.ops.logic",
-			"contents": "bpy.ops.logic"
-		},
-		{
-			"trigger": "bpy.ops.marker\tbpy.ops.marker",
-			"contents": "bpy.ops.marker"
-		},
-		{
-			"trigger": "bpy.ops.mask\tbpy.ops.mask",
-			"contents": "bpy.ops.mask"
-		},
-		{
-			"trigger": "bpy.ops.material\tbpy.ops.material",
-			"contents": "bpy.ops.material"
-		},
-		{
-			"trigger": "bpy.ops.mball\tbpy.ops.mball",
-			"contents": "bpy.ops.mball"
-		},
-		{
-			"trigger": "bpy.ops.mesh\tbpy.ops.mesh",
-			"contents": "bpy.ops.mesh"
-		},
-		{
-			"trigger": "bpy.ops.nla\tbpy.ops.nla",
-			"contents": "bpy.ops.nla"
-		},
-		{
-			"trigger": "bpy.ops.node\tbpy.ops.node",
-			"contents": "bpy.ops.node"
-		},
-		{
-			"trigger": "bpy.ops.object\tbpy.ops.object",
-			"contents": "bpy.ops.object"
-		},
-		{
-			"trigger": "bpy.ops.outliner\tbpy.ops.outliner",
-			"contents": "bpy.ops.outliner"
-		},
-		{
-			"trigger": "bpy.ops.paint\tbpy.ops.paint",
-			"contents": "bpy.ops.paint"
-		},
-		{
-			"trigger": "bpy.ops.particle\tbpy.ops.particle",
-			"contents": "bpy.ops.particle"
-		},
-		{
-			"trigger": "bpy.ops.pose\tbpy.ops.pose",
-			"contents": "bpy.ops.pose"
-		},
-		{
-			"trigger": "bpy.ops.poselib\tbpy.ops.poselib",
-			"contents": "bpy.ops.poselib"
-		},
-		{
-			"trigger": "bpy.ops.ptcache\tbpy.ops.ptcache",
-			"contents": "bpy.ops.ptcache"
-		},
-		{
-			"trigger": "bpy.ops.render\tbpy.ops.render",
-			"contents": "bpy.ops.render"
-		},
-		{
-			"trigger": "bpy.ops.rigidbody\tbpy.ops.rigidbody",
-			"contents": "bpy.ops.rigidbody"
-		},
-		{
-			"trigger": "bpy.ops.scene\tbpy.ops.scene",
-			"contents": "bpy.ops.scene"
-		},
-		{
-			"trigger": "bpy.ops.screen\tbpy.ops.screen",
-			"contents": "bpy.ops.screen"
-		},
-		{
-			"trigger": "bpy.ops.script\tbpy.ops.script",
-			"contents": "bpy.ops.script"
-		},
-		{
-			"trigger": "bpy.ops.sculpt\tbpy.ops.sculpt",
-			"contents": "bpy.ops.sculpt"
-		},
-		{
-			"trigger": "bpy.ops.sequencer\tbpy.ops.sequencer",
-			"contents": "bpy.ops.sequencer"
-		},
-		{
-			"trigger": "bpy.ops.sketch\tbpy.ops.sketch",
-			"contents": "bpy.ops.sketch"
-		},
-		{
-			"trigger": "bpy.ops.sound\tbpy.ops.sound",
-			"contents": "bpy.ops.sound"
-		},
-		{
-			"trigger": "bpy.ops.surface\tbpy.ops.surface",
-			"contents": "bpy.ops.surface"
-		},
-		{
-			"trigger": "bpy.ops.text\tbpy.ops.text",
-			"contents": "bpy.ops.text"
-		},
-		{
-			"trigger": "bpy.ops.texture\tbpy.ops.texture",
-			"contents": "bpy.ops.texture"
-		},
-		{
-			"trigger": "bpy.ops.time\tbpy.ops.time",
-			"contents": "bpy.ops.time"
-		},
-		{
-			"trigger": "bpy.ops.transform\tbpy.ops.transform",
-			"contents": "bpy.ops.transform"
-		},
-		{
-			"trigger": "bpy.ops.ui\tbpy.ops.ui",
-			"contents": "bpy.ops.ui"
-		},
-		{
-			"trigger": "bpy.ops.uv\tbpy.ops.uv",
-			"contents": "bpy.ops.uv"
-		},
-		{
-			"trigger": "bpy.ops.view2d\tbpy.ops.view2d",
-			"contents": "bpy.ops.view2d"
-		},
-		{
-			"trigger": "bpy.ops.view3d\tbpy.ops.view3d",
-			"contents": "bpy.ops.view3d"
-		},
-		{
-			"trigger": "bpy.ops.wm\tbpy.ops.wm",
-			"contents": "bpy.ops.wm"
-		},
-		{
-			"trigger": "bpy.ops.world\tbpy.ops.world",
-			"contents": "bpy.ops.world"
-		},
-		{
-			"trigger": "bpy.path\tbpy.path",
-			"contents": "bpy.path"
-		},
-		{
-			"trigger": "bpy.props\tbpy.props",
-			"contents": "bpy.props"
-		},
-		{
-			"trigger": "bpy.types\tbpy.types",
-			"contents": "bpy.types"
-		},
-		{
-			"trigger": "bpy.utils\tbpy.utils",
-			"contents": "bpy.utils"
-		},
+			{
+				"trigger": "bpy.app\tbpy.app",
+				"contents": "bpy.app"
+			},
+			{
+				"trigger": "bpy.app.handlers\tbpy.app.handlers",
+				"contents": "bpy.app.handlers"
+			},
+			{
+				"trigger": "bpy.app.translations\tbpy.app.translations",
+				"contents": "bpy.app.translations"
+			},
+			{
+				"trigger": "bpy.context\tbpy.context",
+				"contents": "bpy.context"
+			},
+			{
+				"trigger": "bpy.ops.action\tbpy.ops.action",
+				"contents": "bpy.ops.action"
+			},
+			{
+				"trigger": "bpy.ops.anim\tbpy.ops.anim",
+				"contents": "bpy.ops.anim"
+			},
+			{
+				"trigger": "bpy.ops.armature\tbpy.ops.armature",
+				"contents": "bpy.ops.armature"
+			},
+			{
+				"trigger": "bpy.ops.boid\tbpy.ops.boid",
+				"contents": "bpy.ops.boid"
+			},
+			{
+				"trigger": "bpy.ops.brush\tbpy.ops.brush",
+				"contents": "bpy.ops.brush"
+			},
+			{
+				"trigger": "bpy.ops.buttons\tbpy.ops.buttons",
+				"contents": "bpy.ops.buttons"
+			},
+			{
+				"trigger": "bpy.ops.camera\tbpy.ops.camera",
+				"contents": "bpy.ops.camera"
+			},
+			{
+				"trigger": "bpy.ops.clip\tbpy.ops.clip",
+				"contents": "bpy.ops.clip"
+			},
+			{
+				"trigger": "bpy.ops.cloth\tbpy.ops.cloth",
+				"contents": "bpy.ops.cloth"
+			},
+			{
+				"trigger": "bpy.ops.console\tbpy.ops.console",
+				"contents": "bpy.ops.console"
+			},
+			{
+				"trigger": "bpy.ops.constraint\tbpy.ops.constraint",
+				"contents": "bpy.ops.constraint"
+			},
+			{
+				"trigger": "bpy.ops.curve\tbpy.ops.curve",
+				"contents": "bpy.ops.curve"
+			},
+			{
+				"trigger": "bpy.ops.dpaint\tbpy.ops.dpaint",
+				"contents": "bpy.ops.dpaint"
+			},
+			{
+				"trigger": "bpy.ops.ed\tbpy.ops.ed",
+				"contents": "bpy.ops.ed"
+			},
+			{
+				"trigger": "bpy.ops.export_anim\tbpy.ops.export_anim",
+				"contents": "bpy.ops.export_anim"
+			},
+			{
+				"trigger": "bpy.ops.export_mesh\tbpy.ops.export_mesh",
+				"contents": "bpy.ops.export_mesh"
+			},
+			{
+				"trigger": "bpy.ops.export_scene\tbpy.ops.export_scene",
+				"contents": "bpy.ops.export_scene"
+			},
+			{
+				"trigger": "bpy.ops.file\tbpy.ops.file",
+				"contents": "bpy.ops.file"
+			},
+			{
+				"trigger": "bpy.ops.fluid\tbpy.ops.fluid",
+				"contents": "bpy.ops.fluid"
+			},
+			{
+				"trigger": "bpy.ops.font\tbpy.ops.font",
+				"contents": "bpy.ops.font"
+			},
+			{
+				"trigger": "bpy.ops.gpencil\tbpy.ops.gpencil",
+				"contents": "bpy.ops.gpencil"
+			},
+			{
+				"trigger": "bpy.ops.graph\tbpy.ops.graph",
+				"contents": "bpy.ops.graph"
+			},
+			{
+				"trigger": "bpy.ops.group\tbpy.ops.group",
+				"contents": "bpy.ops.group"
+			},
+			{
+				"trigger": "bpy.ops.image\tbpy.ops.image",
+				"contents": "bpy.ops.image"
+			},
+			{
+				"trigger": "bpy.ops.import_anim\tbpy.ops.import_anim",
+				"contents": "bpy.ops.import_anim"
+			},
+			{
+				"trigger": "bpy.ops.import_curve\tbpy.ops.import_curve",
+				"contents": "bpy.ops.import_curve"
+			},
+			{
+				"trigger": "bpy.ops.import_mesh\tbpy.ops.import_mesh",
+				"contents": "bpy.ops.import_mesh"
+			},
+			{
+				"trigger": "bpy.ops.import_scene\tbpy.ops.import_scene",
+				"contents": "bpy.ops.import_scene"
+			},
+			{
+				"trigger": "bpy.ops.info\tbpy.ops.info",
+				"contents": "bpy.ops.info"
+			},
+			{
+				"trigger": "bpy.ops.lamp\tbpy.ops.lamp",
+				"contents": "bpy.ops.lamp"
+			},
+			{
+				"trigger": "bpy.ops.lattice\tbpy.ops.lattice",
+				"contents": "bpy.ops.lattice"
+			},
+			{
+				"trigger": "bpy.ops.logic\tbpy.ops.logic",
+				"contents": "bpy.ops.logic"
+			},
+			{
+				"trigger": "bpy.ops.marker\tbpy.ops.marker",
+				"contents": "bpy.ops.marker"
+			},
+			{
+				"trigger": "bpy.ops.mask\tbpy.ops.mask",
+				"contents": "bpy.ops.mask"
+			},
+			{
+				"trigger": "bpy.ops.material\tbpy.ops.material",
+				"contents": "bpy.ops.material"
+			},
+			{
+				"trigger": "bpy.ops.mball\tbpy.ops.mball",
+				"contents": "bpy.ops.mball"
+			},
+			{
+				"trigger": "bpy.ops.mesh\tbpy.ops.mesh",
+				"contents": "bpy.ops.mesh"
+			},
+			{
+				"trigger": "bpy.ops.nla\tbpy.ops.nla",
+				"contents": "bpy.ops.nla"
+			},
+			{
+				"trigger": "bpy.ops.node\tbpy.ops.node",
+				"contents": "bpy.ops.node"
+			},
+			{
+				"trigger": "bpy.ops.object\tbpy.ops.object",
+				"contents": "bpy.ops.object"
+			},
+			{
+				"trigger": "bpy.ops.outliner\tbpy.ops.outliner",
+				"contents": "bpy.ops.outliner"
+			},
+			{
+				"trigger": "bpy.ops.paint\tbpy.ops.paint",
+				"contents": "bpy.ops.paint"
+			},
+			{
+				"trigger": "bpy.ops.particle\tbpy.ops.particle",
+				"contents": "bpy.ops.particle"
+			},
+			{
+				"trigger": "bpy.ops.pose\tbpy.ops.pose",
+				"contents": "bpy.ops.pose"
+			},
+			{
+				"trigger": "bpy.ops.poselib\tbpy.ops.poselib",
+				"contents": "bpy.ops.poselib"
+			},
+			{
+				"trigger": "bpy.ops.ptcache\tbpy.ops.ptcache",
+				"contents": "bpy.ops.ptcache"
+			},
+			{
+				"trigger": "bpy.ops.render\tbpy.ops.render",
+				"contents": "bpy.ops.render"
+			},
+			{
+				"trigger": "bpy.ops.rigidbody\tbpy.ops.rigidbody",
+				"contents": "bpy.ops.rigidbody"
+			},
+			{
+				"trigger": "bpy.ops.scene\tbpy.ops.scene",
+				"contents": "bpy.ops.scene"
+			},
+			{
+				"trigger": "bpy.ops.screen\tbpy.ops.screen",
+				"contents": "bpy.ops.screen"
+			},
+			{
+				"trigger": "bpy.ops.script\tbpy.ops.script",
+				"contents": "bpy.ops.script"
+			},
+			{
+				"trigger": "bpy.ops.sculpt\tbpy.ops.sculpt",
+				"contents": "bpy.ops.sculpt"
+			},
+			{
+				"trigger": "bpy.ops.sequencer\tbpy.ops.sequencer",
+				"contents": "bpy.ops.sequencer"
+			},
+			{
+				"trigger": "bpy.ops.sketch\tbpy.ops.sketch",
+				"contents": "bpy.ops.sketch"
+			},
+			{
+				"trigger": "bpy.ops.sound\tbpy.ops.sound",
+				"contents": "bpy.ops.sound"
+			},
+			{
+				"trigger": "bpy.ops.surface\tbpy.ops.surface",
+				"contents": "bpy.ops.surface"
+			},
+			{
+				"trigger": "bpy.ops.text\tbpy.ops.text",
+				"contents": "bpy.ops.text"
+			},
+			{
+				"trigger": "bpy.ops.texture\tbpy.ops.texture",
+				"contents": "bpy.ops.texture"
+			},
+			{
+				"trigger": "bpy.ops.time\tbpy.ops.time",
+				"contents": "bpy.ops.time"
+			},
+			{
+				"trigger": "bpy.ops.transform\tbpy.ops.transform",
+				"contents": "bpy.ops.transform"
+			},
+			{
+				"trigger": "bpy.ops.ui\tbpy.ops.ui",
+				"contents": "bpy.ops.ui"
+			},
+			{
+				"trigger": "bpy.ops.uv\tbpy.ops.uv",
+				"contents": "bpy.ops.uv"
+			},
+			{
+				"trigger": "bpy.ops.view2d\tbpy.ops.view2d",
+				"contents": "bpy.ops.view2d"
+			},
+			{
+				"trigger": "bpy.ops.view3d\tbpy.ops.view3d",
+				"contents": "bpy.ops.view3d"
+			},
+			{
+				"trigger": "bpy.ops.wm\tbpy.ops.wm",
+				"contents": "bpy.ops.wm"
+			},
+			{
+				"trigger": "bpy.ops.world\tbpy.ops.world",
+				"contents": "bpy.ops.world"
+			},
+			{
+				"trigger": "bpy.path\tbpy.path",
+				"contents": "bpy.path"
+			},
+			{
+				"trigger": "bpy.props\tbpy.props",
+				"contents": "bpy.props"
+			},
+			{
+				"trigger": "bpy.types\tbpy.types",
+				"contents": "bpy.types"
+			},
+			{
+				"trigger": "bpy.utils\tbpy.utils",
+				"contents": "bpy.utils"
+			},
 		{
 			"trigger": "bpy_extras\tbpy_extras",
 			"contents": "bpy_extras"
@@ -407,6 +3991,8 @@
 			"trigger": "bpy_extras.view3d_utils\tbpy_extras.view3d_utils",
 			"contents": "bpy_extras.view3d_utils"
 		},
+
+		// Freesatyle
 		{
 			"trigger": "freestyle\tfreestyle",
 			"contents": "freestyle"
@@ -513,1809 +4099,6 @@
 		{
 			"trigger": "aud.AUD_STATUS_PLAYIN\taud const",
 			"contents": "aud.AUD_STATUS_PLAYING"
-		},
-
-
-		// bgl
-		{
-			"trigger": "bgl.GL_2D\tbgl const",
-			"contents": "bgl.GL_2D"
-		},
-		{
-			"trigger": "bgl.GL_2_BYTES\tbgl const",
-			"contents": "bgl.GL_2_BYTES"
-		},
-		{
-			"trigger": "bgl.GL_3D\tbgl const",
-			"contents": "bgl.GL_3D"
-		},
-		{
-			"trigger": "bgl.GL_3D_COLOR\tbgl const",
-			"contents": "bgl.GL_3D_COLOR"
-		},
-		{
-			"trigger": "bgl.GL_3D_COLOR_TEXTURE\tbgl const",
-			"contents": "bgl.GL_3D_COLOR_TEXTURE"
-		},
-		{
-			"trigger": "bgl.GL_3_BYTES\tbgl const",
-			"contents": "bgl.GL_3_BYTES"
-		},
-		{
-			"trigger": "bgl.GL_4D_COLOR_TEXTURE\tbgl const",
-			"contents": "bgl.GL_4D_COLOR_TEXTURE"
-		},
-		{
-			"trigger": "bgl.GL_4_BYTES\tbgl const",
-			"contents": "bgl.GL_4_BYTES"
-		},
-		{
-			"trigger": "bgl.GL_ACCUM\tbgl const",
-			"contents": "bgl.GL_ACCUM"
-		},
-		{
-			"trigger": "bgl.GL_ACCUM_ALPHA_BITS\tbgl const",
-			"contents": "bgl.GL_ACCUM_ALPHA_BITS"
-		},
-		{
-			"trigger": "bgl.GL_ACCUM_BLUE_BITS\tbgl const",
-			"contents": "bgl.GL_ACCUM_BLUE_BITS"
-		},
-		{
-			"trigger": "bgl.GL_ACCUM_BUFFER_BIT\tbgl const",
-			"contents": "bgl.GL_ACCUM_BUFFER_BIT"
-		},
-		{
-			"trigger": "bgl.GL_ACCUM_CLEAR_VALUE\tbgl const",
-			"contents": "bgl.GL_ACCUM_CLEAR_VALUE"
-		},
-		{
-			"trigger": "bgl.GL_ACCUM_GREEN_BITS\tbgl const",
-			"contents": "bgl.GL_ACCUM_GREEN_BITS"
-		},
-		{
-			"trigger": "bgl.GL_ACCUM_RED_BITS\tbgl const",
-			"contents": "bgl.GL_ACCUM_RED_BITS"
-		},
-		{
-			"trigger": "bgl.GL_ACTIVE_TEXTURE\tbgl const",
-			"contents": "bgl.GL_ACTIVE_TEXTURE"
-		},
-		{
-			"trigger": "bgl.GL_ADD\tbgl const",
-			"contents": "bgl.GL_ADD"
-		},
-		{
-			"trigger": "bgl.GL_ALL_ATTRIB_BITS\tbgl const",
-			"contents": "bgl.GL_ALL_ATTRIB_BITS"
-		},
-		{
-			"trigger": "bgl.GL_ALPHA\tbgl const",
-			"contents": "bgl.GL_ALPHA"
-		},
-		{
-			"trigger": "bgl.GL_ALPHA_BIAS\tbgl const",
-			"contents": "bgl.GL_ALPHA_BIAS"
-		},
-		{
-			"trigger": "bgl.GL_ALPHA_BITS\tbgl const",
-			"contents": "bgl.GL_ALPHA_BITS"
-		},
-		{
-			"trigger": "bgl.GL_ALPHA_SCALE\tbgl const",
-			"contents": "bgl.GL_ALPHA_SCALE"
-		},
-		{
-			"trigger": "bgl.GL_ALPHA_TEST\tbgl const",
-			"contents": "bgl.GL_ALPHA_TEST"
-		},
-		{
-			"trigger": "bgl.GL_ALPHA_TEST_FUNC\tbgl const",
-			"contents": "bgl.GL_ALPHA_TEST_FUNC"
-		},
-		{
-			"trigger": "bgl.GL_ALPHA_TEST_REF\tbgl const",
-			"contents": "bgl.GL_ALPHA_TEST_REF"
-		},
-		{
-			"trigger": "bgl.GL_ALWAYS\tbgl const",
-			"contents": "bgl.GL_ALWAYS"
-		},
-		{
-			"trigger": "bgl.GL_AMBIENT\tbgl const",
-			"contents": "bgl.GL_AMBIENT"
-		},
-		{
-			"trigger": "bgl.GL_AMBIENT_AND_DIFFUSE\tbgl const",
-			"contents": "bgl.GL_AMBIENT_AND_DIFFUSE"
-		},
-		{
-			"trigger": "bgl.GL_AND\tbgl const",
-			"contents": "bgl.GL_AND"
-		},
-		{
-			"trigger": "bgl.GL_AND_INVERTED\tbgl const",
-			"contents": "bgl.GL_AND_INVERTED"
-		},
-		{
-			"trigger": "bgl.GL_AND_REVERSE\tbgl const",
-			"contents": "bgl.GL_AND_REVERSE"
-		},
-		{
-			"trigger": "bgl.GL_ATTRIB_STACK_DEPTH\tbgl const",
-			"contents": "bgl.GL_ATTRIB_STACK_DEPTH"
-		},
-		{
-			"trigger": "bgl.GL_AUTO_NORMAL\tbgl const",
-			"contents": "bgl.GL_AUTO_NORMAL"
-		},
-		{
-			"trigger": "bgl.GL_AUX0\tbgl const",
-			"contents": "bgl.GL_AUX0"
-		},
-		{
-			"trigger": "bgl.GL_AUX1\tbgl const",
-			"contents": "bgl.GL_AUX1"
-		},
-		{
-			"trigger": "bgl.GL_AUX2\tbgl const",
-			"contents": "bgl.GL_AUX2"
-		},
-		{
-			"trigger": "bgl.GL_AUX3\tbgl const",
-			"contents": "bgl.GL_AUX3"
-		},
-		{
-			"trigger": "bgl.GL_AUX_BUFFERS\tbgl const",
-			"contents": "bgl.GL_AUX_BUFFERS"
-		},
-		{
-			"trigger": "bgl.GL_BACK\tbgl const",
-			"contents": "bgl.GL_BACK"
-		},
-		{
-			"trigger": "bgl.GL_BACK_LEFT\tbgl const",
-			"contents": "bgl.GL_BACK_LEFT"
-		},
-		{
-			"trigger": "bgl.GL_BACK_RIGHT\tbgl const",
-			"contents": "bgl.GL_BACK_RIGHT"
-		},
-		{
-			"trigger": "bgl.GL_BITMAP\tbgl const",
-			"contents": "bgl.GL_BITMAP"
-		},
-		{
-			"trigger": "bgl.GL_BITMAP_TOKEN\tbgl const",
-			"contents": "bgl.GL_BITMAP_TOKEN"
-		},
-		{
-			"trigger": "bgl.GL_BLEND\tbgl const",
-			"contents": "bgl.GL_BLEND"
-		},
-		{
-			"trigger": "bgl.GL_BLEND_DST\tbgl const",
-			"contents": "bgl.GL_BLEND_DST"
-		},
-		{
-			"trigger": "bgl.GL_BLEND_SRC\tbgl const",
-			"contents": "bgl.GL_BLEND_SRC"
-		},
-		{
-			"trigger": "bgl.GL_BLUE\tbgl const",
-			"contents": "bgl.GL_BLUE"
-		},
-		{
-			"trigger": "bgl.GL_BLUE_BIAS\tbgl const",
-			"contents": "bgl.GL_BLUE_BIAS"
-		},
-		{
-			"trigger": "bgl.GL_BLUE_BITS\tbgl const",
-			"contents": "bgl.GL_BLUE_BITS"
-		},
-		{
-			"trigger": "bgl.GL_BLUE_SCALE\tbgl const",
-			"contents": "bgl.GL_BLUE_SCALE"
-		},
-		{
-			"trigger": "bgl.GL_BYTE\tbgl const",
-			"contents": "bgl.GL_BYTE"
-		},
-		{
-			"trigger": "bgl.GL_CCW\tbgl const",
-			"contents": "bgl.GL_CCW"
-		},
-		{
-			"trigger": "bgl.GL_CLAMP\tbgl const",
-			"contents": "bgl.GL_CLAMP"
-		},
-		{
-			"trigger": "bgl.GL_CLEAR\tbgl const",
-			"contents": "bgl.GL_CLEAR"
-		},
-		{
-			"trigger": "bgl.GL_CLIENT_ALL_ATTRIB_BITS\tbgl const",
-			"contents": "bgl.GL_CLIENT_ALL_ATTRIB_BITS"
-		},
-		{
-			"trigger": "bgl.GL_CLIP_PLANE0\tbgl const",
-			"contents": "bgl.GL_CLIP_PLANE0"
-		},
-		{
-			"trigger": "bgl.GL_CLIP_PLANE1\tbgl const",
-			"contents": "bgl.GL_CLIP_PLANE1"
-		},
-		{
-			"trigger": "bgl.GL_CLIP_PLANE2\tbgl const",
-			"contents": "bgl.GL_CLIP_PLANE2"
-		},
-		{
-			"trigger": "bgl.GL_CLIP_PLANE3\tbgl const",
-			"contents": "bgl.GL_CLIP_PLANE3"
-		},
-		{
-			"trigger": "bgl.GL_CLIP_PLANE4\tbgl const",
-			"contents": "bgl.GL_CLIP_PLANE4"
-		},
-		{
-			"trigger": "bgl.GL_CLIP_PLANE5\tbgl const",
-			"contents": "bgl.GL_CLIP_PLANE5"
-		},
-		{
-			"trigger": "bgl.GL_COEFF\tbgl const",
-			"contents": "bgl.GL_COEFF"
-		},
-		{
-			"trigger": "bgl.GL_COLOR\tbgl const",
-			"contents": "bgl.GL_COLOR"
-		},
-		{
-			"trigger": "bgl.GL_COLOR_BUFFER_BIT\tbgl const",
-			"contents": "bgl.GL_COLOR_BUFFER_BIT"
-		},
-		{
-			"trigger": "bgl.GL_COLOR_CLEAR_VALUE\tbgl const",
-			"contents": "bgl.GL_COLOR_CLEAR_VALUE"
-		},
-		{
-			"trigger": "bgl.GL_COLOR_INDEX\tbgl const",
-			"contents": "bgl.GL_COLOR_INDEX"
-		},
-		{
-			"trigger": "bgl.GL_COLOR_INDEXES\tbgl const",
-			"contents": "bgl.GL_COLOR_INDEXES"
-		},
-		{
-			"trigger": "bgl.GL_COLOR_MATERIAL\tbgl const",
-			"contents": "bgl.GL_COLOR_MATERIAL"
-		},
-		{
-			"trigger": "bgl.GL_COLOR_MATERIAL_FACE\tbgl const",
-			"contents": "bgl.GL_COLOR_MATERIAL_FACE"
-		},
-		{
-			"trigger": "bgl.GL_COLOR_MATERIAL_PARAMETER\tbgl const",
-			"contents": "bgl.GL_COLOR_MATERIAL_PARAMETER"
-		},
-		{
-			"trigger": "bgl.GL_COLOR_WRITEMASK\tbgl const",
-			"contents": "bgl.GL_COLOR_WRITEMASK"
-		},
-		{
-			"trigger": "bgl.GL_COMPILE\tbgl const",
-			"contents": "bgl.GL_COMPILE"
-		},
-		{
-			"trigger": "bgl.GL_COMPILE_AND_EXECUTE\tbgl const",
-			"contents": "bgl.GL_COMPILE_AND_EXECUTE"
-		},
-		{
-			"trigger": "bgl.GL_COMPILE_STATUS\tbgl const",
-			"contents": "bgl.GL_COMPILE_STATUS"
-		},
-		{
-			"trigger": "bgl.GL_CONSTANT_ATTENUATION\tbgl const",
-			"contents": "bgl.GL_CONSTANT_ATTENUATION"
-		},
-		{
-			"trigger": "bgl.GL_COPY\tbgl const",
-			"contents": "bgl.GL_COPY"
-		},
-		{
-			"trigger": "bgl.GL_COPY_INVERTED\tbgl const",
-			"contents": "bgl.GL_COPY_INVERTED"
-		},
-		{
-			"trigger": "bgl.GL_COPY_PIXEL_TOKEN\tbgl const",
-			"contents": "bgl.GL_COPY_PIXEL_TOKEN"
-		},
-		{
-			"trigger": "bgl.GL_CULL_FACE\tbgl const",
-			"contents": "bgl.GL_CULL_FACE"
-		},
-		{
-			"trigger": "bgl.GL_CULL_FACE_MODE\tbgl const",
-			"contents": "bgl.GL_CULL_FACE_MODE"
-		},
-		{
-			"trigger": "bgl.GL_CURRENT_BIT\tbgl const",
-			"contents": "bgl.GL_CURRENT_BIT"
-		},
-		{
-			"trigger": "bgl.GL_CURRENT_COLOR\tbgl const",
-			"contents": "bgl.GL_CURRENT_COLOR"
-		},
-		{
-			"trigger": "bgl.GL_CURRENT_INDEX\tbgl const",
-			"contents": "bgl.GL_CURRENT_INDEX"
-		},
-		{
-			"trigger": "bgl.GL_CURRENT_NORMAL\tbgl const",
-			"contents": "bgl.GL_CURRENT_NORMAL"
-		},
-		{
-			"trigger": "bgl.GL_CURRENT_RASTER_COLOR\tbgl const",
-			"contents": "bgl.GL_CURRENT_RASTER_COLOR"
-		},
-		{
-			"trigger": "bgl.GL_CURRENT_RASTER_DISTANCE\tbgl const",
-			"contents": "bgl.GL_CURRENT_RASTER_DISTANCE"
-		},
-		{
-			"trigger": "bgl.GL_CURRENT_RASTER_INDEX\tbgl const",
-			"contents": "bgl.GL_CURRENT_RASTER_INDEX"
-		},
-		{
-			"trigger": "bgl.GL_CURRENT_RASTER_POSITION\tbgl const",
-			"contents": "bgl.GL_CURRENT_RASTER_POSITION"
-		},
-		{
-			"trigger": "bgl.GL_CURRENT_RASTER_POSITION_VALID\tbgl const",
-			"contents": "bgl.GL_CURRENT_RASTER_POSITION_VALID"
-		},
-		{
-			"trigger": "bgl.GL_CURRENT_RASTER_TEXTURE_COORDS\tbgl const",
-			"contents": "bgl.GL_CURRENT_RASTER_TEXTURE_COORDS"
-		},
-		{
-			"trigger": "bgl.GL_CURRENT_TEXTURE_COORDS\tbgl const",
-			"contents": "bgl.GL_CURRENT_TEXTURE_COORDS"
-		},
-		{
-			"trigger": "bgl.GL_CW\tbgl const",
-			"contents": "bgl.GL_CW"
-		},
-		{
-			"trigger": "bgl.GL_DECAL\tbgl const",
-			"contents": "bgl.GL_DECAL"
-		},
-		{
-			"trigger": "bgl.GL_DECR\tbgl const",
-			"contents": "bgl.GL_DECR"
-		},
-		{
-			"trigger": "bgl.GL_DEPTH\tbgl const",
-			"contents": "bgl.GL_DEPTH"
-		},
-		{
-			"trigger": "bgl.GL_DEPTH_BIAS\tbgl const",
-			"contents": "bgl.GL_DEPTH_BIAS"
-		},
-		{
-			"trigger": "bgl.GL_DEPTH_BITS\tbgl const",
-			"contents": "bgl.GL_DEPTH_BITS"
-		},
-		{
-			"trigger": "bgl.GL_DEPTH_BUFFER_BIT\tbgl const",
-			"contents": "bgl.GL_DEPTH_BUFFER_BIT"
-		},
-		{
-			"trigger": "bgl.GL_DEPTH_CLEAR_VALUE\tbgl const",
-			"contents": "bgl.GL_DEPTH_CLEAR_VALUE"
-		},
-		{
-			"trigger": "bgl.GL_DEPTH_COMPONENT\tbgl const",
-			"contents": "bgl.GL_DEPTH_COMPONENT"
-		},
-		{
-			"trigger": "bgl.GL_DEPTH_COMPONENT32\tbgl const",
-			"contents": "bgl.GL_DEPTH_COMPONENT32"
-		},
-		{
-			"trigger": "bgl.GL_DEPTH_FUNC\tbgl const",
-			"contents": "bgl.GL_DEPTH_FUNC"
-		},
-		{
-			"trigger": "bgl.GL_DEPTH_RANGE\tbgl const",
-			"contents": "bgl.GL_DEPTH_RANGE"
-		},
-		{
-			"trigger": "bgl.GL_DEPTH_SCALE\tbgl const",
-			"contents": "bgl.GL_DEPTH_SCALE"
-		},
-		{
-			"trigger": "bgl.GL_DEPTH_TEST\tbgl const",
-			"contents": "bgl.GL_DEPTH_TEST"
-		},
-		{
-			"trigger": "bgl.GL_DEPTH_WRITEMASK\tbgl const",
-			"contents": "bgl.GL_DEPTH_WRITEMASK"
-		},
-		{
-			"trigger": "bgl.GL_DIFFUSE\tbgl const",
-			"contents": "bgl.GL_DIFFUSE"
-		},
-		{
-			"trigger": "bgl.GL_DITHER\tbgl const",
-			"contents": "bgl.GL_DITHER"
-		},
-		{
-			"trigger": "bgl.GL_DOMAIN\tbgl const",
-			"contents": "bgl.GL_DOMAIN"
-		},
-		{
-			"trigger": "bgl.GL_DONT_CARE\tbgl const",
-			"contents": "bgl.GL_DONT_CARE"
-		},
-		{
-			"trigger": "bgl.GL_DOUBLE\tbgl const",
-			"contents": "bgl.GL_DOUBLE"
-		},
-		{
-			"trigger": "bgl.GL_DOUBLEBUFFER\tbgl const",
-			"contents": "bgl.GL_DOUBLEBUFFER"
-		},
-		{
-			"trigger": "bgl.GL_DRAW_BUFFER\tbgl const",
-			"contents": "bgl.GL_DRAW_BUFFER"
-		},
-		{
-			"trigger": "bgl.GL_DRAW_PIXEL_TOKEN\tbgl const",
-			"contents": "bgl.GL_DRAW_PIXEL_TOKEN"
-		},
-		{
-			"trigger": "bgl.GL_DST_ALPHA\tbgl const",
-			"contents": "bgl.GL_DST_ALPHA"
-		},
-		{
-			"trigger": "bgl.GL_DST_COLOR\tbgl const",
-			"contents": "bgl.GL_DST_COLOR"
-		},
-		{
-			"trigger": "bgl.GL_EDGE_FLAG\tbgl const",
-			"contents": "bgl.GL_EDGE_FLAG"
-		},
-		{
-			"trigger": "bgl.GL_EMISSION\tbgl const",
-			"contents": "bgl.GL_EMISSION"
-		},
-		{
-			"trigger": "bgl.GL_ENABLE_BIT\tbgl const",
-			"contents": "bgl.GL_ENABLE_BIT"
-		},
-		{
-			"trigger": "bgl.GL_EQUAL\tbgl const",
-			"contents": "bgl.GL_EQUAL"
-		},
-		{
-			"trigger": "bgl.GL_EQUIV\tbgl const",
-			"contents": "bgl.GL_EQUIV"
-		},
-		{
-			"trigger": "bgl.GL_EVAL_BIT\tbgl const",
-			"contents": "bgl.GL_EVAL_BIT"
-		},
-		{
-			"trigger": "bgl.GL_EXP\tbgl const",
-			"contents": "bgl.GL_EXP"
-		},
-		{
-			"trigger": "bgl.GL_EXP2\tbgl const",
-			"contents": "bgl.GL_EXP2"
-		},
-		{
-			"trigger": "bgl.GL_EXTENSIONS\tbgl const",
-			"contents": "bgl.GL_EXTENSIONS"
-		},
-		{
-			"trigger": "bgl.GL_EYE_LINEAR\tbgl const",
-			"contents": "bgl.GL_EYE_LINEAR"
-		},
-		{
-			"trigger": "bgl.GL_EYE_PLANE\tbgl const",
-			"contents": "bgl.GL_EYE_PLANE"
-		},
-		{
-			"trigger": "bgl.GL_FALSE\tbgl const",
-			"contents": "bgl.GL_FALSE"
-		},
-		{
-			"trigger": "bgl.GL_FASTEST\tbgl const",
-			"contents": "bgl.GL_FASTEST"
-		},
-		{
-			"trigger": "bgl.GL_FEEDBACK\tbgl const",
-			"contents": "bgl.GL_FEEDBACK"
-		},
-		{
-			"trigger": "bgl.GL_FILL\tbgl const",
-			"contents": "bgl.GL_FILL"
-		},
-		{
-			"trigger": "bgl.GL_FLAT\tbgl const",
-			"contents": "bgl.GL_FLAT"
-		},
-		{
-			"trigger": "bgl.GL_FLOAT\tbgl const",
-			"contents": "bgl.GL_FLOAT"
-		},
-		{
-			"trigger": "bgl.GL_FOG\tbgl const",
-			"contents": "bgl.GL_FOG"
-		},
-		{
-			"trigger": "bgl.GL_FOG_BIT\tbgl const",
-			"contents": "bgl.GL_FOG_BIT"
-		},
-		{
-			"trigger": "bgl.GL_FOG_COLOR\tbgl const",
-			"contents": "bgl.GL_FOG_COLOR"
-		},
-		{
-			"trigger": "bgl.GL_FOG_DENSITY\tbgl const",
-			"contents": "bgl.GL_FOG_DENSITY"
-		},
-		{
-			"trigger": "bgl.GL_FOG_END\tbgl const",
-			"contents": "bgl.GL_FOG_END"
-		},
-		{
-			"trigger": "bgl.GL_FOG_HINT\tbgl const",
-			"contents": "bgl.GL_FOG_HINT"
-		},
-		{
-			"trigger": "bgl.GL_FOG_INDEX\tbgl const",
-			"contents": "bgl.GL_FOG_INDEX"
-		},
-		{
-			"trigger": "bgl.GL_FOG_MODE\tbgl const",
-			"contents": "bgl.GL_FOG_MODE"
-		},
-		{
-			"trigger": "bgl.GL_FOG_START\tbgl const",
-			"contents": "bgl.GL_FOG_START"
-		},
-		{
-			"trigger": "bgl.GL_FRAGMENT_SHADER\tbgl const",
-			"contents": "bgl.GL_FRAGMENT_SHADER"
-		},
-		{
-			"trigger": "bgl.GL_FRONT\tbgl const",
-			"contents": "bgl.GL_FRONT"
-		},
-		{
-			"trigger": "bgl.GL_FRONT_AND_BACK\tbgl const",
-			"contents": "bgl.GL_FRONT_AND_BACK"
-		},
-		{
-			"trigger": "bgl.GL_FRONT_FACE\tbgl const",
-			"contents": "bgl.GL_FRONT_FACE"
-		},
-		{
-			"trigger": "bgl.GL_FRONT_LEFT\tbgl const",
-			"contents": "bgl.GL_FRONT_LEFT"
-		},
-		{
-			"trigger": "bgl.GL_FRONT_RIGHT\tbgl const",
-			"contents": "bgl.GL_FRONT_RIGHT"
-		},
-		{
-			"trigger": "bgl.GL_GEQUAL\tbgl const",
-			"contents": "bgl.GL_GEQUAL"
-		},
-		{
-			"trigger": "bgl.GL_GREATER\tbgl const",
-			"contents": "bgl.GL_GREATER"
-		},
-		{
-			"trigger": "bgl.GL_GREEN\tbgl const",
-			"contents": "bgl.GL_GREEN"
-		},
-		{
-			"trigger": "bgl.GL_GREEN_BIAS\tbgl const",
-			"contents": "bgl.GL_GREEN_BIAS"
-		},
-		{
-			"trigger": "bgl.GL_GREEN_BITS\tbgl const",
-			"contents": "bgl.GL_GREEN_BITS"
-		},
-		{
-			"trigger": "bgl.GL_GREEN_SCALE\tbgl const",
-			"contents": "bgl.GL_GREEN_SCALE"
-		},
-		{
-			"trigger": "bgl.GL_HINT_BIT\tbgl const",
-			"contents": "bgl.GL_HINT_BIT"
-		},
-		{
-			"trigger": "bgl.GL_INCR\tbgl const",
-			"contents": "bgl.GL_INCR"
-		},
-		{
-			"trigger": "bgl.GL_INDEX_BITS\tbgl const",
-			"contents": "bgl.GL_INDEX_BITS"
-		},
-		{
-			"trigger": "bgl.GL_INDEX_CLEAR_VALUE\tbgl const",
-			"contents": "bgl.GL_INDEX_CLEAR_VALUE"
-		},
-		{
-			"trigger": "bgl.GL_INDEX_MODE\tbgl const",
-			"contents": "bgl.GL_INDEX_MODE"
-		},
-		{
-			"trigger": "bgl.GL_INDEX_OFFSET\tbgl const",
-			"contents": "bgl.GL_INDEX_OFFSET"
-		},
-		{
-			"trigger": "bgl.GL_INDEX_SHIFT\tbgl const",
-			"contents": "bgl.GL_INDEX_SHIFT"
-		},
-		{
-			"trigger": "bgl.GL_INDEX_WRITEMASK\tbgl const",
-			"contents": "bgl.GL_INDEX_WRITEMASK"
-		},
-		{
-			"trigger": "bgl.GL_INT\tbgl const",
-			"contents": "bgl.GL_INT"
-		},
-		{
-			"trigger": "bgl.GL_INVALID_ENUM\tbgl const",
-			"contents": "bgl.GL_INVALID_ENUM"
-		},
-		{
-			"trigger": "bgl.GL_INVALID_OPERATION\tbgl const",
-			"contents": "bgl.GL_INVALID_OPERATION"
-		},
-		{
-			"trigger": "bgl.GL_INVALID_VALUE\tbgl const",
-			"contents": "bgl.GL_INVALID_VALUE"
-		},
-		{
-			"trigger": "bgl.GL_INVERT\tbgl const",
-			"contents": "bgl.GL_INVERT"
-		},
-		{
-			"trigger": "bgl.GL_KEEP\tbgl const",
-			"contents": "bgl.GL_KEEP"
-		},
-		{
-			"trigger": "bgl.GL_LEFT\tbgl const",
-			"contents": "bgl.GL_LEFT"
-		},
-		{
-			"trigger": "bgl.GL_LEQUAL\tbgl const",
-			"contents": "bgl.GL_LEQUAL"
-		},
-		{
-			"trigger": "bgl.GL_LESS\tbgl const",
-			"contents": "bgl.GL_LESS"
-		},
-		{
-			"trigger": "bgl.GL_LIGHT0\tbgl const",
-			"contents": "bgl.GL_LIGHT0"
-		},
-		{
-			"trigger": "bgl.GL_LIGHT1\tbgl const",
-			"contents": "bgl.GL_LIGHT1"
-		},
-		{
-			"trigger": "bgl.GL_LIGHT2\tbgl const",
-			"contents": "bgl.GL_LIGHT2"
-		},
-		{
-			"trigger": "bgl.GL_LIGHT3\tbgl const",
-			"contents": "bgl.GL_LIGHT3"
-		},
-		{
-			"trigger": "bgl.GL_LIGHT4\tbgl const",
-			"contents": "bgl.GL_LIGHT4"
-		},
-		{
-			"trigger": "bgl.GL_LIGHT5\tbgl const",
-			"contents": "bgl.GL_LIGHT5"
-		},
-		{
-			"trigger": "bgl.GL_LIGHT6\tbgl const",
-			"contents": "bgl.GL_LIGHT6"
-		},
-		{
-			"trigger": "bgl.GL_LIGHT7\tbgl const",
-			"contents": "bgl.GL_LIGHT7"
-		},
-		{
-			"trigger": "bgl.GL_LIGHTING\tbgl const",
-			"contents": "bgl.GL_LIGHTING"
-		},
-		{
-			"trigger": "bgl.GL_LIGHTING_BIT\tbgl const",
-			"contents": "bgl.GL_LIGHTING_BIT"
-		},
-		{
-			"trigger": "bgl.GL_LIGHT_MODEL_AMBIENT\tbgl const",
-			"contents": "bgl.GL_LIGHT_MODEL_AMBIENT"
-		},
-		{
-			"trigger": "bgl.GL_LIGHT_MODEL_LOCAL_VIEWER\tbgl const",
-			"contents": "bgl.GL_LIGHT_MODEL_LOCAL_VIEWER"
-		},
-		{
-			"trigger": "bgl.GL_LIGHT_MODEL_TWO_SIDE\tbgl const",
-			"contents": "bgl.GL_LIGHT_MODEL_TWO_SIDE"
-		},
-		{
-			"trigger": "bgl.GL_LINE\tbgl const",
-			"contents": "bgl.GL_LINE"
-		},
-		{
-			"trigger": "bgl.GL_LINEAR\tbgl const",
-			"contents": "bgl.GL_LINEAR"
-		},
-		{
-			"trigger": "bgl.GL_LINEAR_ATTENUATION\tbgl const",
-			"contents": "bgl.GL_LINEAR_ATTENUATION"
-		},
-		{
-			"trigger": "bgl.GL_LINEAR_MIPMAP_LINEAR\tbgl const",
-			"contents": "bgl.GL_LINEAR_MIPMAP_LINEAR"
-		},
-		{
-			"trigger": "bgl.GL_LINEAR_MIPMAP_NEAREST\tbgl const",
-			"contents": "bgl.GL_LINEAR_MIPMAP_NEAREST"
-		},
-		{
-			"trigger": "bgl.GL_LINES\tbgl const",
-			"contents": "bgl.GL_LINES"
-		},
-		{
-			"trigger": "bgl.GL_LINE_BIT\tbgl const",
-			"contents": "bgl.GL_LINE_BIT"
-		},
-		{
-			"trigger": "bgl.GL_LINE_LOOP\tbgl const",
-			"contents": "bgl.GL_LINE_LOOP"
-		},
-		{
-			"trigger": "bgl.GL_LINE_RESET_TOKEN\tbgl const",
-			"contents": "bgl.GL_LINE_RESET_TOKEN"
-		},
-		{
-			"trigger": "bgl.GL_LINE_SMOOTH\tbgl const",
-			"contents": "bgl.GL_LINE_SMOOTH"
-		},
-		{
-			"trigger": "bgl.GL_LINE_SMOOTH_HINT\tbgl const",
-			"contents": "bgl.GL_LINE_SMOOTH_HINT"
-		},
-		{
-			"trigger": "bgl.GL_LINE_STIPPLE\tbgl const",
-			"contents": "bgl.GL_LINE_STIPPLE"
-		},
-		{
-			"trigger": "bgl.GL_LINE_STIPPLE_PATTERN\tbgl const",
-			"contents": "bgl.GL_LINE_STIPPLE_PATTERN"
-		},
-		{
-			"trigger": "bgl.GL_LINE_STIPPLE_REPEAT\tbgl const",
-			"contents": "bgl.GL_LINE_STIPPLE_REPEAT"
-		},
-		{
-			"trigger": "bgl.GL_LINE_STRIP\tbgl const",
-			"contents": "bgl.GL_LINE_STRIP"
-		},
-		{
-			"trigger": "bgl.GL_LINE_TOKEN\tbgl const",
-			"contents": "bgl.GL_LINE_TOKEN"
-		},
-		{
-			"trigger": "bgl.GL_LINE_WIDTH\tbgl const",
-			"contents": "bgl.GL_LINE_WIDTH"
-		},
-		{
-			"trigger": "bgl.GL_LINE_WIDTH_GRANULARITY\tbgl const",
-			"contents": "bgl.GL_LINE_WIDTH_GRANULARITY"
-		},
-		{
-			"trigger": "bgl.GL_LINE_WIDTH_RANGE\tbgl const",
-			"contents": "bgl.GL_LINE_WIDTH_RANGE"
-		},
-		{
-			"trigger": "bgl.GL_LIST_BASE\tbgl const",
-			"contents": "bgl.GL_LIST_BASE"
-		},
-		{
-			"trigger": "bgl.GL_LIST_BIT\tbgl const",
-			"contents": "bgl.GL_LIST_BIT"
-		},
-		{
-			"trigger": "bgl.GL_LIST_INDEX\tbgl const",
-			"contents": "bgl.GL_LIST_INDEX"
-		},
-		{
-			"trigger": "bgl.GL_LIST_MODE\tbgl const",
-			"contents": "bgl.GL_LIST_MODE"
-		},
-		{
-			"trigger": "bgl.GL_LOAD\tbgl const",
-			"contents": "bgl.GL_LOAD"
-		},
-		{
-			"trigger": "bgl.GL_LOGIC_OP\tbgl const",
-			"contents": "bgl.GL_LOGIC_OP"
-		},
-		{
-			"trigger": "bgl.GL_LOGIC_OP_MODE\tbgl const",
-			"contents": "bgl.GL_LOGIC_OP_MODE"
-		},
-		{
-			"trigger": "bgl.GL_LUMINANCE\tbgl const",
-			"contents": "bgl.GL_LUMINANCE"
-		},
-		{
-			"trigger": "bgl.GL_LUMINANCE_ALPHA\tbgl const",
-			"contents": "bgl.GL_LUMINANCE_ALPHA"
-		},
-		{
-			"trigger": "bgl.GL_MAP1_COLOR_4\tbgl const",
-			"contents": "bgl.GL_MAP1_COLOR_4"
-		},
-		{
-			"trigger": "bgl.GL_MAP1_GRID_DOMAIN\tbgl const",
-			"contents": "bgl.GL_MAP1_GRID_DOMAIN"
-		},
-		{
-			"trigger": "bgl.GL_MAP1_GRID_SEGMENTS\tbgl const",
-			"contents": "bgl.GL_MAP1_GRID_SEGMENTS"
-		},
-		{
-			"trigger": "bgl.GL_MAP1_INDEX\tbgl const",
-			"contents": "bgl.GL_MAP1_INDEX"
-		},
-		{
-			"trigger": "bgl.GL_MAP1_NORMAL\tbgl const",
-			"contents": "bgl.GL_MAP1_NORMAL"
-		},
-		{
-			"trigger": "bgl.GL_MAP1_TEXTURE_COORD_1\tbgl const",
-			"contents": "bgl.GL_MAP1_TEXTURE_COORD_1"
-		},
-		{
-			"trigger": "bgl.GL_MAP1_TEXTURE_COORD_2\tbgl const",
-			"contents": "bgl.GL_MAP1_TEXTURE_COORD_2"
-		},
-		{
-			"trigger": "bgl.GL_MAP1_TEXTURE_COORD_3\tbgl const",
-			"contents": "bgl.GL_MAP1_TEXTURE_COORD_3"
-		},
-		{
-			"trigger": "bgl.GL_MAP1_TEXTURE_COORD_4\tbgl const",
-			"contents": "bgl.GL_MAP1_TEXTURE_COORD_4"
-		},
-		{
-			"trigger": "bgl.GL_MAP1_VERTEX_3\tbgl const",
-			"contents": "bgl.GL_MAP1_VERTEX_3"
-		},
-		{
-			"trigger": "bgl.GL_MAP1_VERTEX_4\tbgl const",
-			"contents": "bgl.GL_MAP1_VERTEX_4"
-		},
-		{
-			"trigger": "bgl.GL_MAP2_COLOR_4\tbgl const",
-			"contents": "bgl.GL_MAP2_COLOR_4"
-		},
-		{
-			"trigger": "bgl.GL_MAP2_GRID_DOMAIN\tbgl const",
-			"contents": "bgl.GL_MAP2_GRID_DOMAIN"
-		},
-		{
-			"trigger": "bgl.GL_MAP2_GRID_SEGMENTS\tbgl const",
-			"contents": "bgl.GL_MAP2_GRID_SEGMENTS"
-		},
-		{
-			"trigger": "bgl.GL_MAP2_INDEX\tbgl const",
-			"contents": "bgl.GL_MAP2_INDEX"
-		},
-		{
-			"trigger": "bgl.GL_MAP2_NORMAL\tbgl const",
-			"contents": "bgl.GL_MAP2_NORMAL"
-		},
-		{
-			"trigger": "bgl.GL_MAP2_TEXTURE_COORD_1\tbgl const",
-			"contents": "bgl.GL_MAP2_TEXTURE_COORD_1"
-		},
-		{
-			"trigger": "bgl.GL_MAP2_TEXTURE_COORD_2\tbgl const",
-			"contents": "bgl.GL_MAP2_TEXTURE_COORD_2"
-		},
-		{
-			"trigger": "bgl.GL_MAP2_TEXTURE_COORD_3\tbgl const",
-			"contents": "bgl.GL_MAP2_TEXTURE_COORD_3"
-		},
-		{
-			"trigger": "bgl.GL_MAP2_TEXTURE_COORD_4\tbgl const",
-			"contents": "bgl.GL_MAP2_TEXTURE_COORD_4"
-		},
-		{
-			"trigger": "bgl.GL_MAP2_VERTEX_3\tbgl const",
-			"contents": "bgl.GL_MAP2_VERTEX_3"
-		},
-		{
-			"trigger": "bgl.GL_MAP2_VERTEX_4\tbgl const",
-			"contents": "bgl.GL_MAP2_VERTEX_4"
-		},
-		{
-			"trigger": "bgl.GL_MAP_COLOR\tbgl const",
-			"contents": "bgl.GL_MAP_COLOR"
-		},
-		{
-			"trigger": "bgl.GL_MAP_STENCIL\tbgl const",
-			"contents": "bgl.GL_MAP_STENCIL"
-		},
-		{
-			"trigger": "bgl.GL_MATRIX_MODE\tbgl const",
-			"contents": "bgl.GL_MATRIX_MODE"
-		},
-		{
-			"trigger": "bgl.GL_MAX_ATTRIB_STACK_DEPTH\tbgl const",
-			"contents": "bgl.GL_MAX_ATTRIB_STACK_DEPTH"
-		},
-		{
-			"trigger": "bgl.GL_MAX_CLIP_PLANES\tbgl const",
-			"contents": "bgl.GL_MAX_CLIP_PLANES"
-		},
-		{
-			"trigger": "bgl.GL_MAX_EVAL_ORDER\tbgl const",
-			"contents": "bgl.GL_MAX_EVAL_ORDER"
-		},
-		{
-			"trigger": "bgl.GL_MAX_LIGHTS\tbgl const",
-			"contents": "bgl.GL_MAX_LIGHTS"
-		},
-		{
-			"trigger": "bgl.GL_MAX_LIST_NESTING\tbgl const",
-			"contents": "bgl.GL_MAX_LIST_NESTING"
-		},
-		{
-			"trigger": "bgl.GL_MAX_MODELVIEW_STACK_DEPTH\tbgl const",
-			"contents": "bgl.GL_MAX_MODELVIEW_STACK_DEPTH"
-		},
-		{
-			"trigger": "bgl.GL_MAX_NAME_STACK_DEPTH\tbgl const",
-			"contents": "bgl.GL_MAX_NAME_STACK_DEPTH"
-		},
-		{
-			"trigger": "bgl.GL_MAX_PIXEL_MAP_TABLE\tbgl const",
-			"contents": "bgl.GL_MAX_PIXEL_MAP_TABLE"
-		},
-		{
-			"trigger": "bgl.GL_MAX_PROJECTION_STACK_DEPTH\tbgl const",
-			"contents": "bgl.GL_MAX_PROJECTION_STACK_DEPTH"
-		},
-		{
-			"trigger": "bgl.GL_MAX_TEXTURE_SIZE\tbgl const",
-			"contents": "bgl.GL_MAX_TEXTURE_SIZE"
-		},
-		{
-			"trigger": "bgl.GL_MAX_TEXTURE_STACK_DEPTH\tbgl const",
-			"contents": "bgl.GL_MAX_TEXTURE_STACK_DEPTH"
-		},
-		{
-			"trigger": "bgl.GL_MAX_VIEWPORT_DIMS\tbgl const",
-			"contents": "bgl.GL_MAX_VIEWPORT_DIMS"
-		},
-		{
-			"trigger": "bgl.GL_MODELVIEW\tbgl const",
-			"contents": "bgl.GL_MODELVIEW"
-		},
-		{
-			"trigger": "bgl.GL_MODELVIEW_MATRIX\tbgl const",
-			"contents": "bgl.GL_MODELVIEW_MATRIX"
-		},
-		{
-			"trigger": "bgl.GL_MODELVIEW_STACK_DEPTH\tbgl const",
-			"contents": "bgl.GL_MODELVIEW_STACK_DEPTH"
-		},
-		{
-			"trigger": "bgl.GL_MODULATE\tbgl const",
-			"contents": "bgl.GL_MODULATE"
-		},
-		{
-			"trigger": "bgl.GL_MULT\tbgl const",
-			"contents": "bgl.GL_MULT"
-		},
-		{
-			"trigger": "bgl.GL_NAME_STACK_DEPTH\tbgl const",
-			"contents": "bgl.GL_NAME_STACK_DEPTH"
-		},
-		{
-			"trigger": "bgl.GL_NAND\tbgl const",
-			"contents": "bgl.GL_NAND"
-		},
-		{
-			"trigger": "bgl.GL_NEAREST\tbgl const",
-			"contents": "bgl.GL_NEAREST"
-		},
-		{
-			"trigger": "bgl.GL_NEAREST_MIPMAP_LINEAR\tbgl const",
-			"contents": "bgl.GL_NEAREST_MIPMAP_LINEAR"
-		},
-		{
-			"trigger": "bgl.GL_NEAREST_MIPMAP_NEAREST\tbgl const",
-			"contents": "bgl.GL_NEAREST_MIPMAP_NEAREST"
-		},
-		{
-			"trigger": "bgl.GL_NEVER\tbgl const",
-			"contents": "bgl.GL_NEVER"
-		},
-		{
-			"trigger": "bgl.GL_NICEST\tbgl const",
-			"contents": "bgl.GL_NICEST"
-		},
-		{
-			"trigger": "bgl.GL_NONE\tbgl const",
-			"contents": "bgl.GL_NONE"
-		},
-		{
-			"trigger": "bgl.GL_NOOP\tbgl const",
-			"contents": "bgl.GL_NOOP"
-		},
-		{
-			"trigger": "bgl.GL_NOR\tbgl const",
-			"contents": "bgl.GL_NOR"
-		},
-		{
-			"trigger": "bgl.GL_NORMALIZE\tbgl const",
-			"contents": "bgl.GL_NORMALIZE"
-		},
-		{
-			"trigger": "bgl.GL_NOTEQUAL\tbgl const",
-			"contents": "bgl.GL_NOTEQUAL"
-		},
-		{
-			"trigger": "bgl.GL_NO_ERROR\tbgl const",
-			"contents": "bgl.GL_NO_ERROR"
-		},
-		{
-			"trigger": "bgl.GL_OBJECT_LINEAR\tbgl const",
-			"contents": "bgl.GL_OBJECT_LINEAR"
-		},
-		{
-			"trigger": "bgl.GL_OBJECT_PLANE\tbgl const",
-			"contents": "bgl.GL_OBJECT_PLANE"
-		},
-		{
-			"trigger": "bgl.GL_ONE\tbgl const",
-			"contents": "bgl.GL_ONE"
-		},
-		{
-			"trigger": "bgl.GL_ONE_MINUS_DST_ALPHA\tbgl const",
-			"contents": "bgl.GL_ONE_MINUS_DST_ALPHA"
-		},
-		{
-			"trigger": "bgl.GL_ONE_MINUS_DST_COLOR\tbgl const",
-			"contents": "bgl.GL_ONE_MINUS_DST_COLOR"
-		},
-		{
-			"trigger": "bgl.GL_ONE_MINUS_SRC_ALPHA\tbgl const",
-			"contents": "bgl.GL_ONE_MINUS_SRC_ALPHA"
-		},
-		{
-			"trigger": "bgl.GL_ONE_MINUS_SRC_COLOR\tbgl const",
-			"contents": "bgl.GL_ONE_MINUS_SRC_COLOR"
-		},
-		{
-			"trigger": "bgl.GL_OR\tbgl const",
-			"contents": "bgl.GL_OR"
-		},
-		{
-			"trigger": "bgl.GL_ORDER\tbgl const",
-			"contents": "bgl.GL_ORDER"
-		},
-		{
-			"trigger": "bgl.GL_OR_INVERTED\tbgl const",
-			"contents": "bgl.GL_OR_INVERTED"
-		},
-		{
-			"trigger": "bgl.GL_OR_REVERSE\tbgl const",
-			"contents": "bgl.GL_OR_REVERSE"
-		},
-		{
-			"trigger": "bgl.GL_OUT_OF_MEMORY\tbgl const",
-			"contents": "bgl.GL_OUT_OF_MEMORY"
-		},
-		{
-			"trigger": "bgl.GL_PACK_ALIGNMENT\tbgl const",
-			"contents": "bgl.GL_PACK_ALIGNMENT"
-		},
-		{
-			"trigger": "bgl.GL_PACK_LSB_FIRST\tbgl const",
-			"contents": "bgl.GL_PACK_LSB_FIRST"
-		},
-		{
-			"trigger": "bgl.GL_PACK_ROW_LENGTH\tbgl const",
-			"contents": "bgl.GL_PACK_ROW_LENGTH"
-		},
-		{
-			"trigger": "bgl.GL_PACK_SKIP_PIXELS\tbgl const",
-			"contents": "bgl.GL_PACK_SKIP_PIXELS"
-		},
-		{
-			"trigger": "bgl.GL_PACK_SKIP_ROWS\tbgl const",
-			"contents": "bgl.GL_PACK_SKIP_ROWS"
-		},
-		{
-			"trigger": "bgl.GL_PACK_SWAP_BYTES\tbgl const",
-			"contents": "bgl.GL_PACK_SWAP_BYTES"
-		},
-		{
-			"trigger": "bgl.GL_PASS_THROUGH_TOKEN\tbgl const",
-			"contents": "bgl.GL_PASS_THROUGH_TOKEN"
-		},
-		{
-			"trigger": "bgl.GL_PERSPECTIVE_CORRECTION_HINT\tbgl const",
-			"contents": "bgl.GL_PERSPECTIVE_CORRECTION_HINT"
-		},
-		{
-			"trigger": "bgl.GL_PIXEL_MAP_A_TO_A\tbgl const",
-			"contents": "bgl.GL_PIXEL_MAP_A_TO_A"
-		},
-		{
-			"trigger": "bgl.GL_PIXEL_MAP_A_TO_A_SIZE\tbgl const",
-			"contents": "bgl.GL_PIXEL_MAP_A_TO_A_SIZE"
-		},
-		{
-			"trigger": "bgl.GL_PIXEL_MAP_B_TO_B\tbgl const",
-			"contents": "bgl.GL_PIXEL_MAP_B_TO_B"
-		},
-		{
-			"trigger": "bgl.GL_PIXEL_MAP_B_TO_B_SIZE\tbgl const",
-			"contents": "bgl.GL_PIXEL_MAP_B_TO_B_SIZE"
-		},
-		{
-			"trigger": "bgl.GL_PIXEL_MAP_G_TO_G\tbgl const",
-			"contents": "bgl.GL_PIXEL_MAP_G_TO_G"
-		},
-		{
-			"trigger": "bgl.GL_PIXEL_MAP_G_TO_G_SIZE\tbgl const",
-			"contents": "bgl.GL_PIXEL_MAP_G_TO_G_SIZE"
-		},
-		{
-			"trigger": "bgl.GL_PIXEL_MAP_I_TO_A\tbgl const",
-			"contents": "bgl.GL_PIXEL_MAP_I_TO_A"
-		},
-		{
-			"trigger": "bgl.GL_PIXEL_MAP_I_TO_A_SIZE\tbgl const",
-			"contents": "bgl.GL_PIXEL_MAP_I_TO_A_SIZE"
-		},
-		{
-			"trigger": "bgl.GL_PIXEL_MAP_I_TO_B\tbgl const",
-			"contents": "bgl.GL_PIXEL_MAP_I_TO_B"
-		},
-		{
-			"trigger": "bgl.GL_PIXEL_MAP_I_TO_B_SIZE\tbgl const",
-			"contents": "bgl.GL_PIXEL_MAP_I_TO_B_SIZE"
-		},
-		{
-			"trigger": "bgl.GL_PIXEL_MAP_I_TO_G\tbgl const",
-			"contents": "bgl.GL_PIXEL_MAP_I_TO_G"
-		},
-		{
-			"trigger": "bgl.GL_PIXEL_MAP_I_TO_G_SIZE\tbgl const",
-			"contents": "bgl.GL_PIXEL_MAP_I_TO_G_SIZE"
-		},
-		{
-			"trigger": "bgl.GL_PIXEL_MAP_I_TO_I\tbgl const",
-			"contents": "bgl.GL_PIXEL_MAP_I_TO_I"
-		},
-		{
-			"trigger": "bgl.GL_PIXEL_MAP_I_TO_I_SIZE\tbgl const",
-			"contents": "bgl.GL_PIXEL_MAP_I_TO_I_SIZE"
-		},
-		{
-			"trigger": "bgl.GL_PIXEL_MAP_I_TO_R\tbgl const",
-			"contents": "bgl.GL_PIXEL_MAP_I_TO_R"
-		},
-		{
-			"trigger": "bgl.GL_PIXEL_MAP_I_TO_R_SIZE\tbgl const",
-			"contents": "bgl.GL_PIXEL_MAP_I_TO_R_SIZE"
-		},
-		{
-			"trigger": "bgl.GL_PIXEL_MAP_R_TO_R\tbgl const",
-			"contents": "bgl.GL_PIXEL_MAP_R_TO_R"
-		},
-		{
-			"trigger": "bgl.GL_PIXEL_MAP_R_TO_R_SIZE\tbgl const",
-			"contents": "bgl.GL_PIXEL_MAP_R_TO_R_SIZE"
-		},
-		{
-			"trigger": "bgl.GL_PIXEL_MAP_S_TO_S\tbgl const",
-			"contents": "bgl.GL_PIXEL_MAP_S_TO_S"
-		},
-		{
-			"trigger": "bgl.GL_PIXEL_MAP_S_TO_S_SIZE\tbgl const",
-			"contents": "bgl.GL_PIXEL_MAP_S_TO_S_SIZE"
-		},
-		{
-			"trigger": "bgl.GL_PIXEL_MODE_BIT\tbgl const",
-			"contents": "bgl.GL_PIXEL_MODE_BIT"
-		},
-		{
-			"trigger": "bgl.GL_POINT\tbgl const",
-			"contents": "bgl.GL_POINT"
-		},
-		{
-			"trigger": "bgl.GL_POINTS\tbgl const",
-			"contents": "bgl.GL_POINTS"
-		},
-		{
-			"trigger": "bgl.GL_POINT_BIT\tbgl const",
-			"contents": "bgl.GL_POINT_BIT"
-		},
-		{
-			"trigger": "bgl.GL_POINT_SIZE\tbgl const",
-			"contents": "bgl.GL_POINT_SIZE"
-		},
-		{
-			"trigger": "bgl.GL_POINT_SIZE_GRANULARITY\tbgl const",
-			"contents": "bgl.GL_POINT_SIZE_GRANULARITY"
-		},
-		{
-			"trigger": "bgl.GL_POINT_SIZE_RANGE\tbgl const",
-			"contents": "bgl.GL_POINT_SIZE_RANGE"
-		},
-		{
-			"trigger": "bgl.GL_POINT_SMOOTH\tbgl const",
-			"contents": "bgl.GL_POINT_SMOOTH"
-		},
-		{
-			"trigger": "bgl.GL_POINT_SMOOTH_HINT\tbgl const",
-			"contents": "bgl.GL_POINT_SMOOTH_HINT"
-		},
-		{
-			"trigger": "bgl.GL_POINT_TOKEN\tbgl const",
-			"contents": "bgl.GL_POINT_TOKEN"
-		},
-		{
-			"trigger": "bgl.GL_POLYGON\tbgl const",
-			"contents": "bgl.GL_POLYGON"
-		},
-		{
-			"trigger": "bgl.GL_POLYGON_BIT\tbgl const",
-			"contents": "bgl.GL_POLYGON_BIT"
-		},
-		{
-			"trigger": "bgl.GL_POLYGON_MODE\tbgl const",
-			"contents": "bgl.GL_POLYGON_MODE"
-		},
-		{
-			"trigger": "bgl.GL_POLYGON_OFFSET_FACTOR\tbgl const",
-			"contents": "bgl.GL_POLYGON_OFFSET_FACTOR"
-		},
-		{
-			"trigger": "bgl.GL_POLYGON_OFFSET_FILL\tbgl const",
-			"contents": "bgl.GL_POLYGON_OFFSET_FILL"
-		},
-		{
-			"trigger": "bgl.GL_POLYGON_OFFSET_LINE\tbgl const",
-			"contents": "bgl.GL_POLYGON_OFFSET_LINE"
-		},
-		{
-			"trigger": "bgl.GL_POLYGON_OFFSET_POINT\tbgl const",
-			"contents": "bgl.GL_POLYGON_OFFSET_POINT"
-		},
-		{
-			"trigger": "bgl.GL_POLYGON_OFFSET_UNITS\tbgl const",
-			"contents": "bgl.GL_POLYGON_OFFSET_UNITS"
-		},
-		{
-			"trigger": "bgl.GL_POLYGON_SMOOTH\tbgl const",
-			"contents": "bgl.GL_POLYGON_SMOOTH"
-		},
-		{
-			"trigger": "bgl.GL_POLYGON_SMOOTH_HINT\tbgl const",
-			"contents": "bgl.GL_POLYGON_SMOOTH_HINT"
-		},
-		{
-			"trigger": "bgl.GL_POLYGON_STIPPLE\tbgl const",
-			"contents": "bgl.GL_POLYGON_STIPPLE"
-		},
-		{
-			"trigger": "bgl.GL_POLYGON_STIPPLE_BIT\tbgl const",
-			"contents": "bgl.GL_POLYGON_STIPPLE_BIT"
-		},
-		{
-			"trigger": "bgl.GL_POLYGON_TOKEN\tbgl const",
-			"contents": "bgl.GL_POLYGON_TOKEN"
-		},
-		{
-			"trigger": "bgl.GL_POSITION\tbgl const",
-			"contents": "bgl.GL_POSITION"
-		},
-		{
-			"trigger": "bgl.GL_PROJECTION\tbgl const",
-			"contents": "bgl.GL_PROJECTION"
-		},
-		{
-			"trigger": "bgl.GL_PROJECTION_MATRIX\tbgl const",
-			"contents": "bgl.GL_PROJECTION_MATRIX"
-		},
-		{
-			"trigger": "bgl.GL_PROJECTION_STACK_DEPTH\tbgl const",
-			"contents": "bgl.GL_PROJECTION_STACK_DEPTH"
-		},
-		{
-			"trigger": "bgl.GL_Q\tbgl const",
-			"contents": "bgl.GL_Q"
-		},
-		{
-			"trigger": "bgl.GL_QUADRATIC_ATTENUATION\tbgl const",
-			"contents": "bgl.GL_QUADRATIC_ATTENUATION"
-		},
-		{
-			"trigger": "bgl.GL_QUADS\tbgl const",
-			"contents": "bgl.GL_QUADS"
-		},
-		{
-			"trigger": "bgl.GL_QUAD_STRIP\tbgl const",
-			"contents": "bgl.GL_QUAD_STRIP"
-		},
-		{
-			"trigger": "bgl.GL_R\tbgl const",
-			"contents": "bgl.GL_R"
-		},
-		{
-			"trigger": "bgl.GL_READ_BUFFER\tbgl const",
-			"contents": "bgl.GL_READ_BUFFER"
-		},
-		{
-			"trigger": "bgl.GL_RED\tbgl const",
-			"contents": "bgl.GL_RED"
-		},
-		{
-			"trigger": "bgl.GL_RED_BIAS\tbgl const",
-			"contents": "bgl.GL_RED_BIAS"
-		},
-		{
-			"trigger": "bgl.GL_RED_BITS\tbgl const",
-			"contents": "bgl.GL_RED_BITS"
-		},
-		{
-			"trigger": "bgl.GL_RED_SCALE\tbgl const",
-			"contents": "bgl.GL_RED_SCALE"
-		},
-		{
-			"trigger": "bgl.GL_RENDER\tbgl const",
-			"contents": "bgl.GL_RENDER"
-		},
-		{
-			"trigger": "bgl.GL_RENDERER\tbgl const",
-			"contents": "bgl.GL_RENDERER"
-		},
-		{
-			"trigger": "bgl.GL_RENDER_MODE\tbgl const",
-			"contents": "bgl.GL_RENDER_MODE"
-		},
-		{
-			"trigger": "bgl.GL_REPEAT\tbgl const",
-			"contents": "bgl.GL_REPEAT"
-		},
-		{
-			"trigger": "bgl.GL_REPLACE\tbgl const",
-			"contents": "bgl.GL_REPLACE"
-		},
-		{
-			"trigger": "bgl.GL_RETURN\tbgl const",
-			"contents": "bgl.GL_RETURN"
-		},
-		{
-			"trigger": "bgl.GL_RGB\tbgl const",
-			"contents": "bgl.GL_RGB"
-		},
-		{
-			"trigger": "bgl.GL_RGBA\tbgl const",
-			"contents": "bgl.GL_RGBA"
-		},
-		{
-			"trigger": "bgl.GL_RGBA_MODE\tbgl const",
-			"contents": "bgl.GL_RGBA_MODE"
-		},
-		{
-			"trigger": "bgl.GL_RIGHT\tbgl const",
-			"contents": "bgl.GL_RIGHT"
-		},
-		{
-			"trigger": "bgl.GL_S\tbgl const",
-			"contents": "bgl.GL_S"
-		},
-		{
-			"trigger": "bgl.GL_SCISSOR_BIT\tbgl const",
-			"contents": "bgl.GL_SCISSOR_BIT"
-		},
-		{
-			"trigger": "bgl.GL_SCISSOR_BOX\tbgl const",
-			"contents": "bgl.GL_SCISSOR_BOX"
-		},
-		{
-			"trigger": "bgl.GL_SCISSOR_TEST\tbgl const",
-			"contents": "bgl.GL_SCISSOR_TEST"
-		},
-		{
-			"trigger": "bgl.GL_SELECT\tbgl const",
-			"contents": "bgl.GL_SELECT"
-		},
-		{
-			"trigger": "bgl.GL_SET\tbgl const",
-			"contents": "bgl.GL_SET"
-		},
-		{
-			"trigger": "bgl.GL_SHADE_MODEL\tbgl const",
-			"contents": "bgl.GL_SHADE_MODEL"
-		},
-		{
-			"trigger": "bgl.GL_SHININESS\tbgl const",
-			"contents": "bgl.GL_SHININESS"
-		},
-		{
-			"trigger": "bgl.GL_SHORT\tbgl const",
-			"contents": "bgl.GL_SHORT"
-		},
-		{
-			"trigger": "bgl.GL_SMOOTH\tbgl const",
-			"contents": "bgl.GL_SMOOTH"
-		},
-		{
-			"trigger": "bgl.GL_SPECULAR\tbgl const",
-			"contents": "bgl.GL_SPECULAR"
-		},
-		{
-			"trigger": "bgl.GL_SPHERE_MAP\tbgl const",
-			"contents": "bgl.GL_SPHERE_MAP"
-		},
-		{
-			"trigger": "bgl.GL_SPOT_CUTOFF\tbgl const",
-			"contents": "bgl.GL_SPOT_CUTOFF"
-		},
-		{
-			"trigger": "bgl.GL_SPOT_DIRECTION\tbgl const",
-			"contents": "bgl.GL_SPOT_DIRECTION"
-		},
-		{
-			"trigger": "bgl.GL_SPOT_EXPONENT\tbgl const",
-			"contents": "bgl.GL_SPOT_EXPONENT"
-		},
-		{
-			"trigger": "bgl.GL_SRC_ALPHA\tbgl const",
-			"contents": "bgl.GL_SRC_ALPHA"
-		},
-		{
-			"trigger": "bgl.GL_SRC_ALPHA_SATURATE\tbgl const",
-			"contents": "bgl.GL_SRC_ALPHA_SATURATE"
-		},
-		{
-			"trigger": "bgl.GL_SRC_COLOR\tbgl const",
-			"contents": "bgl.GL_SRC_COLOR"
-		},
-		{
-			"trigger": "bgl.GL_STACK_OVERFLOW\tbgl const",
-			"contents": "bgl.GL_STACK_OVERFLOW"
-		},
-		{
-			"trigger": "bgl.GL_STACK_UNDERFLOW\tbgl const",
-			"contents": "bgl.GL_STACK_UNDERFLOW"
-		},
-		{
-			"trigger": "bgl.GL_STENCIL\tbgl const",
-			"contents": "bgl.GL_STENCIL"
-		},
-		{
-			"trigger": "bgl.GL_STENCIL_BITS\tbgl const",
-			"contents": "bgl.GL_STENCIL_BITS"
-		},
-		{
-			"trigger": "bgl.GL_STENCIL_BUFFER_BIT\tbgl const",
-			"contents": "bgl.GL_STENCIL_BUFFER_BIT"
-		},
-		{
-			"trigger": "bgl.GL_STENCIL_CLEAR_VALUE\tbgl const",
-			"contents": "bgl.GL_STENCIL_CLEAR_VALUE"
-		},
-		{
-			"trigger": "bgl.GL_STENCIL_FAIL\tbgl const",
-			"contents": "bgl.GL_STENCIL_FAIL"
-		},
-		{
-			"trigger": "bgl.GL_STENCIL_FUNC\tbgl const",
-			"contents": "bgl.GL_STENCIL_FUNC"
-		},
-		{
-			"trigger": "bgl.GL_STENCIL_INDEX\tbgl const",
-			"contents": "bgl.GL_STENCIL_INDEX"
-		},
-		{
-			"trigger": "bgl.GL_STENCIL_PASS_DEPTH_FAIL\tbgl const",
-			"contents": "bgl.GL_STENCIL_PASS_DEPTH_FAIL"
-		},
-		{
-			"trigger": "bgl.GL_STENCIL_PASS_DEPTH_PASS\tbgl const",
-			"contents": "bgl.GL_STENCIL_PASS_DEPTH_PASS"
-		},
-		{
-			"trigger": "bgl.GL_STENCIL_REF\tbgl const",
-			"contents": "bgl.GL_STENCIL_REF"
-		},
-		{
-			"trigger": "bgl.GL_STENCIL_TEST\tbgl const",
-			"contents": "bgl.GL_STENCIL_TEST"
-		},
-		{
-			"trigger": "bgl.GL_STENCIL_VALUE_MASK\tbgl const",
-			"contents": "bgl.GL_STENCIL_VALUE_MASK"
-		},
-		{
-			"trigger": "bgl.GL_STENCIL_WRITEMASK\tbgl const",
-			"contents": "bgl.GL_STENCIL_WRITEMASK"
-		},
-		{
-			"trigger": "bgl.GL_STEREO\tbgl const",
-			"contents": "bgl.GL_STEREO"
-		},
-		{
-			"trigger": "bgl.GL_SUBPIXEL_BITS\tbgl const",
-			"contents": "bgl.GL_SUBPIXEL_BITS"
-		},
-		{
-			"trigger": "bgl.GL_T\tbgl const",
-			"contents": "bgl.GL_T"
-		},
-		{
-			"trigger": "bgl.GL_TEXTURE\tbgl const",
-			"contents": "bgl.GL_TEXTURE"
-		},
-		{
-			"trigger": "bgl.GL_TEXTURE0\tbgl const",
-			"contents": "bgl.GL_TEXTURE0"
-		},
-		{
-			"trigger": "bgl.GL_TEXTURE1\tbgl const",
-			"contents": "bgl.GL_TEXTURE1"
-		},
-		{
-			"trigger": "bgl.GL_TEXTURE2\tbgl const",
-			"contents": "bgl.GL_TEXTURE2"
-		},
-		{
-			"trigger": "bgl.GL_TEXTURE3\tbgl const",
-			"contents": "bgl.GL_TEXTURE3"
-		},
-		{
-			"trigger": "bgl.GL_TEXTURE4\tbgl const",
-			"contents": "bgl.GL_TEXTURE4"
-		},
-		{
-			"trigger": "bgl.GL_TEXTURE5\tbgl const",
-			"contents": "bgl.GL_TEXTURE5"
-		},
-		{
-			"trigger": "bgl.GL_TEXTURE6\tbgl const",
-			"contents": "bgl.GL_TEXTURE6"
-		},
-		{
-			"trigger": "bgl.GL_TEXTURE7\tbgl const",
-			"contents": "bgl.GL_TEXTURE7"
-		},
-		{
-			"trigger": "bgl.GL_TEXTURE8\tbgl const",
-			"contents": "bgl.GL_TEXTURE8"
-		},
-		{
-			"trigger": "bgl.GL_TEXTURE_1D\tbgl const",
-			"contents": "bgl.GL_TEXTURE_1D"
-		},
-		{
-			"trigger": "bgl.GL_TEXTURE_2D\tbgl const",
-			"contents": "bgl.GL_TEXTURE_2D"
-		},
-		{
-			"trigger": "bgl.GL_TEXTURE_BINDING_1D\tbgl const",
-			"contents": "bgl.GL_TEXTURE_BINDING_1D"
-		},
-		{
-			"trigger": "bgl.GL_TEXTURE_BINDING_2D\tbgl const",
-			"contents": "bgl.GL_TEXTURE_BINDING_2D"
-		},
-		{
-			"trigger": "bgl.GL_TEXTURE_BIT\tbgl const",
-			"contents": "bgl.GL_TEXTURE_BIT"
-		},
-		{
-			"trigger": "bgl.GL_TEXTURE_BORDER\tbgl const",
-			"contents": "bgl.GL_TEXTURE_BORDER"
-		},
-		{
-			"trigger": "bgl.GL_TEXTURE_BORDER_COLOR\tbgl const",
-			"contents": "bgl.GL_TEXTURE_BORDER_COLOR"
-		},
-		{
-			"trigger": "bgl.GL_TEXTURE_COMPARE_MODE\tbgl const",
-			"contents": "bgl.GL_TEXTURE_COMPARE_MODE"
-		},
-		{
-			"trigger": "bgl.GL_TEXTURE_COMPONENTS\tbgl const",
-			"contents": "bgl.GL_TEXTURE_COMPONENTS"
-		},
-		{
-			"trigger": "bgl.GL_TEXTURE_ENV\tbgl const",
-			"contents": "bgl.GL_TEXTURE_ENV"
-		},
-		{
-			"trigger": "bgl.GL_TEXTURE_ENV_COLOR\tbgl const",
-			"contents": "bgl.GL_TEXTURE_ENV_COLOR"
-		},
-		{
-			"trigger": "bgl.GL_TEXTURE_ENV_MODE\tbgl const",
-			"contents": "bgl.GL_TEXTURE_ENV_MODE"
-		},
-		{
-			"trigger": "bgl.GL_TEXTURE_GEN_MODE\tbgl const",
-			"contents": "bgl.GL_TEXTURE_GEN_MODE"
-		},
-		{
-			"trigger": "bgl.GL_TEXTURE_GEN_Q\tbgl const",
-			"contents": "bgl.GL_TEXTURE_GEN_Q"
-		},
-		{
-			"trigger": "bgl.GL_TEXTURE_GEN_R\tbgl const",
-			"contents": "bgl.GL_TEXTURE_GEN_R"
-		},
-		{
-			"trigger": "bgl.GL_TEXTURE_GEN_S\tbgl const",
-			"contents": "bgl.GL_TEXTURE_GEN_S"
-		},
-		{
-			"trigger": "bgl.GL_TEXTURE_GEN_T\tbgl const",
-			"contents": "bgl.GL_TEXTURE_GEN_T"
-		},
-		{
-			"trigger": "bgl.GL_TEXTURE_HEIGHT\tbgl const",
-			"contents": "bgl.GL_TEXTURE_HEIGHT"
-		},
-		{
-			"trigger": "bgl.GL_TEXTURE_MAG_FILTER\tbgl const",
-			"contents": "bgl.GL_TEXTURE_MAG_FILTER"
-		},
-		{
-			"trigger": "bgl.GL_TEXTURE_MATRIX\tbgl const",
-			"contents": "bgl.GL_TEXTURE_MATRIX"
-		},
-		{
-			"trigger": "bgl.GL_TEXTURE_MIN_FILTER\tbgl const",
-			"contents": "bgl.GL_TEXTURE_MIN_FILTER"
-		},
-		{
-			"trigger": "bgl.GL_TEXTURE_PRIORITY\tbgl const",
-			"contents": "bgl.GL_TEXTURE_PRIORITY"
-		},
-		{
-			"trigger": "bgl.GL_TEXTURE_RESIDENT\tbgl const",
-			"contents": "bgl.GL_TEXTURE_RESIDENT"
-		},
-		{
-			"trigger": "bgl.GL_TEXTURE_STACK_DEPTH\tbgl const",
-			"contents": "bgl.GL_TEXTURE_STACK_DEPTH"
-		},
-		{
-			"trigger": "bgl.GL_TEXTURE_WIDTH\tbgl const",
-			"contents": "bgl.GL_TEXTURE_WIDTH"
-		},
-		{
-			"trigger": "bgl.GL_TEXTURE_WRAP_S\tbgl const",
-			"contents": "bgl.GL_TEXTURE_WRAP_S"
-		},
-		{
-			"trigger": "bgl.GL_TEXTURE_WRAP_T\tbgl const",
-			"contents": "bgl.GL_TEXTURE_WRAP_T"
-		},
-		{
-			"trigger": "bgl.GL_TRANSFORM_BIT\tbgl const",
-			"contents": "bgl.GL_TRANSFORM_BIT"
-		},
-		{
-			"trigger": "bgl.GL_TRIANGLES\tbgl const",
-			"contents": "bgl.GL_TRIANGLES"
-		},
-		{
-			"trigger": "bgl.GL_TRIANGLE_FAN\tbgl const",
-			"contents": "bgl.GL_TRIANGLE_FAN"
-		},
-		{
-			"trigger": "bgl.GL_TRIANGLE_STRIP\tbgl const",
-			"contents": "bgl.GL_TRIANGLE_STRIP"
-		},
-		{
-			"trigger": "bgl.GL_TRUE\tbgl const",
-			"contents": "bgl.GL_TRUE"
-		},
-		{
-			"trigger": "bgl.GL_UNPACK_ALIGNMENT\tbgl const",
-			"contents": "bgl.GL_UNPACK_ALIGNMENT"
-		},
-		{
-			"trigger": "bgl.GL_UNPACK_LSB_FIRST\tbgl const",
-			"contents": "bgl.GL_UNPACK_LSB_FIRST"
-		},
-		{
-			"trigger": "bgl.GL_UNPACK_ROW_LENGTH\tbgl const",
-			"contents": "bgl.GL_UNPACK_ROW_LENGTH"
-		},
-		{
-			"trigger": "bgl.GL_UNPACK_SKIP_PIXELS\tbgl const",
-			"contents": "bgl.GL_UNPACK_SKIP_PIXELS"
-		},
-		{
-			"trigger": "bgl.GL_UNPACK_SKIP_ROWS\tbgl const",
-			"contents": "bgl.GL_UNPACK_SKIP_ROWS"
-		},
-		{
-			"trigger": "bgl.GL_UNPACK_SWAP_BYTES\tbgl const",
-			"contents": "bgl.GL_UNPACK_SWAP_BYTES"
-		},
-		{
-			"trigger": "bgl.GL_UNSIGNED_BYTE\tbgl const",
-			"contents": "bgl.GL_UNSIGNED_BYTE"
-		},
-		{
-			"trigger": "bgl.GL_UNSIGNED_INT\tbgl const",
-			"contents": "bgl.GL_UNSIGNED_INT"
-		},
-		{
-			"trigger": "bgl.GL_UNSIGNED_SHORT\tbgl const",
-			"contents": "bgl.GL_UNSIGNED_SHORT"
-		},
-		{
-			"trigger": "bgl.GL_VENDOR\tbgl const",
-			"contents": "bgl.GL_VENDOR"
-		},
-		{
-			"trigger": "bgl.GL_VERSION\tbgl const",
-			"contents": "bgl.GL_VERSION"
-		},
-		{
-			"trigger": "bgl.GL_VERTEX_SHADER\tbgl const",
-			"contents": "bgl.GL_VERTEX_SHADER"
-		},
-		{
-			"trigger": "bgl.GL_VIEWPORT\tbgl const",
-			"contents": "bgl.GL_VIEWPORT"
-		},
-		{
-			"trigger": "bgl.GL_VIEWPORT_BIT\tbgl const",
-			"contents": "bgl.GL_VIEWPORT_BIT"
-		},
-		{
-			"trigger": "bgl.GL_XOR\tbgl const",
-			"contents": "bgl.GL_XOR"
-		},
-		{
-			"trigger": "bgl.GL_ZERO\tbgl const",
-			"contents": "bgl.GL_ZERO"
-		},
-		{
-			"trigger": "bgl.GL_ZOOM_X\tbgl const",
-			"contents": "bgl.GL_ZOOM_X"
-		},
-		{
-			"trigger": "bgl.GL_ZOOM_Y\tbgl const",
-			"contents": "bgl.GL_ZOOM_Y"
 		}
 	]
 }
